@@ -9,8 +9,7 @@ import base64
 import json
 import requests
 from Screens.QuitScreen import Quit
-from Screens.PlaylistPick import *
-from Screens.RevertScreen import *
+from PlaylistPick import *
 
 authItems = {}
 userId = ''
@@ -130,7 +129,8 @@ class Controller():
             n = pickPlaylist(frame, page, root, authItems, con)
         elif page == 'revert':
             self.clearFrame(frame)
-            n = revert()
+            #n = revert()
+            self.pickPage('Quit', frame)
         elif page == 'Quit':
             self.clearFrame(frame)
             root.title('Quit')

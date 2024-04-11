@@ -1,7 +1,7 @@
 from tkinter import *
 import requests
 import json
-
+from Screens.cleanByDateScreen import *
 userId = ''
 class pickPlaylist():
     def __init__(self, frame, nextPage, root, auth, cont):
@@ -29,7 +29,7 @@ class pickPlaylist():
         selected = lb.curselection()
         print([lb.get(i) for i in selected])
         if nextPage == 'cleanPlayDate':
-            con.pickPage('date', frame)
+            n = cleanByDate(selected)
 
 
     def getUserPlaylists(self):
