@@ -8,22 +8,12 @@ import webbrowser
 import base64
 import json
 import requests
+from Screens.QuitScreen import Quit
+from Screens.PlaylistPick import *
+from Screens.RevertScreen import *
 
 authItems = {}
-
-
-class pickPlaylist():
-    def __init__(self, frame, nextPage):
-        url = 'https://api.spotify.com/v1/me/playlists'
-        auth = authItems['type'] + ' ' + authItems['accessTok']
-        headers = {
-            'Authorization': auth
-        }
-        r = requests.get(url=url, headers=headers)
-        x = json.loads(r.text)
-        items = x['items']
-        for i in items:
-            
+userId = ''
 
 class start():
     def __init__(self, frame):
@@ -53,7 +43,7 @@ class start():
         redirect = 'http://localhost:80'
         chars = string.ascii_lowercase + string.digits
         state = ''.join(random.choice(chars) for i in range(16))
-        scope = 'user-read-private,user-read-email,playlist-read-private'
+        scope = 'user-read-private,user-read-email,playlist-read-private,user-library-read'
         type = 'code'
         url = f'http://accounts.spotify.com/authorize?response_type={type}'
         url = url + f'&client_id={c}&scope={scope}'
@@ -108,23 +98,17 @@ class start():
         json.dump(authItems, f, indent=4)
         con.pickPage('Main', frame)
 
+
 class MainScreen():
     def __init__(self, frame):
         cleanPlayDate = Button(frame, text='Clean a Playlist By Date', command=lambda: con.pickPage('cleanPlayDate', frame))
         cleanPlayArt = Button(frame, text='Clean a Playlist By Artist', command=lambda: con.pickPage('cleanPlayArt', frame))
         cleanPlayUser = Button(frame, text='Clean a Playlist By Tracks You Pick', command=lambda: con.pickPage('cleanPlayUser', frame))
+        revertPlay = Button(frame, text='Revert your playlist to a previous version', command=lambda: con.pickPage('revert', frame))
         cleanPlayDate.pack()
         cleanPlayArt.pack()
         cleanPlayUser.pack()
-
-class Quit():
-    def __init__(self, frame):
-        l = Label(frame, text='Are you sure?')
-        yes = Button(frame, text='Yes', command=root.quit)
-        no = Button(frame, text='No', command=frame)
-        l.pack()
-        yes.pack()
-        no.pack()
+        revertPlay.pack()
 
 class Controller():
     global frame
@@ -137,17 +121,20 @@ class Controller():
             m = MainScreen(frame)
         elif page == 'cleanPlayDate':
             self.clearFrame(frame)
-            n = pickPlaylist(frame, page)
+            n = pickPlaylist(frame, page, root, authItems, con)
         elif page == 'cleanPlayArt':
             self.clearFrame(frame)
-            n = pickPlaylist(frame, page)
+            n = pickPlaylist(frame, page, root, authItems, con)
         elif page == 'cleanPlayUser':
             self.clearFrame(frame)
-            n = pickPlaylist(frame, page)
+            n = pickPlaylist(frame, page, root, authItems, con)
+        elif page == 'revert':
+            self.clearFrame(frame)
+            n = revert()
         elif page == 'Quit':
             self.clearFrame(frame)
             root.title('Quit')
-            Quit(frame)
+            Quit(frame, root)
             print(authItems)
     def clearFrame(self, frame):
         for i in frame.winfo_children():

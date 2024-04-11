@@ -1,0 +1,9 @@
+{
+    "accessTok": "BQCWPYYNa6LClUdChrN9kqiwsEFN4QK0tzlWLe8osLTUIUp-bdBi-UEM0IYfThdb7msGBvOCUNNacANIZayMph3I6NoAdlEB-Dn-POmF96Yv3BKzH64r1A23fRXPm2p7f7C-xBIbLXiqFqJfye1o3kdMxP8DVRJNfpg-9bPrOrJgQLmj79_eXSOQ1-diyEDCdjWRS7Vd1oSErgOHltEo",
+    "type": "Bearer",
+    "expires_in": 3600,
+    "refreshTok": "AQB9k4BJKuTKvX3mJb6aZdaS9brgFeTbmRQQtjOeJRQlNL4LgaJVwl87WujYgGqpnvTFQzue3rRNg0lKF87NSIIuNTVMwSGETSIJt5bri9s9S7WuHsTw2cFojTsb91Mj77Y",
+    "scope": "playlist-read-private user-library-read user-read-email user-read-private",
+    "Access_Time": "2024-04-11 12:02:06.888319",
+    "Expire_Time": "2024-04-11 13:02:06.888319"
+}
