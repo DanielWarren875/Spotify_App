@@ -1,1 +1,4603 @@
-{"collaborative": false, "description": "50 - Mangled Carpenter, 40 - Lion&#x27;s Empire, 30 - Cries Hannah, 20 - Immortal Construct, 10 - Theocracy, 5 - War of Ages, 4 - Cliffside, 3 - Trebuchet, 2 -  American Arsonist, 1 - HolyName", "external_urls": {"spotify": "https://open.spotify.com/playlist/5c7w2toWNOaCUiEsAORyxI"}, "href": "https://api.spotify.com/v1/playlists/5c7w2toWNOaCUiEsAORyxI", "id": "5c7w2toWNOaCUiEsAORyxI", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840f7042911c35b5c86064ecf6", "width": null}], "name": "KingdomCore Top Albums 2023", "owner": {"display_name": "CanorAdam", "external_urls": {"spotify": "https://open.spotify.com/user/harmfuladam"}, "href": "https://api.spotify.com/v1/users/harmfuladam", "id": "harmfuladam", "type": "user", "uri": "spotify:user:harmfuladam"}, "primary_color": null, "public": true, "snapshot_id": "NjUsYzFlN2EyMTkyODY5Mzk4M2E5N2ZhMGE1YTM0ZDg4MmYyNmM1YzMxOQ==", "tracks": {"href": "https://api.spotify.com/v1/playlists/5c7w2toWNOaCUiEsAORyxI/tracks", "total": 385}, "type": "playlist", "uri": "spotify:playlist:5c7w2toWNOaCUiEsAORyxI"}{"collaborative": false, "description": "This is Brantley Gilbert. The essential tracks, all in one playlist.", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3bMBHO"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DZ06evO3bMBHO", "id": "37i9dQZF1DZ06evO3bMBHO", "images": [{"height": null, "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3bMBHO-default.jpg", "width": null}], "name": "This Is Brantley Gilbert", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MTcxMjYyMDgwMCwwMDAwMDAwMDYyZGZjNjNkMTY5ZTRiZTJhM2UzNzg1NWJhMTFmNmQ4", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1DZ06evO3bMBHO/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1DZ06evO3bMBHO"}{"collaborative": false, "description": "A musical time capsule from the past has been unsealed\u2026!", "external_urls": {"spotify": "https://open.spotify.com/playlist/4xl3fawUGLPG6Ajw1QvEp9"}, "href": "https://api.spotify.com/v1/playlists/4xl3fawUGLPG6Ajw1QvEp9", "id": "4xl3fawUGLPG6Ajw1QvEp9", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844e8a8d2c648e9f8cc451e62c", "width": null}], "name": "My 2023 Playlist in a Bottle", "owner": {"display_name": "cydawg99", "external_urls": {"spotify": "https://open.spotify.com/user/cydawg99"}, "href": "https://api.spotify.com/v1/users/cydawg99", "id": "cydawg99", "type": "user", "uri": "spotify:user:cydawg99"}, "primary_color": null, "public": true, "snapshot_id": "NCw5ZTAzOGZjMzNmNzNlMmYwMTdkNzMyN2VlZGVmMjhhZjkyZWQ5ZjNk", "tracks": {"href": "https://api.spotify.com/v1/playlists/4xl3fawUGLPG6Ajw1QvEp9/tracks", "total": 5}, "type": "playlist", "uri": "spotify:playlist:4xl3fawUGLPG6Ajw1QvEp9"}{"collaborative": false, "description": "Spotify Wrapped presents the songs you loved this year.", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1Fa1IIVtEpGUcU"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1Fa1IIVtEpGUcU", "id": "37i9dQZF1Fa1IIVtEpGUcU", "images": [{"height": null, "url": "https://wrapped-images.spotifycdn.com/image/yts-2023/default/your-top-songs-2023_DEFAULT_en.jpg", "width": null}], "name": "Your Top Songs 2023", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MTY5OTk4OTcyMCwwMDAwMDAwMGY0ZjgwN2ZjOGVmOWVmNWI5NDY1NmZkNTAwZjg1NGY5", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1Fa1IIVtEpGUcU/tracks", "total": 100}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1Fa1IIVtEpGUcU"}{"collaborative": false, "description": "<a href=spotify:playlist:37i9dQZF1EIWmT6q3Cb8L8>Kublai Khan TX</a>, <a href=spotify:playlist:37i9dQZF1EIYcDgGzzRJIz>Attack Attack!</a>, <a href=spotify:playlist:37i9dQZF1EIY9cVGruPODT>Five Finger Death Punch</a> and more", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1EQpgT26jgbgRI"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1EQpgT26jgbgRI", "id": "37i9dQZF1EQpgT26jgbgRI", "images": [{"height": null, "url": "https://seed-mix-image.spotifycdn.com/v6/img/metal/5BIOo2mCAokFcLHXO2Llb4/en/default", "width": null}], "name": "Metal Mix", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MCwwMDAwMDAwMGFmMTlmYTRjNzkyNGZkZWFlZjhjMjM1MzgxNTYwYmVh", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1EQpgT26jgbgRI/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1EQpgT26jgbgRI"}{"collaborative": false, "description": "New jams. Heavy bands. Screams, cleans, and everything in between. All up-and-coming bands!", "external_urls": {"spotify": "https://open.spotify.com/playlist/5pyC6qJYgIcTqhLEOnnJZV"}, "href": "https://api.spotify.com/v1/playlists/5pyC6qJYgIcTqhLEOnnJZV", "id": "5pyC6qJYgIcTqhLEOnnJZV", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849249ac9ab445acbc257f7f03", "width": null}], "name": "Now Entering The Pit", "owner": {"display_name": "Matt Bevan", "external_urls": {"spotify": "https://open.spotify.com/user/r8lahxipfqiub3warsenmclc3"}, "href": "https://api.spotify.com/v1/users/r8lahxipfqiub3warsenmclc3", "id": "r8lahxipfqiub3warsenmclc3", "type": "user", "uri": "spotify:user:r8lahxipfqiub3warsenmclc3"}, "primary_color": null, "public": true, "snapshot_id": "ODU4LDNmMzAwNTEwMTgzM2FmZTJjNjFiOTVlYWJmNGEyOTY3NzI2OGQyYjQ=", "tracks": {"href": "https://api.spotify.com/v1/playlists/5pyC6qJYgIcTqhLEOnnJZV/tracks", "total": 28}, "type": "playlist", "uri": "spotify:playlist:5pyC6qJYgIcTqhLEOnnJZV"}{"collaborative": false, "description": "My OFFICIAL Bangerz playlist! Metalcore and Deathcore! TikTok: @mattbevan IG: @mattbevantt", "external_urls": {"spotify": "https://open.spotify.com/playlist/2TzFYsOi2w1PbfuuXchV5K"}, "href": "https://api.spotify.com/v1/playlists/2TzFYsOi2w1PbfuuXchV5K", "id": "2TzFYsOi2w1PbfuuXchV5K", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84910690557e3fe9bd121efa59", "width": null}], "name": "Bangerz", "owner": {"display_name": "Matt Bevan", "external_urls": {"spotify": "https://open.spotify.com/user/r8lahxipfqiub3warsenmclc3"}, "href": "https://api.spotify.com/v1/users/r8lahxipfqiub3warsenmclc3", "id": "r8lahxipfqiub3warsenmclc3", "type": "user", "uri": "spotify:user:r8lahxipfqiub3warsenmclc3"}, "primary_color": null, "public": true, "snapshot_id": "MTkwLDdkMDQ5NWFlOWIxMzliODUyY2Y4YzZmYWFmNGI0NTM2YzllNzc0ZDA=", "tracks": {"href": "https://api.spotify.com/v1/playlists/2TzFYsOi2w1PbfuuXchV5K/tracks", "total": 160}, "type": "playlist", "uri": "spotify:playlist:2TzFYsOi2w1PbfuuXchV5K"}{"collaborative": false, "description": "Matt Bevan&#x27;s list of new &#x27;anything heavy&#x27; tracks that you need to hear. (metalcore&#x2F;deathcore&#x2F;progressive metal&#x2F;hardcore&#x2F;metal&#x2F;death metal... you get the idea lol)", "external_urls": {"spotify": "https://open.spotify.com/playlist/2fWvxmJievWUN4wDHJczq4"}, "href": "https://api.spotify.com/v1/playlists/2fWvxmJievWUN4wDHJczq4", "id": "2fWvxmJievWUN4wDHJczq4", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c738394db473c72e7fd8597b", "width": null}], "name": "New Screamy Music", "owner": {"display_name": "Matt Bevan", "external_urls": {"spotify": "https://open.spotify.com/user/r8lahxipfqiub3warsenmclc3"}, "href": "https://api.spotify.com/v1/users/r8lahxipfqiub3warsenmclc3", "id": "r8lahxipfqiub3warsenmclc3", "type": "user", "uri": "spotify:user:r8lahxipfqiub3warsenmclc3"}, "primary_color": null, "public": true, "snapshot_id": "MjY2LDYzNjRhMDE2OWQ3YWJhYjMyM2QzOTM5MzM3YTNhNWI5OTk5OGVjOGU=", "tracks": {"href": "https://api.spotify.com/v1/playlists/2fWvxmJievWUN4wDHJczq4/tracks", "total": 19}, "type": "playlist", "uri": "spotify:playlist:2fWvxmJievWUN4wDHJczq4"}{"collaborative": false, "description": "Spotify Wrapped presents the songs that you loved most this year.", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1F0sijgNaJdgit", "id": "37i9dQZF1F0sijgNaJdgit", "images": [{"height": null, "url": "https://wrapped-images.spotifycdn.com/image/yts-2022/default/your-top-songs-2022_default_en.jpg", "width": null}], "name": "Your Top Songs 2022", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MTY2OTkwODk2MiwwMDAwMDAwMGIwYjY1YjMyNjI3ZDRjNzIzZjlkOGYyMzVkY2RjNzc5", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1F0sijgNaJdgit/tracks", "total": 100}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1F0sijgNaJdgit"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/3Q7NfiIU44YoSYgWT992Io"}, "href": "https://api.spotify.com/v1/playlists/3Q7NfiIU44YoSYgWT992Io", "id": "3Q7NfiIU44YoSYgWT992Io", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84766125cb773dd69d6e772b98", "width": null}], "name": "SWOLE CITY", "owner": {"display_name": "Luisa", "external_urls": {"spotify": "https://open.spotify.com/user/luisalion7"}, "href": "https://api.spotify.com/v1/users/luisalion7", "id": "luisalion7", "type": "user", "uri": "spotify:user:luisalion7"}, "primary_color": null, "public": true, "snapshot_id": "MjIzLDRhY2U5YTViYjYyNjU4YjM4MjUxMGU1N2VjNDdhMjNjMWVhOTFjYmU=", "tracks": {"href": "https://api.spotify.com/v1/playlists/3Q7NfiIU44YoSYgWT992Io/tracks", "total": 112}, "type": "playlist", "uri": "spotify:playlist:3Q7NfiIU44YoSYgWT992Io"}{"collaborative": false, "description": "With Falling In Reverse, Escape the Fate, Black Veil Brides, Motionless In White and more", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1E8MitvoMp83w7"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8MitvoMp83w7", "id": "37i9dQZF1E8MitvoMp83w7", "images": [{"height": null, "url": "https://seeded-session-images.scdn.co/v2/img/122/secondary/track/5XUuldRjPXcP5QxyEN4IXT/en", "width": null}], "name": "Voices In My Head Radio", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MTcxMjg1MjQ3NSwwMDAwMDAwMGZhNGE3YjVlMGEwNjhmNzRkNjA3NDc0ZjNlNDI2M2E4", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8MitvoMp83w7/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1E8MitvoMp83w7"}{"collaborative": true, "description": "You and the boys on the first APC to Moscow. What\u2019s the first song you\u2019re playing on the AUX??", "external_urls": {"spotify": "https://open.spotify.com/playlist/12m2Me0jQILDjJRFF5RyGG"}, "href": "https://api.spotify.com/v1/playlists/12m2Me0jQILDjJRFF5RyGG", "id": "12m2Me0jQILDjJRFF5RyGG", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840c52fdb297b43ec9b4caed69", "width": null}], "name": "Gremlin\u2019s take Moscow", "owner": {"display_name": "Casey Orsak", "external_urls": {"spotify": "https://open.spotify.com/user/22xn63baupcp3sl2avtxj3vqi"}, "href": "https://api.spotify.com/v1/users/22xn63baupcp3sl2avtxj3vqi", "id": "22xn63baupcp3sl2avtxj3vqi", "type": "user", "uri": "spotify:user:22xn63baupcp3sl2avtxj3vqi"}, "primary_color": null, "public": true, "snapshot_id": "NTYsZDI3Zjc3MWZmOTdmNTdjYWY4NjgwNmI2MzNmMjZmNzg4NGVhNzE1Nw==", "tracks": {"href": "https://api.spotify.com/v1/playlists/12m2Me0jQILDjJRFF5RyGG/tracks", "total": 43}, "type": "playlist", "uri": "spotify:playlist:12m2Me0jQILDjJRFF5RyGG"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/5QRx029AaSXFaa00221RQE"}, "href": "https://api.spotify.com/v1/playlists/5QRx029AaSXFaa00221RQE", "id": "5QRx029AaSXFaa00221RQE", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e0230f5e6f7bcfff7deca7cfc49ab67616d00001e024f3bbf9631faeb8de9912a23ab67616d00001e02599184fa12d04e9b20b07afcab67616d00001e02a9916ac15c83a9f0438216cf", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e0230f5e6f7bcfff7deca7cfc49ab67616d00001e024f3bbf9631faeb8de9912a23ab67616d00001e02599184fa12d04e9b20b07afcab67616d00001e02a9916ac15c83a9f0438216cf", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e0230f5e6f7bcfff7deca7cfc49ab67616d00001e024f3bbf9631faeb8de9912a23ab67616d00001e02599184fa12d04e9b20b07afcab67616d00001e02a9916ac15c83a9f0438216cf", "width": 60}], "name": "The Greatest Album Evar", "owner": {"display_name": "cydawg99", "external_urls": {"spotify": "https://open.spotify.com/user/cydawg99"}, "href": "https://api.spotify.com/v1/users/cydawg99", "id": "cydawg99", "type": "user", "uri": "spotify:user:cydawg99"}, "primary_color": null, "public": true, "snapshot_id": "MTYsNDE4OWU5Yzk0YjZlZmRkNjAxMDEyMDQzOWRiNjdmNzZjZWYxZjJkZA==", "tracks": {"href": "https://api.spotify.com/v1/playlists/5QRx029AaSXFaa00221RQE/tracks", "total": 10}, "type": "playlist", "uri": "spotify:playlist:5QRx029AaSXFaa00221RQE"}{"collaborative": false, "description": "Having a bad day? We know how it feels!", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1DX3YSRoSdA634"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3YSRoSdA634", "id": "37i9dQZF1DX3YSRoSdA634", "images": [{"height": null, "url": "https://i.scdn.co/image/ab67706f0000000237499ba650da0f36e8285bd9", "width": null}], "name": "Life Sucks", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": "#ffffff", "public": true, "snapshot_id": "MTcwODk5ODEwMywwMDAwMDAwMDUzYTRiZTEzNTgyZTdmMjM2YjZiNDM3YmM1OTdiNjJl", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3YSRoSdA634/tracks", "total": 200}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1DX3YSRoSdA634"}{"collaborative": false, "description": "A daily selection of chill beats - perfect to help you relax &amp; study \ud83d\udcda  <a href=\"https://spoti.fi/48IreC3\">Click here if you need lofi sleep \ud83d\udca4 </a>", "external_urls": {"spotify": "https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM"}, "href": "https://api.spotify.com/v1/playlists/0vvXsWCC9xrXsKd4FyS8kM", "id": "0vvXsWCC9xrXsKd4FyS8kM", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f396bdf13f6473f86bf4e2c0", "width": null}], "name": "Lofi Girl - beats to relax/study to", "owner": {"display_name": "Lofi Girl", "external_urls": {"spotify": "https://open.spotify.com/user/chilledcow"}, "href": "https://api.spotify.com/v1/users/chilledcow", "id": "chilledcow", "type": "user", "uri": "spotify:user:chilledcow"}, "primary_color": null, "public": true, "snapshot_id": "NzU1Miw5ZGMzZjU5YjUyY2UzNjZlNDFjMjJkMDFlZTc4ZTliM2M1Y2ZiYmYw", "tracks": {"href": "https://api.spotify.com/v1/playlists/0vvXsWCC9xrXsKd4FyS8kM/tracks", "total": 500}, "type": "playlist", "uri": "spotify:playlist:0vvXsWCC9xrXsKd4FyS8kM"}{"collaborative": false, "description": "The perfect chillout beats with guitars, featuring best of chill beats, chillhop, lofi, and a mix of instrumental beats.", "external_urls": {"spotify": "https://open.spotify.com/playlist/1Y6yp3H5O6XAos9JKvwuh9"}, "href": "https://api.spotify.com/v1/playlists/1Y6yp3H5O6XAos9JKvwuh9", "id": "1Y6yp3H5O6XAos9JKvwuh9", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8455db705cb5ca9318547170e0", "width": null}], "name": "\ud83c\udfb8Chill Guitar Beats", "owner": {"display_name": "Chill Beats Music", "external_urls": {"spotify": "https://open.spotify.com/user/vcdikomxn7xuhp0ci0pn31pn9"}, "href": "https://api.spotify.com/v1/users/vcdikomxn7xuhp0ci0pn31pn9", "id": "vcdikomxn7xuhp0ci0pn31pn9", "type": "user", "uri": "spotify:user:vcdikomxn7xuhp0ci0pn31pn9"}, "primary_color": null, "public": true, "snapshot_id": "MTY5MSw5NDcwNTNiMzcxNjliMzBhYjhlZGI4MWI3MmY0YzdiNmY3OTFiZDA2", "tracks": {"href": "https://api.spotify.com/v1/playlists/1Y6yp3H5O6XAos9JKvwuh9/tracks", "total": 103}, "type": "playlist", "uri": "spotify:playlist:1Y6yp3H5O6XAos9JKvwuh9"}{"collaborative": false, "description": "<a href=spotify:playlist:37i9dQZF1EIZsXFAYDZPUh>Fit For A King</a>, <a href=spotify:playlist:37i9dQZF1EIUL6J7b1SaIS>After The Burial</a> and <a href=spotify:playlist:37i9dQZF1EIVbwNwLhDE83>NOTHING MORE</a>", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1EIXyFsRUPTDWz"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1EIXyFsRUPTDWz", "id": "37i9dQZF1EIXyFsRUPTDWz", "images": [{"height": null, "url": "https://seed-mix-image.spotifycdn.com/v6/img/artist/2zgG1GPDvjaBgxeQaVXI14/en/default", "width": null}], "name": "All That Remains Mix", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MCwwMDAwMDAwMDQyYzRiMDdjZTg1NjY0NDIxOTUxZjUyZTMzZmU1MDU4", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1EIXyFsRUPTDWz/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1EIXyFsRUPTDWz"}{"collaborative": false, "description": "<a href=spotify:playlist:37i9dQZF1EIYmuW6tj9JMr>Dierks Bentley</a>, <a href=spotify:playlist:37i9dQZF1EIXNWgMPnSf4f>Hayden Coffman</a> and <a href=spotify:playlist:37i9dQZF1EIYCyKm6jzTZs>Jameson Rodgers</a>", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1EIZHieHwn9Ypv"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1EIZHieHwn9Ypv", "id": "37i9dQZF1EIZHieHwn9Ypv", "images": [{"height": null, "url": "https://seed-mix-image.spotifycdn.com/v6/img/artist/5q8HGNo0BjLWaTAhRtbwxa/en/default", "width": null}], "name": "Brantley Gilbert Mix", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MCwwMDAwMDAwMGJmNGU1NDc0N2JiYTExNGEyMTY1MmNiZWY2ZDBjYWRm", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1EIZHieHwn9Ypv/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1EIZHieHwn9Ypv"}{"collaborative": false, "description": "<a href=spotify:playlist:37i9dQZF1EIWjQqubs7TYd>Zero 9:36</a>, <a href=spotify:playlist:37i9dQZF1EIZl6h3TDhUpc>Adelitas Way</a> and <a href=spotify:playlist:37i9dQZF1EIWlmfodtiNwx>Godsmack</a>", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1EIYDqOT5UKaKj"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1EIYDqOT5UKaKj", "id": "37i9dQZF1EIYDqOT5UKaKj", "images": [{"height": null, "url": "https://seed-mix-image.spotifycdn.com/v6/img/artist/0CEFCo8288kQU7mJi25s6E/en/default", "width": null}], "name": "Hollywood Undead Mix", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MCwwMDAwMDAwMDcxNDZkODBiYThhYjlkOWY0MGExZDQ2ZmU2Nzc1MzI4", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1EIYDqOT5UKaKj/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1EIYDqOT5UKaKj"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/2oGosyKJPzHpOgXk1gNWjk"}, "href": "https://api.spotify.com/v1/playlists/2oGosyKJPzHpOgXk1gNWjk", "id": "2oGosyKJPzHpOgXk1gNWjk", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e8a6b07de54d7c626ead1ec4", "width": null}], "name": "POWERLIFTING/ROCK", "owner": {"display_name": "Gustaf Midhamre", "external_urls": {"spotify": "https://open.spotify.com/user/11121691124"}, "href": "https://api.spotify.com/v1/users/11121691124", "id": "11121691124", "type": "user", "uri": "spotify:user:11121691124"}, "primary_color": null, "public": true, "snapshot_id": "NTIxLGJhMTc2Yjk1OWI3M2EzOWE1YTQxNWVlMGIwMjg4MjZmNjA5MmMzNjc=", "tracks": {"href": "https://api.spotify.com/v1/playlists/2oGosyKJPzHpOgXk1gNWjk/tracks", "total": 477}, "type": "playlist", "uri": "spotify:playlist:2oGosyKJPzHpOgXk1gNWjk"}{"collaborative": false, "description": "Catch all the latest music from artists you follow, plus new singles picked for you. Updates every Friday.", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZEVXbq6Oz9lzSHI0"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZEVXbq6Oz9lzSHI0", "id": "37i9dQZEVXbq6Oz9lzSHI0", "images": [{"height": null, "url": "https://newjams-images.scdn.co/image/ab67647800003f8a/dt/v3/release-radar/ab6761610000e5eb1e7f796a17c2dc3c28bdeeb9/en", "width": null}], "name": "Release Radar", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MCwwMDAwMDAwMGRlZWRhNWZlOTM5OTUwOThkZTIwZjk4MWI4MmI3MmZj", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZEVXbq6Oz9lzSHI0/tracks", "total": 30}, "type": "playlist", "uri": "spotify:playlist:37i9dQZEVXbq6Oz9lzSHI0"}{"collaborative": false, "description": "Hollywood Undead, Fit For A King, Five Finger Death Punch and more", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1E36IzL4I6Qluy"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E36IzL4I6Qluy", "id": "37i9dQZF1E36IzL4I6Qluy", "images": [{"height": null, "url": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb7fa4eae2283454a067613275/1/en/default", "width": null}], "name": "Daily Mix 1", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MCwwMDAwMDAwMDUyOWU2ODBjNTdhN2U0NTA4OTQ0ZDJjZTgzYTE5OGUy", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1E36IzL4I6Qluy/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1E36IzL4I6Qluy"}{"collaborative": false, "description": "lighters up for these awesome rock ballads.", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1DWXs1L3AC0Xio"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXs1L3AC0Xio", "id": "37i9dQZF1DWXs1L3AC0Xio", "images": [{"height": null, "url": "https://i.scdn.co/image/ab67706f000000029759604382619e84182ac523", "width": null}], "name": "Rock Ballads", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": "#ffffff", "public": true, "snapshot_id": "MTcxMjE3NjU5NCwwMDAwMDAwMGUxNzcxYTI0Y2Q2MzMxMWFkMGEzMmMyMWRjNWVlNWM0", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXs1L3AC0Xio/tracks", "total": 75}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1DWXs1L3AC0Xio"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/2DdSoqFkMD27yHIP6UcBcy"}, "href": "https://api.spotify.com/v1/playlists/2DdSoqFkMD27yHIP6UcBcy", "id": "2DdSoqFkMD27yHIP6UcBcy", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e020ea1ecb2d5271c2db402b0c2ab67616d00001e024799eecf1843c6d9742bc023ab67616d00001e0266422c5ecbe12c27a44ba666ab67616d00001e0294695e0e42ce2be29d783573", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e020ea1ecb2d5271c2db402b0c2ab67616d00001e024799eecf1843c6d9742bc023ab67616d00001e0266422c5ecbe12c27a44ba666ab67616d00001e0294695e0e42ce2be29d783573", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e020ea1ecb2d5271c2db402b0c2ab67616d00001e024799eecf1843c6d9742bc023ab67616d00001e0266422c5ecbe12c27a44ba666ab67616d00001e0294695e0e42ce2be29d783573", "width": 60}], "name": "", "owner": {"display_name": "kxg124", "external_urls": {"spotify": "https://open.spotify.com/user/kxg124"}, "href": "https://api.spotify.com/v1/users/kxg124", "id": "kxg124", "type": "user", "uri": "spotify:user:kxg124"}, "primary_color": null, "public": true, "snapshot_id": "NzIsYzIzNWU2YTkxYjYxYzkzMmRlMjQwYThlNDE0NWU5MGZlZmJkYjI3Yw==", "tracks": {"href": "https://api.spotify.com/v1/playlists/2DdSoqFkMD27yHIP6UcBcy/tracks", "total": 29}, "type": "playlist", "uri": "spotify:playlist:2DdSoqFkMD27yHIP6UcBcy"}{"collaborative": false, "description": "Some Motivation to LIFT F*CKING HEAVY @beyondthebarbellcoaching - Instagram", "external_urls": {"spotify": "https://open.spotify.com/playlist/3CjtPQRNmqcm86amVDZOCf"}, "href": "https://api.spotify.com/v1/playlists/3CjtPQRNmqcm86amVDZOCf", "id": "3CjtPQRNmqcm86amVDZOCf", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f87a0bcd64965e4ec1a1989e", "width": null}], "name": "Powerlifting Motivation: MEET DAY  ", "owner": {"display_name": "Tom Farley", "external_urls": {"spotify": "https://open.spotify.com/user/21er5mu3sff6w3tzg7m7mjomy"}, "href": "https://api.spotify.com/v1/users/21er5mu3sff6w3tzg7m7mjomy", "id": "21er5mu3sff6w3tzg7m7mjomy", "type": "user", "uri": "spotify:user:21er5mu3sff6w3tzg7m7mjomy"}, "primary_color": null, "public": true, "snapshot_id": "NDg0LDlkODVkODhkNjUwZWZhOWEyZDgyODNjYzgyYWFkZmZhMDhmNDZhZWI=", "tracks": {"href": "https://api.spotify.com/v1/playlists/3CjtPQRNmqcm86amVDZOCf/tracks", "total": 349}, "type": "playlist", "uri": "spotify:playlist:3CjtPQRNmqcm86amVDZOCf"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/4dxTAweRIsIMcjU5TshziP"}, "href": "https://api.spotify.com/v1/playlists/4dxTAweRIsIMcjU5TshziP", "id": "4dxTAweRIsIMcjU5TshziP", "images": [{"height": null, "url": "https://i.scdn.co/image/ab67616d00001e02aad36b64a1a78951b504bc4e", "width": null}], "name": "DOOM (2016) OST", "owner": {"display_name": "gavman921", "external_urls": {"spotify": "https://open.spotify.com/user/gavman921"}, "href": "https://api.spotify.com/v1/users/gavman921", "id": "gavman921", "type": "user", "uri": "spotify:user:gavman921"}, "primary_color": null, "public": true, "snapshot_id": "NyxjNDYxYzk0NjdlYjU0Njc4MGJhNTdiN2FkZTkyODRiZWI0N2M2MGNh", "tracks": {"href": "https://api.spotify.com/v1/playlists/4dxTAweRIsIMcjU5TshziP/tracks", "total": 37}, "type": "playlist", "uri": "spotify:playlist:4dxTAweRIsIMcjU5TshziP"}{"collaborative": false, "description": "My personal Doom soundtrack, I like to put it on while I&#x27;m murdering the demonic hell-spawn of the Martian Underworld. I appreciate the attention this playlist has gotten. It would mean a ton if you guys checked out my Podcast.", "external_urls": {"spotify": "https://open.spotify.com/playlist/7eUrniJYH5B3ItgnbwcLuc"}, "href": "https://api.spotify.com/v1/playlists/7eUrniJYH5B3ItgnbwcLuc", "id": "7eUrniJYH5B3ItgnbwcLuc", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c1f4d53c26523a2582cf7437", "width": null}], "name": "Doom Soundtrack!", "owner": {"display_name": "Henry Owens", "external_urls": {"spotify": "https://open.spotify.com/user/howens203"}, "href": "https://api.spotify.com/v1/users/howens203", "id": "howens203", "type": "user", "uri": "spotify:user:howens203"}, "primary_color": null, "public": true, "snapshot_id": "MjE2LDhjOTFkYzg1MTdjNTE3ZjJmYjIzYmZiNjYzNWRiM2VlZTRmZGQxZTQ=", "tracks": {"href": "https://api.spotify.com/v1/playlists/7eUrniJYH5B3ItgnbwcLuc/tracks", "total": 108}, "type": "playlist", "uri": "spotify:playlist:7eUrniJYH5B3ItgnbwcLuc"}{"collaborative": false, "description": "New album HOPE featuring my new single HAPPY out now!", "external_urls": {"spotify": "https://open.spotify.com/playlist/1All5I9pyXjJ2ArZt4zuCX"}, "href": "https://api.spotify.com/v1/playlists/1All5I9pyXjJ2ArZt4zuCX", "id": "1All5I9pyXjJ2ArZt4zuCX", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84fc377447dd3e4c38f87e91f2", "width": null}], "name": "NF Real Music Playlist", "owner": {"display_name": "NF", "external_urls": {"spotify": "https://open.spotify.com/user/nfofficial"}, "href": "https://api.spotify.com/v1/users/nfofficial", "id": "nfofficial", "type": "user", "uri": "spotify:user:nfofficial"}, "primary_color": null, "public": true, "snapshot_id": "NDU4LDYxOGFmODdjMTE3NDc1OWMyMGQ0MWZhYTkwNTVhMmMwMDI3NmNhMjg=", "tracks": {"href": "https://api.spotify.com/v1/playlists/1All5I9pyXjJ2ArZt4zuCX/tracks", "total": 85}, "type": "playlist", "uri": "spotify:playlist:1All5I9pyXjJ2ArZt4zuCX"}{"collaborative": false, "description": "Time for Your Summer Rewind! We\u2019ve made you a new playlist featuring your old summer favorites.", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1CAuWVEx1G2rQs"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1CAuWVEx1G2rQs", "id": "37i9dQZF1CAuWVEx1G2rQs", "images": [{"height": null, "url": "https://lineup-images.scdn.co/summer-rewind-2020_DEFAULT-en.jpg", "width": null}], "name": "Your Summer Rewind", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MjY1NDgxODMsMDAwMDAwMDA2N2MwN2FhNGVkYWExNGZkOGE5MGQ0MzFiYmU4MTFmNQ==", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1CAuWVEx1G2rQs/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1CAuWVEx1G2rQs"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/3z8EmwSpWIhtsq3CQsWHXM"}, "href": "https://api.spotify.com/v1/playlists/3z8EmwSpWIhtsq3CQsWHXM", "id": "3z8EmwSpWIhtsq3CQsWHXM", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847ccdaead24c4556e00aeddb2", "width": null}], "name": "pour me another drink, cause I don't wanna feel a thing", "owner": {"display_name": "Trystan Reid", "external_urls": {"spotify": "https://open.spotify.com/user/22kbliiityws2uk4fbvg4i4hi"}, "href": "https://api.spotify.com/v1/users/22kbliiityws2uk4fbvg4i4hi", "id": "22kbliiityws2uk4fbvg4i4hi", "type": "user", "uri": "spotify:user:22kbliiityws2uk4fbvg4i4hi"}, "primary_color": null, "public": true, "snapshot_id": "MzYsM2NlOTFjNzE5ZTY3ZjU0NmIzNzcyYTkwOGMwZGZlY2ViMTZjZTg4Ng==", "tracks": {"href": "https://api.spotify.com/v1/playlists/3z8EmwSpWIhtsq3CQsWHXM/tracks", "total": 32}, "type": "playlist", "uri": "spotify:playlist:3z8EmwSpWIhtsq3CQsWHXM"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/6cuk8ji1a0u7JB1Vdmf0gh"}, "href": "https://api.spotify.com/v1/playlists/6cuk8ji1a0u7JB1Vdmf0gh", "id": "6cuk8ji1a0u7JB1Vdmf0gh", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e02481f5ef250628e52afce20a7ab67616d00001e0297a4536e869eaf272e543a7aab67616d00001e02ab3905dc81892ec0de89e091ab67616d00001e02b6d708186262fda893ccc96f", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e02481f5ef250628e52afce20a7ab67616d00001e0297a4536e869eaf272e543a7aab67616d00001e02ab3905dc81892ec0de89e091ab67616d00001e02b6d708186262fda893ccc96f", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e02481f5ef250628e52afce20a7ab67616d00001e0297a4536e869eaf272e543a7aab67616d00001e02ab3905dc81892ec0de89e091ab67616d00001e02b6d708186262fda893ccc96f", "width": 60}], "name": "Powerlifting-HYPE & INTENSE", "owner": {"display_name": "Jerath Hopkins", "external_urls": {"spotify": "https://open.spotify.com/user/12177192998"}, "href": "https://api.spotify.com/v1/users/12177192998", "id": "12177192998", "type": "user", "uri": "spotify:user:12177192998"}, "primary_color": null, "public": true, "snapshot_id": "MTE4MywwM2QzMTBmN2Q2NzAxN2NmNTE2OGZlY2I5ZGE3NGI4OWUwOTU3MzIx", "tracks": {"href": "https://api.spotify.com/v1/playlists/6cuk8ji1a0u7JB1Vdmf0gh/tracks", "total": 742}, "type": "playlist", "uri": "spotify:playlist:6cuk8ji1a0u7JB1Vdmf0gh"}{"collaborative": false, "description": "With Tedashii, Trip Lee, Derek Minor and more", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1E4mKqqiX6c7XW"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E4mKqqiX6c7XW", "id": "37i9dQZF1E4mKqqiX6c7XW", "images": [{"height": null, "url": "https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/1TMrnxBwZfmfRxsGzkNIHw/en", "width": null}], "name": "Andy Mineo Radio", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MTcxMjg1MTg0NiwwMDAwMDAwMDZkN2ZmMTU4YmYxOTM2MTk2NzI5YWQzMjkzZTI5NTZh", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1E4mKqqiX6c7XW/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1E4mKqqiX6c7XW"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/5rcWjehcPSYcH1Y6duVa15"}, "href": "https://api.spotify.com/v1/playlists/5rcWjehcPSYcH1Y6duVa15", "id": "5rcWjehcPSYcH1Y6duVa15", "images": [{"height": null, "url": "https://i.scdn.co/image/ab67616d00001e0203da3bd5b14d2e39ce303739", "width": null}], "name": "The Duck Song", "owner": {"display_name": "212jsi3wg4m5d7of4vpkfvruq", "external_urls": {"spotify": "https://open.spotify.com/user/212jsi3wg4m5d7of4vpkfvruq"}, "href": "https://api.spotify.com/v1/users/212jsi3wg4m5d7of4vpkfvruq", "id": "212jsi3wg4m5d7of4vpkfvruq", "type": "user", "uri": "spotify:user:212jsi3wg4m5d7of4vpkfvruq"}, "primary_color": null, "public": true, "snapshot_id": "NSxmYjA5Y2E0ZTc5OWU1NjMwZmRjZTJmMjM4NTY2YmRkYTM2ZGRlOWY0", "tracks": {"href": "https://api.spotify.com/v1/playlists/5rcWjehcPSYcH1Y6duVa15/tracks", "total": 3}, "type": "playlist", "uri": "spotify:playlist:5rcWjehcPSYcH1Y6duVa15"}{"collaborative": false, "description": "With Newsboys, Mandisa, DC Talk and more", "external_urls": {"spotify": "https://open.spotify.com/playlist/37i9dQZF1E4zCJcycPyFep"}, "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E4zCJcycPyFep", "id": "37i9dQZF1E4zCJcycPyFep", "images": [{"height": null, "url": "https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/5VX8hxrcfJWwaTLiqGUHG3/en", "width": null}], "name": "TobyMac Radio", "owner": {"display_name": "Spotify", "external_urls": {"spotify": "https://open.spotify.com/user/spotify"}, "href": "https://api.spotify.com/v1/users/spotify", "id": "spotify", "type": "user", "uri": "spotify:user:spotify"}, "primary_color": null, "public": true, "snapshot_id": "MTcxMjg1MTg0NiwwMDAwMDAwMDBiNzQ1ZmY3YjE3NDJlMzBhM2Q5M2ZhMTEzMDIyNjky", "tracks": {"href": "https://api.spotify.com/v1/playlists/37i9dQZF1E4zCJcycPyFep/tracks", "total": 50}, "type": "playlist", "uri": "spotify:playlist:37i9dQZF1E4zCJcycPyFep"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/3jH6BfrbrLrrA7vpDRyVSR"}, "href": "https://api.spotify.com/v1/playlists/3jH6BfrbrLrrA7vpDRyVSR", "id": "3jH6BfrbrLrrA7vpDRyVSR", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e020bf13e850a1cbdcf4e92690eab67616d00001e026cfb4fae18c381d2706b14d1ab67616d00001e0281cfaf3b1359f7b579ea05e5ab67616d00001e02d3004c7f9c57d391bbdb0850", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e020bf13e850a1cbdcf4e92690eab67616d00001e026cfb4fae18c381d2706b14d1ab67616d00001e0281cfaf3b1359f7b579ea05e5ab67616d00001e02d3004c7f9c57d391bbdb0850", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e020bf13e850a1cbdcf4e92690eab67616d00001e026cfb4fae18c381d2706b14d1ab67616d00001e0281cfaf3b1359f7b579ea05e5ab67616d00001e02d3004c7f9c57d391bbdb0850", "width": 60}], "name": "Workout/Dubstep/techno", "owner": {"display_name": "jboland8", "external_urls": {"spotify": "https://open.spotify.com/user/jboland8"}, "href": "https://api.spotify.com/v1/users/jboland8", "id": "jboland8", "type": "user", "uri": "spotify:user:jboland8"}, "primary_color": null, "public": true, "snapshot_id": "MzgwLGNiNzM5MmMwOGNmZTM0Nzg0NWRlNmEwMjhmZGQ3Mjc5ODRiMmM5ZTE=", "tracks": {"href": "https://api.spotify.com/v1/playlists/3jH6BfrbrLrrA7vpDRyVSR/tracks", "total": 229}, "type": "playlist", "uri": "spotify:playlist:3jH6BfrbrLrrA7vpDRyVSR"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/5Vp2zKPdw7czUAxETzYnBN"}, "href": "https://api.spotify.com/v1/playlists/5Vp2zKPdw7czUAxETzYnBN", "id": "5Vp2zKPdw7czUAxETzYnBN", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e020b1cfc3df4d9d5d4cbce9208ab67616d00001e022fbb3b18cd589fbd526b41deab67616d00001e025f306aa63a7bb18e7bf9152bab67616d00001e02db8507c0d809e10f0cfe35aa", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e020b1cfc3df4d9d5d4cbce9208ab67616d00001e022fbb3b18cd589fbd526b41deab67616d00001e025f306aa63a7bb18e7bf9152bab67616d00001e02db8507c0d809e10f0cfe35aa", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e020b1cfc3df4d9d5d4cbce9208ab67616d00001e022fbb3b18cd589fbd526b41deab67616d00001e025f306aa63a7bb18e7bf9152bab67616d00001e02db8507c0d809e10f0cfe35aa", "width": 60}], "name": "Pre-gym hype", "owner": {"display_name": "cydawg99", "external_urls": {"spotify": "https://open.spotify.com/user/cydawg99"}, "href": "https://api.spotify.com/v1/users/cydawg99", "id": "cydawg99", "type": "user", "uri": "spotify:user:cydawg99"}, "primary_color": null, "public": true, "snapshot_id": "MTkyLDU5NzQ5OGQwZTljZjQ2ZTg1YjBjMDYxYTY2ZWI0MGQ0NTc2MWU0NTI=", "tracks": {"href": "https://api.spotify.com/v1/playlists/5Vp2zKPdw7czUAxETzYnBN/tracks", "total": 52}, "type": "playlist", "uri": "spotify:playlist:5Vp2zKPdw7czUAxETzYnBN"}{"collaborative": false, "description": "Football Motivation - Motivational Speeches - Pre-Game Pump Up Motivational Music for champions winners and warriors. We are the champions! - Motivaci\u00f3n del f\u00fatbol <a href=\"http://www.FearlessMotivation.com\">www.FearlessMotivation.com</a>", "external_urls": {"spotify": "https://open.spotify.com/playlist/5uFhgrIStBGPpw5AjYcNp6"}, "href": "https://api.spotify.com/v1/playlists/5uFhgrIStBGPpw5AjYcNp6", "id": "5uFhgrIStBGPpw5AjYcNp6", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84172a16c359d0465caddc584b", "width": null}], "name": "Football Motivation - Motivational Speeches - Motivaci\u00f3n del f\u00fatbol", "owner": {"display_name": "Fearless Motivation", "external_urls": {"spotify": "https://open.spotify.com/user/nickfearless"}, "href": "https://api.spotify.com/v1/users/nickfearless", "id": "nickfearless", "type": "user", "uri": "spotify:user:nickfearless"}, "primary_color": null, "public": true, "snapshot_id": "MTk0LDk2NDUwMGE1NzgxZTIwNzE1YzdiYjA1YjQwYzc0ZDBmMTRhOTA2MDc=", "tracks": {"href": "https://api.spotify.com/v1/playlists/5uFhgrIStBGPpw5AjYcNp6/tracks", "total": 191}, "type": "playlist", "uri": "spotify:playlist:5uFhgrIStBGPpw5AjYcNp6"}{"collaborative": false, "description": "Get it done! Aggressive hip hop carefully chosen to push you beyond your limits. - @NickTheManager  -- Gym, Workout, Cardio, Eminem, Drake, Lil Wayne, Kendrick, Meek Mill, Migos, Kanye West, Jay Z, Big Sean, Nas, Wale, Futuristic, Rick Ross, NBA Youngboy, Dababy, Logic, Tyga, Joyner Lucas", "external_urls": {"spotify": "https://open.spotify.com/playlist/4WLJrKJkjjx7lcapyrSyuF"}, "href": "https://api.spotify.com/v1/playlists/4WLJrKJkjjx7lcapyrSyuF", "id": "4WLJrKJkjjx7lcapyrSyuF", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844195e20807c7f995e81d4661", "width": null}], "name": "Lifting Heavy Ass Weights", "owner": {"display_name": "Nick Keali'i Climbs", "external_urls": {"spotify": "https://open.spotify.com/user/122881276"}, "href": "https://api.spotify.com/v1/users/122881276", "id": "122881276", "type": "user", "uri": "spotify:user:122881276"}, "primary_color": null, "public": true, "snapshot_id": "NzQzMiwzZmRkOTI5ODM4ZDVhMGFmY2RlNGUyMDQ1NTNmOTM1YTYyYmNiYWEz", "tracks": {"href": "https://api.spotify.com/v1/playlists/4WLJrKJkjjx7lcapyrSyuF/tracks", "total": 95}, "type": "playlist", "uri": "spotify:playlist:4WLJrKJkjjx7lcapyrSyuF"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/6hkQhl3IXuKKXX9mS1qZWL"}, "href": "https://api.spotify.com/v1/playlists/6hkQhl3IXuKKXX9mS1qZWL", "id": "6hkQhl3IXuKKXX9mS1qZWL", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e0201a6faf91e207748e8e32e0aab67616d00001e0225db200c7c4a44644043da9eab67616d00001e02842e732b778998eef17b405fab67616d00001e02e0b64c8be3c4e804abcb2696", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e0201a6faf91e207748e8e32e0aab67616d00001e0225db200c7c4a44644043da9eab67616d00001e02842e732b778998eef17b405fab67616d00001e02e0b64c8be3c4e804abcb2696", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e0201a6faf91e207748e8e32e0aab67616d00001e0225db200c7c4a44644043da9eab67616d00001e02842e732b778998eef17b405fab67616d00001e02e0b64c8be3c4e804abcb2696", "width": 60}], "name": "get angry", "owner": {"display_name": "Colin Grove", "external_urls": {"spotify": "https://open.spotify.com/user/mary-222"}, "href": "https://api.spotify.com/v1/users/mary-222", "id": "mary-222", "type": "user", "uri": "spotify:user:mary-222"}, "primary_color": null, "public": true, "snapshot_id": "MjQ4LDI0MjA5YWU0ZmMxMTc1YmIxYmJhYzIwMDA4ODNlYmQ2ODYwNjFiODE=", "tracks": {"href": "https://api.spotify.com/v1/playlists/6hkQhl3IXuKKXX9mS1qZWL/tracks", "total": 233}, "type": "playlist", "uri": "spotify:playlist:6hkQhl3IXuKKXX9mS1qZWL"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/4w05VNh4QN9te5vJnnCgJK"}, "href": "https://api.spotify.com/v1/playlists/4w05VNh4QN9te5vJnnCgJK", "id": "4w05VNh4QN9te5vJnnCgJK", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e02576348cd88655948510828a6ab67616d00001e0267252741222f23e7f9b4ae3bab67616d00001e027c9a47774ca14aa06c972515ab67616d00001e0280257657b30faaf83ee1354c", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e02576348cd88655948510828a6ab67616d00001e0267252741222f23e7f9b4ae3bab67616d00001e027c9a47774ca14aa06c972515ab67616d00001e0280257657b30faaf83ee1354c", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e02576348cd88655948510828a6ab67616d00001e0267252741222f23e7f9b4ae3bab67616d00001e027c9a47774ca14aa06c972515ab67616d00001e0280257657b30faaf83ee1354c", "width": 60}], "name": "", "owner": {"display_name": "David Wong", "external_urls": {"spotify": "https://open.spotify.com/user/1235028403"}, "href": "https://api.spotify.com/v1/users/1235028403", "id": "1235028403", "type": "user", "uri": "spotify:user:1235028403"}, "primary_color": null, "public": true, "snapshot_id": "Mjc3LGJiNTQ3MWFmNjU1OTA4M2Y0NTY2Mjk5YzdhZGVjNzFiZTZhMTg4NDI=", "tracks": {"href": "https://api.spotify.com/v1/playlists/4w05VNh4QN9te5vJnnCgJK/tracks", "total": 240}, "type": "playlist", "uri": "spotify:playlist:4w05VNh4QN9te5vJnnCgJK"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/1Ni5mfdXAD7P4bm0XFm1W2"}, "href": "https://api.spotify.com/v1/playlists/1Ni5mfdXAD7P4bm0XFm1W2", "id": "1Ni5mfdXAD7P4bm0XFm1W2", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e0269abccfc1c717c95707764f4ab67616d00001e027b08af821e728b3740f12d7eab67616d00001e02cc0c215fc9943ffbc21027afab67616d00001e02cd4ca2d39be31df34a8764ca", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e0269abccfc1c717c95707764f4ab67616d00001e027b08af821e728b3740f12d7eab67616d00001e02cc0c215fc9943ffbc21027afab67616d00001e02cd4ca2d39be31df34a8764ca", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e0269abccfc1c717c95707764f4ab67616d00001e027b08af821e728b3740f12d7eab67616d00001e02cc0c215fc9943ffbc21027afab67616d00001e02cd4ca2d39be31df34a8764ca", "width": 60}], "name": "", "owner": {"display_name": "SESSIONS", "external_urls": {"spotify": "https://open.spotify.com/user/beatfevermusic"}, "href": "https://api.spotify.com/v1/users/beatfevermusic", "id": "beatfevermusic", "type": "user", "uri": "spotify:user:beatfevermusic"}, "primary_color": null, "public": true, "snapshot_id": "ODY2LGQzNjk3MGQwMGFiZThhNzg0MzM1MzEyMDYxNmEwMmYwNmVmNTEzMTQ=", "tracks": {"href": "https://api.spotify.com/v1/playlists/1Ni5mfdXAD7P4bm0XFm1W2/tracks", "total": 13}, "type": "playlist", "uri": "spotify:playlist:1Ni5mfdXAD7P4bm0XFm1W2"}{"collaborative": false, "description": "Music to make you get up off of your ass.", "external_urls": {"spotify": "https://open.spotify.com/playlist/4X4CivA0wwyBZf562MWXNf"}, "href": "https://api.spotify.com/v1/playlists/4X4CivA0wwyBZf562MWXNf", "id": "4X4CivA0wwyBZf562MWXNf", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e02617b7d3433ff3a447faa7c08ab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02a625a14747ba457ddf3f759eab67616d00001e02c1804b765b9487df6f0df1ea", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e02617b7d3433ff3a447faa7c08ab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02a625a14747ba457ddf3f759eab67616d00001e02c1804b765b9487df6f0df1ea", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e02617b7d3433ff3a447faa7c08ab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02a625a14747ba457ddf3f759eab67616d00001e02c1804b765b9487df6f0df1ea", "width": 60}], "name": "Motivation", "owner": {"display_name": "Justin Mowrey", "external_urls": {"spotify": "https://open.spotify.com/user/uo7eaj0d3qf9uqxxhoufiyhbp"}, "href": "https://api.spotify.com/v1/users/uo7eaj0d3qf9uqxxhoufiyhbp", "id": "uo7eaj0d3qf9uqxxhoufiyhbp", "type": "user", "uri": "spotify:user:uo7eaj0d3qf9uqxxhoufiyhbp"}, "primary_color": null, "public": true, "snapshot_id": "ODEsMmM4NWYwMjhmZTkyZDk3MWNhZWY5NDcwMjhiMGMyZmUwODViMzE0Ng==", "tracks": {"href": "https://api.spotify.com/v1/playlists/4X4CivA0wwyBZf562MWXNf/tracks", "total": 108}, "type": "playlist", "uri": "spotify:playlist:4X4CivA0wwyBZf562MWXNf"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/3oxigHRUESqlJURyUwSpQI"}, "href": "https://api.spotify.com/v1/playlists/3oxigHRUESqlJURyUwSpQI", "id": "3oxigHRUESqlJURyUwSpQI", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e020482c9188610bfc0ee3a794aab67616d00001e027b1ecab32e845723802bc7caab67616d00001e02962fbef636eb49e892d72d69ab67616d00001e029de4fe30e3d00a76f7ab5c00", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e020482c9188610bfc0ee3a794aab67616d00001e027b1ecab32e845723802bc7caab67616d00001e02962fbef636eb49e892d72d69ab67616d00001e029de4fe30e3d00a76f7ab5c00", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e020482c9188610bfc0ee3a794aab67616d00001e027b1ecab32e845723802bc7caab67616d00001e02962fbef636eb49e892d72d69ab67616d00001e029de4fe30e3d00a76f7ab5c00", "width": 60}], "name": "Liked from Radio", "owner": {"display_name": "cydawg99", "external_urls": {"spotify": "https://open.spotify.com/user/cydawg99"}, "href": "https://api.spotify.com/v1/users/cydawg99", "id": "cydawg99", "type": "user", "uri": "spotify:user:cydawg99"}, "primary_color": null, "public": true, "snapshot_id": "MzAsZjE0NGFiMWQ3OGUyM2QyOTQ4Y2YyMjZjNDE5NjJjNGRlMTk2M2UyNQ==", "tracks": {"href": "https://api.spotify.com/v1/playlists/3oxigHRUESqlJURyUwSpQI/tracks", "total": 29}, "type": "playlist", "uri": "spotify:playlist:3oxigHRUESqlJURyUwSpQI"}{"collaborative": false, "description": "Motivational Speeches - The Best Motivation Speech &amp; Music Mixes Playlist on spotify. Inspiring and Motivational Speeches and talks from the best motivational speakers on the planet. Get More at <a href=\"http://FearlessMotivation.com\">FearlessMotivation.com</a>", "external_urls": {"spotify": "https://open.spotify.com/playlist/78Suoigk80gI9mI9z5tYl8"}, "href": "https://api.spotify.com/v1/playlists/78Suoigk80gI9mI9z5tYl8", "id": "78Suoigk80gI9mI9z5tYl8", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84588e058e2db6f43596dad502", "width": null}], "name": "Motivational Speeches - The Best Motivation Speeches & Music", "owner": {"display_name": "Fearless Motivation", "external_urls": {"spotify": "https://open.spotify.com/user/nickfearless"}, "href": "https://api.spotify.com/v1/users/nickfearless", "id": "nickfearless", "type": "user", "uri": "spotify:user:nickfearless"}, "primary_color": null, "public": true, "snapshot_id": "MTYyMCxlMWQ4YzM1MzI2Y2JhMWJlYTNlMTM4YmY1MzVkNmE2Y2M2Njk5NDhj", "tracks": {"href": "https://api.spotify.com/v1/playlists/78Suoigk80gI9mI9z5tYl8/tracks", "total": 278}, "type": "playlist", "uri": "spotify:playlist:78Suoigk80gI9mI9z5tYl8"}{"collaborative": false, "description": "A few of my fave gym beats \u2665", "external_urls": {"spotify": "https://open.spotify.com/playlist/4O9czc0VWT7aJ3Zd34bw88"}, "href": "https://api.spotify.com/v1/playlists/4O9czc0VWT7aJ3Zd34bw88", "id": "4O9czc0VWT7aJ3Zd34bw88", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e022b517912fd69652ff10d8e11ab67616d00001e02500ffcdc787244d1e1a52b8aab67616d00001e02d48938159fc680e5faa85555ab67616d00001e02d9084d9882841637d34ec0ee", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e022b517912fd69652ff10d8e11ab67616d00001e02500ffcdc787244d1e1a52b8aab67616d00001e02d48938159fc680e5faa85555ab67616d00001e02d9084d9882841637d34ec0ee", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e022b517912fd69652ff10d8e11ab67616d00001e02500ffcdc787244d1e1a52b8aab67616d00001e02d48938159fc680e5faa85555ab67616d00001e02d9084d9882841637d34ec0ee", "width": 60}], "name": "GRIND TIME", "owner": {"display_name": "Abby Barlow", "external_urls": {"spotify": "https://open.spotify.com/user/1299783697"}, "href": "https://api.spotify.com/v1/users/1299783697", "id": "1299783697", "type": "user", "uri": "spotify:user:1299783697"}, "primary_color": null, "public": true, "snapshot_id": "MTA1MCxjYWI0ZDM5M2MxZTdmNjdkOWFiNDBjMzRkNWNhMDkxMWUxZWI5YzMw", "tracks": {"href": "https://api.spotify.com/v1/playlists/4O9czc0VWT7aJ3Zd34bw88/tracks", "total": 999}, "type": "playlist", "uri": "spotify:playlist:4O9czc0VWT7aJ3Zd34bw88"}{"collaborative": false, "description": "", "external_urls": {"spotify": "https://open.spotify.com/playlist/3dRQqOCdYSFuF4Kpd8ssqN"}, "href": "https://api.spotify.com/v1/playlists/3dRQqOCdYSFuF4Kpd8ssqN", "id": "3dRQqOCdYSFuF4Kpd8ssqN", "images": [{"height": 640, "url": "https://mosaic.scdn.co/640/ab67616d00001e020029db0c10db0809d7913edbab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02b72ddbc2e5b8c9ce5f3c4ef7ab67616d00001e02eab40fc794b88b9d1e012578", "width": 640}, {"height": 300, "url": "https://mosaic.scdn.co/300/ab67616d00001e020029db0c10db0809d7913edbab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02b72ddbc2e5b8c9ce5f3c4ef7ab67616d00001e02eab40fc794b88b9d1e012578", "width": 300}, {"height": 60, "url": "https://mosaic.scdn.co/60/ab67616d00001e020029db0c10db0809d7913edbab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02b72ddbc2e5b8c9ce5f3c4ef7ab67616d00001e02eab40fc794b88b9d1e012578", "width": 60}], "name": "Powerlifting and Fitness Music", "owner": {"display_name": "bigddunc", "external_urls": {"spotify": "https://open.spotify.com/user/bigddunc"}, "href": "https://api.spotify.com/v1/users/bigddunc", "id": "bigddunc", "type": "user", "uri": "spotify:user:bigddunc"}, "primary_color": null, "public": true, "snapshot_id": "NDU3LDM3ZjQyOTg4MGM1MTFiMzAzMDZkN2QyNDEyN2MwMWEzNzRiNDc1ODQ=", "tracks": {"href": "https://api.spotify.com/v1/playlists/3dRQqOCdYSFuF4Kpd8ssqN/tracks", "total": 373}, "type": "playlist", "uri": "spotify:playlist:3dRQqOCdYSFuF4Kpd8ssqN"}{"collaborative": false, "description": "go work out small boy", "external_urls": {"spotify": "https://open.spotify.com/playlist/4NM4pWzyGSctxeKlE3KX0y"}, "href": "https://api.spotify.com/v1/playlists/4NM4pWzyGSctxeKlE3KX0y", "id": "4NM4pWzyGSctxeKlE3KX0y", "images": [{"height": null, "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c38a5d7a15b0ecd91c7da35f", "width": null}], "name": "It's Grind Time Stuff", "owner": {"display_name": "Michael Lai", "external_urls": {"spotify": "https://open.spotify.com/user/12123571726"}, "href": "https://api.spotify.com/v1/users/12123571726", "id": "12123571726", "type": "user", "uri": "spotify:user:12123571726"}, "primary_color": null, "public": true, "snapshot_id": "OTgsNjQ5NmE3ZDFmZTY4MzI3YjVkOTQ0NzBkYjhiMTQzYjQ5ZjlmMzYyZA==", "tracks": {"href": "https://api.spotify.com/v1/playlists/4NM4pWzyGSctxeKlE3KX0y/tracks", "total": 66}, "type": "playlist", "uri": "spotify:playlist:4NM4pWzyGSctxeKlE3KX0y"}
+[
+    {
+        "trackName": "Hands Like Barber",
+        "artists": [
+            "OGR-Scintilla"
+        ],
+        "trackId": "1vvrzYC15EGMXzuEQ8OVyR",
+        "addedAt": "2024-04-09T04:00:50Z"
+    },
+    {
+        "trackName": "House Of Mirrors (feat. Jelly Roll)",
+        "artists": [
+            "Hollywood Undead"
+        ],
+        "trackId": "7iANbpnadfUepWAYDrBqDb",
+        "addedAt": "2024-04-05T17:16:18Z"
+    },
+    {
+        "trackName": "Keeping Secrets",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "23ZfzJ2uI17JXeZUJNgC6e",
+        "addedAt": "2024-04-03T16:17:08Z"
+    },
+    {
+        "trackName": "Fear",
+        "artists": [
+            "Asleep At The Helm"
+        ],
+        "trackId": "0oPq5CHUxvDJMm7ilfWPB3",
+        "addedAt": "2024-04-01T20:06:55Z"
+    },
+    {
+        "trackName": "The Sound of Silence IV: Fourklift Certified",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "3fcrSh1J52r69zxwwaIrkz",
+        "addedAt": "2024-04-01T16:14:53Z"
+    },
+    {
+        "trackName": "The Conqueror",
+        "artists": [
+            "REFORMED",
+            "Victor Borba"
+        ],
+        "trackId": "4cRSA2SXHz96dodyawU0qC",
+        "addedAt": "2024-04-01T03:24:18Z"
+    },
+    {
+        "trackName": "Claustrophobic",
+        "artists": [
+            "Every Waking Moment"
+        ],
+        "trackId": "0LyXm7C3L3nJiV2WEebFKK",
+        "addedAt": "2024-03-29T08:37:27Z"
+    },
+    {
+        "trackName": "King For A Day",
+        "artists": [
+            "Lyric Noel"
+        ],
+        "trackId": "1fP8OX218w9tMiRLKbEhLe",
+        "addedAt": "2024-03-29T02:58:22Z"
+    },
+    {
+        "trackName": "Dreaming in Sepia",
+        "artists": [
+            "EarlyRise"
+        ],
+        "trackId": "1dE3KLx6Tzyh0HanmfqxGX",
+        "addedAt": "2024-03-24T02:36:15Z"
+    },
+    {
+        "trackName": "Thorns",
+        "artists": [
+            "Stained With Silver"
+        ],
+        "trackId": "2ovEjstYAsHoKpe7JRCn7y",
+        "addedAt": "2024-03-23T18:35:01Z"
+    },
+    {
+        "trackName": "The Sound Of Silence",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "46lpXHf390Uy3rqDJXTLUF",
+        "addedAt": "2024-03-23T16:10:07Z"
+    },
+    {
+        "trackName": "The Sound Of Silence II: Electric Boogaloo",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "3wBRFBIqKpO4IoSS8Bi3Rm",
+        "addedAt": "2024-03-23T16:09:42Z"
+    },
+    {
+        "trackName": "The Sound of Silence 3: Three",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "5fBGzLhu0si4NmmeovXZEO",
+        "addedAt": "2024-03-23T16:09:31Z"
+    },
+    {
+        "trackName": "Self-Destruction",
+        "artists": [
+            "I Prevail"
+        ],
+        "trackId": "4UhMvTR5tHf2ecfoz0KV92",
+        "addedAt": "2024-03-23T16:03:57Z"
+    },
+    {
+        "trackName": "Hope",
+        "artists": [
+            "We Came As Romans"
+        ],
+        "trackId": "0IjqvPyctsYf3ASQPHWBvB",
+        "addedAt": "2024-03-20T21:32:01Z"
+    },
+    {
+        "trackName": "We Are",
+        "artists": [
+            "Hollywood Undead"
+        ],
+        "trackId": "2dj8jYfBS2519NeCY1q8W9",
+        "addedAt": "2024-03-20T17:40:51Z"
+    },
+    {
+        "trackName": "Like This",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5b1uZnebDRcR8XuBsDTPiO",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Options",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1Q3HtTFGxjmEljAw7Y0CaR",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "WHY",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7yNgSAuwbDJcdRNrBDtKPq",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Thinking",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "4KIIzdrFS4U21IeaMTATDi",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Trauma",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0cHAXbQfTlBIJrzIOW8kUv",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Time - Edit",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1gZFRYcPz3wKevEaNYRwfW",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Antpile",
+        "artists": [
+            "Kublai Khan TX"
+        ],
+        "trackId": "7fEoIHFRBGeszHJBkXcjQ4",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "The Hammer",
+        "artists": [
+            "Kublai Khan TX"
+        ],
+        "trackId": "3M1RZOhzt4lG3vpSYwffhe",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Let Go",
+        "artists": [
+            "Bottom Shelf"
+        ],
+        "trackId": "3mwNgDxkhc0AFAG1HmgsoA",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Deathtouch",
+        "artists": [
+            "Gravemind"
+        ],
+        "trackId": "4ihxHSh37giw8ANfu8PqlP",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Home Team",
+        "artists": [
+            "Lakeview"
+        ],
+        "trackId": "4XPefX4QY9EWhrwLL528Fc",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Alive",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "6SD2BwjwWruS4eqQk5HBUa",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Haunted Dreams",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "18fNDUjar18nshuDcgbqpU",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Hollow Home",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "4sF9uMBjUo334K5wjZijkR",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Nothing Lasts Forever",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "3fp4kCZ87UB7i1Vm5W7gSE",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Intro 2",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "6nonTdcZbN2pmyiN032MXw",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Therapy Session",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "6WKk8l8EXiwPBYlmSlhZWx",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "I Just Wanna Know",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "141K1xJ176S0U6PPkc4Nee",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "How Could You Leave Us",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "10bt2wAkFgCWRCEOyAyWT9",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Breathe",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "4Jtn7b3hgyzSQKj9ZMiht3",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Real",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0ZFayEwoO5qqYjsOi8YDjO",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Oh Lord",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1ISsiC4Fw6f96kZQegLGiJ",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "I Can Feel It",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7n1UFPbFnAwIBsV14BC17A",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Got You On My Mind",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3XeB1bCs6NSaLKmTkVbx6R",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Grindin'",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3m6HMeFX6GIlGPMBcLEN6t",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Wish You Wouldn't",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0lOMLHxg0Fz70i2BE5o334",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Statement",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3cNmoc8vvy0T0m65PLdNEU",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "All I Do",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7nuBN1pCPvpOFBn6CZ4bun",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "Lost In The Moment",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3qEg6xYffvuvwpq4U6FRrK",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "CLOUDS",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1mvI5pGoh84IiFSbWxEkGH",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "THAT'S A JOKE",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "27a0ydWvFCt4jgl9m61lS1",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "JUST LIKE YOU",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7tTRFVlFzk6yTnoMcParmi",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "STORY",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7HiIy4QaA5ud7ZuuyBysKk",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "PRIDEFUL",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1YEXlV81t42IuXMnL600rg",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "LOST",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1PTVGdcYyLFnJKVOkaxQWj",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "LAYERS",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7ipUYshiPzzUs9EdeOsBFO",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "DRIFTING",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "2hRlHXzOf14ArYmOPeAXsa",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "TRUST",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "2FSVMyqLldC36p0deIYvI9",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "PAID MY DUES",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "6ziQdexOHyC2gkZ1iNoi1w",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "CLOUDS - Edit",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "4eL4EOrlxrKK9TmyVjueXd",
+        "addedAt": "2024-03-20T17:23:00Z"
+    },
+    {
+        "trackName": "3 A.M.",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1CDPxTsKRhI0wWel01w4Vy",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Intro",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "65kWtHIqg2IACNR9KP4KOS",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Mansion",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3nKRYKbGxhzv4BbwlLOcWU",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "All I Have",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "4mnoPyJHlmMYPJsib5tfn0",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Wait",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7EQBIAZHD2QAh9sgtjZJgI",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Wake Up",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "2yRm4iT3ohO5WOay4l2H0q",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Face It",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3DJtOEjnHQemekvG3IYUfq",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Motivated",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5qGizZYD1lbhGFdTR1yoFv",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Notepad",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "2QpFbRlnBo2TRhy5FyldSD",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Turn The Music Up",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5oLWKwAejXRkOv8bKaTBO7",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Paralyzed",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5DHQKZCOZhGNTbYBCekWx0",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "I'll Keep On",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "4ViElQuRwSp33VmXzPURf7",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Can You Hold Me",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1isXdpzFMO6EIkgdWjV2D8",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "The Search",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3oLe5ZILASG8vU5dxIMfLY",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Leave Me Alone",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3EtyEzMpfKSaoVhPunvbRV",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Change",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "4cBlIM5AjnQ74f52Dv7T5K",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "My Stress",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0aQA9DP54h37OevE7hRc2a",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Nate",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1SDtZ69uALD5zW8k9S8hTf",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Time",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "6MxMqCgqmekcr0VwSU7AVH",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Returns",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "2uEuo87JC9tc1dzmPUtOxj",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "When I Grow Up",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5rLyYxZNzca00ENADO9m54",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Only",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5lehoWkVPujeOAwb8BO0uK",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Let Me Go",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "2PqSOrlabozEH6KXs7BvQr",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "-Interlude-",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "4NAOU1fKvpPtLwtR2rUfFP",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Hate Myself",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5PdEiev2BkKiZtZFcNKjfM",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "I Miss The Days",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3ebfDw8WEbf0DxGh47R2lo",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "No Excuses",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7ssFG94tZHpX9vbIFM0GVH",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "HOPE",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0EgLxY52mpGsXETyEsgVlP",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "MOTTO",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0pHrAAe6sSVDeUeNe5IesY",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "CAREFUL",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7FET9gtiECWn7llt0sfvtU",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "MAMA",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1PvhuffRIPgvOYsa6tPEkr",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "HAPPY",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3ZEno9fORwMA1HPecdLi0R",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "PANDEMONIUM",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0fLGrGCrbziOu3dnjQMCWS",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "SUFFICE",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "6fMpW2jYiXS6tpx2WgMIys",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "GONE",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "2LCGFBu1ej6zt4r1VGPjny",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "BULLET",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3vBTFVEcGhmH13Y0Lj9UTN",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "TURN MY BACK",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5yetwZ4BDlgCzd5typypWU",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "MISTAKE",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0rc9XLNs7KZXu2ASA3LbL8",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "LET EM PRAY",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "6dijMqFUwi7Dfh1aw5IpoL",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "RUNNING",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1l0wPhFZP1kWkZNQrrYrGy",
+        "addedAt": "2024-03-20T17:22:59Z"
+    },
+    {
+        "trackName": "Daggers",
+        "artists": [
+            "We Came As Romans"
+        ],
+        "trackId": "0JXILsWNyXHEd2IzofS3jX",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Tutti Frutti",
+        "artists": [
+            "Little Richard"
+        ],
+        "trackId": "2iXcvnD3d1gfLBum0cE5Eg",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Wolves Cry",
+        "artists": [
+            "Bryan Martin"
+        ],
+        "trackId": "7yyRhjoCsdt5dDpFz2CImD",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "21 Gun Salute",
+        "artists": [
+            "Catch Your Breath"
+        ],
+        "trackId": "0dAeZUKHCo70CusGsluvDz",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Outlaws & Outsiders",
+        "artists": [
+            "Cory Marks"
+        ],
+        "trackId": "4NJjWHBLbon4OjbCfVMWkh",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "The Patriot",
+        "artists": [
+            "Topher"
+        ],
+        "trackId": "3mGUdtPq6G2vanIZrkLnAF",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Intro III",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "6e56CkYWD3JO6ovFZBA8po",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Outcast",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0we7ShV1o6cPTFjxOADPbC",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "10 Feet Down",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "68biLwi894rMQPeIiSky2t",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Green Lights",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0MvqSYPr5Wi62JB7VWvqwz",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Dreams",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0wf9rSX8ds3yEI2gf2QdPs",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Let You Down",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "52okn5MNA47tk87PeZJLEL",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Destiny",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5n4ZzdO7KtpxsDpoDTa3D6",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "My Life",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "1kO0nC4VnEjMBeJZI7g2T2",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "You're Special",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "4dfy1Pij4jFFefoamgnoOF",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "If You Want Love",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3i5qVV8azKqGFK4Gzdt5YS",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Remember This",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "5dMKsEQSlR2ITYpScl7UMd",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Know",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "3MFyER5LVCQNaUtipifGD7",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Lie",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "07FkzikE6FuHIa8Ma7zJGc",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "One Hundred",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "0zdycLZKxVZ3EA8Nuxo35M",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Outro",
+        "artists": [
+            "NF"
+        ],
+        "trackId": "7uax1a1G4cg1GgokfakTnN",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Killem All",
+        "artists": [
+            "King 810"
+        ],
+        "trackId": "4KD6aCWhLh9gUUy7oxFeqA",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "My Light Unseen",
+        "artists": [
+            "Impending Doom"
+        ],
+        "trackId": "7kAb5z9L41MupIFyW6TvKB",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "NUMB",
+        "artists": [
+            "Ryan Oakes"
+        ],
+        "trackId": "66MIGyHdex7vfP6RAwpMNL",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "The Time Is Now",
+        "artists": [
+            "Atreyu"
+        ],
+        "trackId": "4Q9uL0DWDcpCV1tE14xqnt",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "In the Air Tonight",
+        "artists": [
+            "The Protomen"
+        ],
+        "trackId": "5MAPt0beSbEQdPM5SfJwyl",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Break Down",
+        "artists": [
+            "Vin Jay"
+        ],
+        "trackId": "25pgJwWDZN9ynlH8aser5x",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "death bed (coffee for your head)",
+        "artists": [
+            "Powfu",
+            "beabadoobee"
+        ],
+        "trackId": "7eJMfftS33KTjuF7lTsMCx",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "My Own Grave",
+        "artists": [
+            "As I Lay Dying"
+        ],
+        "trackId": "0CcqWuAEJC93K8cBMbAjgI",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Doom Crossing: Eternal Horizons",
+        "artists": [
+            "The Chalkeaters"
+        ],
+        "trackId": "7sVOXV0aWjuTYtCbZdxPQn",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Start It Up",
+        "artists": [
+            "Campfire"
+        ],
+        "trackId": "6ktSH2J4NXXZC9bEvPcwns",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Eye of the Evil",
+        "artists": [
+            "EarlyRise"
+        ],
+        "trackId": "1X16y7m2oNKj6a33VhwSsQ",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Deliverance",
+        "artists": [
+            "The Curse Within"
+        ],
+        "trackId": "20CpK8MGygDGC54AljsnDG",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Love Me",
+        "artists": [
+            "Counterparts"
+        ],
+        "trackId": "1Bg4qbrQjRJjoXZlB3y3Ot",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "A Little Piece of Heaven",
+        "artists": [
+            "Avenged Sevenfold"
+        ],
+        "trackId": "1BLfQ6dPXmuDrFmbdfW7Jl",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Famine",
+        "artists": [
+            "War Of Ages"
+        ],
+        "trackId": "2sfsZHrxWYW31h4hO6XkgC",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Arthur Rhodes",
+        "artists": [
+            "The John Candy"
+        ],
+        "trackId": "6gZcANFdoD9kIsr4OMzFBI",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Pursuit Of Happiness (Nightmare)",
+        "artists": [
+            "Kid Cudi"
+        ],
+        "trackId": "5iSEsR6NKjlC9SrIJkyL3k",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Play with Fire",
+        "artists": [
+            "WAR*HALL"
+        ],
+        "trackId": "10ofpKhJZ2Wlh19ngsDO7K",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "BODYCOUNT (feat. Jasiah)",
+        "artists": [
+            "TOKYO\u2019S REVENGE"
+        ],
+        "trackId": "30oHbnPSoRbyt4ibbU7v2G",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Forgotten",
+        "artists": [
+            "The Plot In You"
+        ],
+        "trackId": "277kkbKWZtQUpnK19WcEM6",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Savior",
+        "artists": [
+            "Rise Against"
+        ],
+        "trackId": "1vcxF91pWs9uNwDROuiCPB",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Death And Faxes",
+        "artists": [
+            "Manhack"
+        ],
+        "trackId": "0iX14Z6tFohDWVliYDkFR5",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Wolves",
+        "artists": [
+            "Sam Tinnesz"
+        ],
+        "trackId": "4oyUjJauYl4zVrozOYk3il",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Hurts So Good",
+        "artists": [
+            "John Mellencamp"
+        ],
+        "trackId": "67eX1ovaHyVPUinMHeUtIM",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "On the Edge",
+        "artists": [
+            "As The Structure Fails"
+        ],
+        "trackId": "1F43Rw9DJpZ33oVdyO7ZRf",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Kickstart My Heart",
+        "artists": [
+            "M\u00f6tley Cr\u00fce"
+        ],
+        "trackId": "1RQwcsdHIW5p86cx8zuf1I",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Gears Keep Turning",
+        "artists": [
+            "Steve Jablonsky"
+        ],
+        "trackId": "7ILnuO5ng0krvLVyaZNU8Q",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Not Strong Enough",
+        "artists": [
+            "Apocalyptica"
+        ],
+        "trackId": "3KgFsTWLyWBxMlO7GZxySr",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "No Sucka MC's",
+        "artists": [
+            "GAWNE"
+        ],
+        "trackId": "6o9qkzDtEETNiBvxkEJeNK",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Know",
+        "artists": [
+            "SAYSH"
+        ],
+        "trackId": "6qteQDILfV5Z9IaYUOXYHt",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Bat Country",
+        "artists": [
+            "Avenged Sevenfold"
+        ],
+        "trackId": "3sHH7lklbfpcraDDvYnjo7",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Beast Unleashed",
+        "artists": [
+            "Vin Jay"
+        ],
+        "trackId": "31JBtF1HCTZlFnmJDxZrD4",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Little Guitars (Intro) - Intro; 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "2uvAhfgNAzt5FFKkBc43Uk",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Little Guitars - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "18fIsTimWvKXA2whjHYON3",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Big Bad Bill (Is Sweet William Now) - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "1IHrs42Yl6WbhMOLTySPbS",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Happy Trails - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "3n1qTSyFM670Sw67Qh7Vvz",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Horns",
+        "artists": [
+            "GAWNE"
+        ],
+        "trackId": "1MINIxa2v322dkSL0829BB",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Not Ready to Die - From \"Call of the Dead\"",
+        "artists": [
+            "Avenged Sevenfold"
+        ],
+        "trackId": "6haHIyPMUnVCZn6pHpyzM8",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Nightmare",
+        "artists": [
+            "Avenged Sevenfold"
+        ],
+        "trackId": "4UEo1b0wWrtHMC8bVqPiH8",
+        "addedAt": "2024-03-20T17:22:58Z"
+    },
+    {
+        "trackName": "Everybody Hates Me",
+        "artists": [
+            "Tom MacDonald"
+        ],
+        "trackId": "5ASFhZRvMbgqRZJtSmwzex",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Fake Woke",
+        "artists": [
+            "Tom MacDonald"
+        ],
+        "trackId": "22N2WWWq3pGweYgP5o5q7w",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Panama - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "05RgAMGypEvqhNs5hPCbMS",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Hot for Teacher - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "6QDbGdbJ57Mtkflsg42WV5",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Dance the Night Away - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "4RS9PmtHQe7I0o5fEeweOY",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "The Dream Is Over",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "36vmJ41hubGoxCwmnhWyyf",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Top of the World",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "5IpIcYj3omb4iOP76bAoRP",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "More Than Music II",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "0QMtXq4bv6OiABb9sN1naA",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Long Way",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "7mSaeHvV0gdxykvcZF8C7g",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Hard to Get",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "2lLE5cu209PUiQyyw7km4y",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Forever",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "2KgFccVHyAw9tCJDmIPd7g",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Me and You",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "3iJEtmYCQHeUv0hQgHEPTN",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Apologies",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "04zm4RAP12ZBGC7f0UxqCz",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Nothing Good Comes Easy",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "0kVdJoEVnANbTOkTGmfLgz",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "If Only You Knew",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "4hsLAuYvx77uhihoq5g0Nc",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Profit",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "6RuKPLIYsxIUyreczXD2mv",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "New World Order",
+        "artists": [
+            "Tom MacDonald",
+            "Adam Calhoun"
+        ],
+        "trackId": "5xqjk4XNlFgZPFb80jqCUg",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Mean Street - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "1eGSgC6ZhJ8D4nrZZ83LyA",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Unchained - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "6fHS0zmDdDKktklfaqojaF",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "No Response",
+        "artists": [
+            "Tom MacDonald"
+        ],
+        "trackId": "530YPHZox5XUN7Eq7Pl5GT",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Unstoppable",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "6wQqAT0KNJwYQVR9HNR7vH",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Love Is Poison",
+        "artists": [
+            "Ollie"
+        ],
+        "trackId": "3JC2jPiceqI3B7MMxs3JxU",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "People So Stupid",
+        "artists": [
+            "Tom MacDonald"
+        ],
+        "trackId": "3rjJAqZWPjDhsTkCmc2HcY",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "No Lives Matter",
+        "artists": [
+            "Tom MacDonald"
+        ],
+        "trackId": "5Mje6fkgfBuBMdxdaE89M0",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Good Enough",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "1dsokd6f3Yg0KveFFu3ZNs",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Why Can't This Be Love",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "0TaT50ZZxT4ytZxuqkE3A9",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Dreams",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "2APxH5XbOLDTmW9X5yi6Hw",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Summer Nights",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "68qTWgabevPj41WbvHtKwY",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Best of Both Worlds",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "5BNJqYUN3FI4krR901tdLd",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "5150",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "6Xd3sEwne19qbUzxOrUl40",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Inside",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "5ohKF8kndascOoNUVnCy0z",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "I Left My Home",
+        "artists": [
+            "Mjhanks",
+            "Topher",
+            "The Marine Rapper"
+        ],
+        "trackId": "1rv2PsABh13E5CLC4zrvN4",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Where Have All the Good Times Gone! - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "2IB6UYpGAFtP2H0YJCWpcw",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Snowflakes",
+        "artists": [
+            "Tom MacDonald"
+        ],
+        "trackId": "6gcRcCkx2K09BucndWZMCS",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Scars",
+        "artists": [
+            "Tom MacDonald"
+        ],
+        "trackId": "5E1uA250yvX6jtphBqm6YD",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Crushed",
+        "artists": [
+            "Parkway Drive"
+        ],
+        "trackId": "2BzEsfwqucjlBSFu8s74sz",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Runnin' with the Devil - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "3KhF2YiNpJvGpfiCW45R6D",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Eruption - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "2tAeN2TKlQLOoSPXtARzBV",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "You Really Got Me - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "0upLyFR8Rr52ZpMp5esQoq",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Ain't Talkin' 'Bout Love - 2015 Remaster",
+        "artists": [
+            "Van Halen"
+        ],
+        "trackId": "6fybp4N6eW3bsFAvARxyVe",
+        "addedAt": "2024-03-20T17:22:57Z"
+    },
+    {
+        "trackName": "Insanely Illegal Cage Fight",
+        "artists": [
+            "Dal Av",
+            "Jackson Rose"
+        ],
+        "trackId": "6R4NjnvN8gZFPlNFqGAVWT",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Fallen Angel",
+        "artists": [
+            "Three Days Grace"
+        ],
+        "trackId": "2iptAVf9jZerlywLwiGhak",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "1-800-273-8255",
+        "artists": [
+            "Our Last Night"
+        ],
+        "trackId": "1wp1aHirvZihTdrtdFuFv0",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Have a Cigar",
+        "artists": [
+            "Pink Floyd"
+        ],
+        "trackId": "3CmHvyZQQAGkKkTjTBFWN6",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "DEVIL",
+        "artists": [
+            "Shinedown"
+        ],
+        "trackId": "2hEYslbdYWFSIA6JboUvnR",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "MONSTERS",
+        "artists": [
+            "Shinedown"
+        ],
+        "trackId": "1qAuIPMALdFtGv2Ymjy5l0",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Mr Red White and Blue",
+        "artists": [
+            "Coffey Anderson"
+        ],
+        "trackId": "2uJcLlydqLdGiiABFa4KfN",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Journey Of Lies",
+        "artists": [
+            "Infected"
+        ],
+        "trackId": "2KQGb4AIzFrka17VdwIApZ",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Short Change Hero",
+        "artists": [
+            "The Heavy"
+        ],
+        "trackId": "7JOizhmt3HlBgQyJEa0AgK",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "CLOUDS",
+        "artists": [
+            "Our Last Night"
+        ],
+        "trackId": "350zROquRAa5rBKycIM5d8",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Juke Box Hero",
+        "artists": [
+            "Foreigner"
+        ],
+        "trackId": "00qOE7OjRl0BpYiCiweZB2",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Bow Down",
+        "artists": [
+            "I Prevail"
+        ],
+        "trackId": "5qD3Qv8Wu3r5uRD0DahcZy",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Rise Above It",
+        "artists": [
+            "I Prevail"
+        ],
+        "trackId": "6QyBWey7P8ILuhS5RO7xYe",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Slow It to Flow It",
+        "artists": [
+            "Scottay"
+        ],
+        "trackId": "7v8N46DsAgCuFeoxLKUzUG",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "dying lately",
+        "artists": [
+            "iamjakehill"
+        ],
+        "trackId": "6jkpnvfMM9pEWYe68yNIYt",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "The Thunder Rolls",
+        "artists": [
+            "State of Mine",
+            "No Resolve"
+        ],
+        "trackId": "0sebTZntRpyDA1NnXhUw5i",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Diamond Eyes (Boom-Lay Boom-Lay Boom)",
+        "artists": [
+            "Shinedown"
+        ],
+        "trackId": "1PLMK1ui86iHHG3FM1N7ue",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Rip X",
+        "artists": [
+            "iamjakehill"
+        ],
+        "trackId": "0RzAihLqsEg9Qcm4pfPbG2",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Astronaut In The Ocean",
+        "artists": [
+            "Our Last Night"
+        ],
+        "trackId": "2qjH6wZfR0g11ZiT7KqyRO",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "The Thunder Rolls - The Long Version",
+        "artists": [
+            "State of Mine",
+            "No Resolve",
+            "Brandon Davis"
+        ],
+        "trackId": "5MBUFHBedRCBkGfXp0N6tf",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Survivor",
+        "artists": [
+            "State of Mine",
+            "Eva Under Fire"
+        ],
+        "trackId": "0F3N5ZnngUeVMlW7L2lgRW",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Same Old War",
+        "artists": [
+            "Our Last Night"
+        ],
+        "trackId": "1tbjeelOKIjolYNUNnPMAD",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "REMEMBER THE NAME",
+        "artists": [
+            "Vo Williams"
+        ],
+        "trackId": "5GGJW9w8BZv9MYHXvgyTXd",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Gangster's Paradise",
+        "artists": [
+            "Red Bone Boyz"
+        ],
+        "trackId": "5Xf7neTYRRSwJgnF2kQGaL",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "The End",
+        "artists": [
+            "Zero 9:36"
+        ],
+        "trackId": "6MTfKxsjHEsH8GtHfKEXAA",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "The End / Undead",
+        "artists": [
+            "Zero 9:36"
+        ],
+        "trackId": "1GodulW331hO1RQTf1KpjD",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Big Iron",
+        "artists": [
+            "Marty Robbins"
+        ],
+        "trackId": "0AQquaENerGps8BQmbPw14",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "TRIALS",
+        "artists": [
+            "STARSET"
+        ],
+        "trackId": "23wrmyJ1S2sjeh2dFN5P9k",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Loyal Shadow",
+        "artists": [
+            "Soilwork"
+        ],
+        "trackId": "23fw8fXvNFvP5PwTTkgjyi",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Warrior",
+        "artists": [
+            "Atreyu",
+            "Zero 9:36"
+        ],
+        "trackId": "0KBRMpZVUTxrU8blRUBfm3",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Hard to Hate",
+        "artists": [
+            "Struggle Jennings"
+        ],
+        "trackId": "1jE7Yc9YTVbY2dy6ANva6K",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "overwhelmed - Chri$tian Gate$ remix",
+        "artists": [
+            "Royal & the Serpent",
+            "Chri$tian Gate$",
+            "Ookay"
+        ],
+        "trackId": "4Kh6cq3XgOGUK9yXQu7RTq",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Release the Kraken",
+        "artists": [
+            "Damien"
+        ],
+        "trackId": "0tCUqpr6tB0qgynYMeb8eU",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Anomaly",
+        "artists": [
+            "Aviana"
+        ],
+        "trackId": "4y2WxyFPLHaLoHkxymgNar",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Country Boy (feat. George Jones & Charlie Daniels)",
+        "artists": [
+            "Aaron Lewis"
+        ],
+        "trackId": "77A7dWpSxVoauUbJn83Oj3",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "One Of Them Girls",
+        "artists": [
+            "Lee Brice"
+        ],
+        "trackId": "14GwnOeC9qYEKEA6uOZepa",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Prey",
+        "artists": [
+            "Parkway Drive"
+        ],
+        "trackId": "7lMFAK8dv0QkWpIlZcWQlJ",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Ol' Red",
+        "artists": [
+            "Blake Shelton"
+        ],
+        "trackId": "5wane5dFpp8xgriui6y0c7",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Stay",
+        "artists": [
+            "iamjakehill"
+        ],
+        "trackId": "1GXuVOHHqIUKgfL9szuGTs",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Ready for War",
+        "artists": [
+            "Joznez",
+            "2WEI",
+            "Kataem"
+        ],
+        "trackId": "05f1rPg0cUUbShsL4FYcPt",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Just Getting Started",
+        "artists": [
+            "Vo Williams"
+        ],
+        "trackId": "2a7KX4qNhADMNGJ3CQ6nhS",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Nobody Praying For Me",
+        "artists": [
+            "Seether"
+        ],
+        "trackId": "3bq8WiQrEXMwPAibYs7tpu",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "You're Not Alone",
+        "artists": [
+            "Of Mice & Men"
+        ],
+        "trackId": "3xwNe4PXYyqlDvmYnUVppm",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "God's Country",
+        "artists": [
+            "State of Mine",
+            "Drew Jacobs"
+        ],
+        "trackId": "0nnsBvdSmaGfphj44qiFRl",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Nothing Left To Hide",
+        "artists": [
+            "Infected"
+        ],
+        "trackId": "3T9madiD4zl9P1hIqr255g",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Savior",
+        "artists": [
+            "Struggle Jennings"
+        ],
+        "trackId": "567qUIm5ugDyOIcMbdBedg",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Really Really",
+        "artists": [
+            "Kevin Gates"
+        ],
+        "trackId": "10I3CmmwT0BkOVhduDy53o",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "God's Country",
+        "artists": [
+            "Blake Shelton"
+        ],
+        "trackId": "1dyxS3YzBbL0t8rEVwVQ1K",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "The Vision",
+        "artists": [
+            "Skan",
+            "Born I"
+        ],
+        "trackId": "4sjvp8ZvKfPutRr9W0KIyu",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Gloves Are Comin' Off",
+        "artists": [
+            "7kingZ"
+        ],
+        "trackId": "7lLMGY0OppwyTcMsmvnaa3",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Nothing Else Matters",
+        "artists": [
+            "Metallica"
+        ],
+        "trackId": "10igKaIKsSB6ZnWxPxPvKO",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Dirt Road Anthem",
+        "artists": [
+            "Jason Aldean"
+        ],
+        "trackId": "2qYsSHsYkihWx043HVJQRV",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Friends in Low Places",
+        "artists": [
+            "Kings of the River"
+        ],
+        "trackId": "3YfgxICmLEzoM87JX9MR5a",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Born for This",
+        "artists": [
+            "7kingZ"
+        ],
+        "trackId": "1lTpAGIjjSfJ6qA46Aeudn",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Waiting to Die",
+        "artists": [
+            "iamjakehill"
+        ],
+        "trackId": "0xWBhH0LfhRiz6P0LJBpk0",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Leave It All Behind",
+        "artists": [
+            "Sleeping With Sirens"
+        ],
+        "trackId": "6nMNpGl4VvMhtYigbbOmBu",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Vice Grip",
+        "artists": [
+            "Parkway Drive"
+        ],
+        "trackId": "0AHHDAHFRaT82UVw5fMr1R",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "James Franco",
+        "artists": [
+            "Polyphia"
+        ],
+        "trackId": "1fBhy6ldTdjsQxTRuTIz6U",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Ready Set",
+        "artists": [
+            "Vo Williams"
+        ],
+        "trackId": "3Xmq0wsW9CqeiI7SfKPZ8E",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Big Green Tractor",
+        "artists": [
+            "Jason Aldean"
+        ],
+        "trackId": "4KAzYqfcijCSZa2P3etHoM",
+        "addedAt": "2024-03-20T17:22:56Z"
+    },
+    {
+        "trackName": "Rip & Tear",
+        "artists": [
+            "Mick Gordon"
+        ],
+        "trackId": "5soMJpcVhSrGrB4prvPL6P",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Worst Mistakes",
+        "artists": [
+            "Josh A",
+            "iamjakehill"
+        ],
+        "trackId": "4Gh9JSLAUWXGEuO6IdbEvM",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Cycles",
+        "artists": [
+            "Josh A",
+            "iamjakehill"
+        ],
+        "trackId": "25rACA4FhGFeNnypyCPgYd",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Beer Never Broke My Heart",
+        "artists": [
+            "Luke Combs"
+        ],
+        "trackId": "7aEtlGHoiPAfRB084NiDmx",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Better Together",
+        "artists": [
+            "Luke Combs"
+        ],
+        "trackId": "6gdLyYNuhWBzqwlOFSsXC7",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Purge",
+        "artists": [
+            "Josh A",
+            "iamjakehill"
+        ],
+        "trackId": "1liMtgSjJsxY3s53p2vpfM",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Shoulda Named It After Me",
+        "artists": [
+            "Upchurch",
+            "Colt Ford"
+        ],
+        "trackId": "01oxuDv2GsOoj6xxhaM8eL",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Awaken",
+        "artists": [
+            "League of Legends",
+            "Valerie Broussard",
+            "Ray Chen"
+        ],
+        "trackId": "3jevgr3fYdv9wYO3IDJq2a",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Revenge",
+        "artists": [
+            "Josh A"
+        ],
+        "trackId": "4Px9P902I1fMQEu7FN3eUS",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Warriors",
+        "artists": [
+            "League of Legends",
+            "2WEI",
+            "Edda Hayes"
+        ],
+        "trackId": "3f4fc8c8unrQeKecmUPEDR",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Ready To Roll",
+        "artists": [
+            "Jet Black Stare"
+        ],
+        "trackId": "2Cd0EWyX3ICPIPXiCjVe2w",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Ain't No Grave - Epic Trailer Version",
+        "artists": [
+            "Hidden Citizens"
+        ],
+        "trackId": "5u0yol1OQk7RJorh1JM6tB",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Whiskey Glasses",
+        "artists": [
+            "Morgan Wallen"
+        ],
+        "trackId": "6foY66mWZN0pSRjZ408c00",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "My Old Man",
+        "artists": [
+            "Zac Brown Band"
+        ],
+        "trackId": "0pCgobQDYedY2NwByGrlWf",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Disease",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "4aGUHPTULXRB0udBu1w38A",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Shadows & Echoes",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "4bTtyOopxGECPx6cj1q6B6",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "More Than Nameless",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0XZ4lBzU0yfhceBSVJLS2d",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "We Are All Lost",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5aXnvqjF1DjYGLZDz8NsBe",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Unclaimed, Unloved",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2EZhkymkNgkYjXY2T33hzC",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Stacking Bodies (feat. Levi Benton)",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0rWZp2XYroEvSqWSc9VZHl",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Deathgrip",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "3Ucq1gQdwgIuhytmI1CEyj",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Just Tell Me Something",
+        "artists": [
+            "All That Remains"
+        ],
+        "trackId": "6LGROhVbxcTf9IMGlp6nYF",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "The Violence",
+        "artists": [
+            "Asking Alexandria"
+        ],
+        "trackId": "0C5X8RJXZNuGO2CfQJumb5",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Engraved",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1bW0ZlCkYHixZztCqJsLE5",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "The Price of Agony",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "7AtpVDfDXLUFVwojUMUYce",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Backbreaker",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "40WUwbTUqQaudG2mcApOH5",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Anthem of the Defeated",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "3khWoEmMwiuQtYDb5jrdxx",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "When Everything Means Nothing",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "7ezIUoHieQUZ2b3czrPp82",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Youth | Division",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1b5ucg8QGCCJlUp493vFRn",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Shattered Glass",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "4e16CHu6mmqI5TIEkHYFtD",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Tower of Pain",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "7DNLRdZJcF2M4RqFqvH4JL",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Debts of the Soul",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "00CP0lTive2gEGL7RRKTmH",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Oblivion",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0niM4xcRUcBUYoix2SIo0N",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "When Everything Means Nothing (Cinematic)",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "39xcUmVIl9joB5EQVlngrx",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Hurricane",
+        "artists": [
+            "Luke Combs"
+        ],
+        "trackId": "6xHI9KjUjYT0FPtGO8Mxa1",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "When It Rains It Pours",
+        "artists": [
+            "Luke Combs"
+        ],
+        "trackId": "1mMLMZYXkMueg65jRRWG1l",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "",
+        "artists": [
+            "Various Artists"
+        ],
+        "trackId": "3lpnYiJSFZmtsIM13OyRfa",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Loud and Heavy",
+        "artists": [
+            "Cody Jinks"
+        ],
+        "trackId": "0SF38KDlXNLJAxbYyOMnCy",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Nuketown - Bonus",
+        "artists": [
+            "Josh A",
+            "iamjakehill"
+        ],
+        "trackId": "2sYh0N1gY0CUQMIKpz9JsJ",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Shell Shocked (feat. Kill the Noise & Madsonik) - From \"Teenage Mutant Ninja Turtles\"",
+        "artists": [
+            "Juicy J, Wiz Khalifa & Ty Dolla $ign"
+        ],
+        "trackId": "7zBQRGpYImAdIZc97FNj3V",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Homegrown",
+        "artists": [
+            "Zac Brown Band"
+        ],
+        "trackId": "1qwnPVOIJjAFfCc40Etb1D",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "MIGRAINES",
+        "artists": [
+            "Darko"
+        ],
+        "trackId": "1sLNcITzwHvMRxc6TOv0Hz",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Reload",
+        "artists": [
+            "Colt Ford"
+        ],
+        "trackId": "1BjQ4UMtFEevraJaLt0Ode",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Forever After All",
+        "artists": [
+            "Luke Combs"
+        ],
+        "trackId": "6IBcOGPsniK3Pso1wHIhew",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Liar",
+        "artists": [
+            "Ivan B"
+        ],
+        "trackId": "2h0jw5S54qZ88eBLv5mRY5",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "The Bijan Candy",
+        "artists": [
+            "Various Artists"
+        ],
+        "trackId": "2dARzHBK7Srnu3zayBNxl9",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "South On Ya",
+        "artists": [
+            "Luke Combs"
+        ],
+        "trackId": "0cvmA0xg8FkzKvBnO8987X",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Start a Riot",
+        "artists": [
+            "Various Artists"
+        ],
+        "trackId": "6V81K1OcvYgHEnCA6A2Qx9",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Hide (feat. Seezyn)",
+        "artists": [
+            "Various Artists"
+        ],
+        "trackId": "6rz0dTA0PdhXImFV5EjM0w",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Elevate (feat. Denzel Curry, YBN Cordae, SwaVay, Trevor Rich)",
+        "artists": [
+            "Various Artists"
+        ],
+        "trackId": "6kiauSlWtddVQx4JwJx51p",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Someone I Used To Know",
+        "artists": [
+            "Zac Brown Band"
+        ],
+        "trackId": "2GHJ7SJUd1KunqhFyI7vFf",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "With You",
+        "artists": [
+            "iamjakehill",
+            "Josh A"
+        ],
+        "trackId": "6kq7CvFFZusechOUuuMftM",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Blow Up",
+        "artists": [
+            "Ivan B"
+        ],
+        "trackId": "3NNPXSLp2aHYY8sD4q9Mhe",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Houston, We Got a Problem",
+        "artists": [
+            "Luke Combs"
+        ],
+        "trackId": "6guWjUuNYziyNXgjFo1IpF",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Beautiful Crazy",
+        "artists": [
+            "Luke Combs"
+        ],
+        "trackId": "2rxQMGVafnNaRaXlRMWPde",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Chicken Fried",
+        "artists": [
+            "Zac Brown Band"
+        ],
+        "trackId": "3eBnEo9WL34ulBCZlLpUQO",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Raised 'Round Here",
+        "artists": [
+            "Colt Ford"
+        ],
+        "trackId": "682E6XBr1HpsHolFidOlGN",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Knee Deep (feat. Jimmy Buffett)",
+        "artists": [
+            "Zac Brown Band"
+        ],
+        "trackId": "0b2IVjeD268pYd7VUhmtKI",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Take Over",
+        "artists": [
+            "League of Legends",
+            "MAX"
+        ],
+        "trackId": "7asFSf2pkWNEG3E5EuN1QR",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "Answer to No One (feat. JJ Lawhorn)",
+        "artists": [
+            "Colt Ford"
+        ],
+        "trackId": "59bx5emG4yTKWzAxwxgrKv",
+        "addedAt": "2024-03-20T17:22:55Z"
+    },
+    {
+        "trackName": "The End's Beginning",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "6D0Q7kgtM2Pv25wSQbNQKe",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Pissed Off",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2VdyoYC7j753lE90vv8WCF",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Dead Memory (feat. Jake Luhrs)",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "07pj6WV5kHn55orWBhEk6N",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Cold Room",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "3S4kZ8bdt9kewwkSkLwINF",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Hollow Eyes",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1sqqUxxiUlG4y4KQS0PceJ",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "The Roots Within",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2alwXGR4Nl3AYdZe2oHzWT",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Messenger, Messenger",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5J5pDSvCYx1pG1VZtFLAG9",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Transcend",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "30RXGLshIRJPmktdMY5meA",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "The Face of Hate",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "46zMko5bvwYgwWgd9yuyZQ",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Breaking the Mirror",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "3Ud5fGp3UMKupCoy7SGnOn",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Annihilation",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0EoPDk3skIRs4ZRp6bt9EA",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "The Path",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2jS0i4Y5dCqzZ36GUEP7V0",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Prophet",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "3evtociYVr6hBVfdzryQzE",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Locked (In My Head)",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0ONwGFXxdo1vai166F5AEz",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "God of Fire",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1AaksCXFrrBA0Ejm1QiNlN",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Stockholm",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "6EoJyOmqUNRGY5ELxfkJVl",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Louder Voice",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "566mM1xWiaW5Ah0y8WGWQo",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Vendetta",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "3T3HQbUNL5abOheRDENfOV",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Breaking the Mirror - Acoustic",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "715r2014xG5OgwzXYWsLaG",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "The Hell We Create",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5pEiMb3J8u2esJDeIi29jE",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "End (The Other Side)",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0T792hZ0d3eUEmGWI91UUe",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Falling Through the Sky",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2Ql6gvozrV7OgOrHTzWp0K",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Sink Below",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2l2peU8uNVWVccF9mkyD7m",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Reaper",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "39daVR5fEyW1ontQkLlIgJ",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Times Like This",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "4urhJ3jYiNfzQJAm60vrqa",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Eyes Roll Back",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1B8aKpioEuDJCseDfp716T",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Fracture",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0NPp9Um8tIteSVHBa6Ukuo",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Reaching Out",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5nKJ7tCsPhlnQpwpyfZJG4",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "What You Left Behind",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5UkdRaRj6TpS6qMUVEefa3",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Kill the Pain",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1glEYfGEc1kfSSULWi9jPz",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Young & Undeserving",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5P5Pf1t6AmRnlbrmQQjP44",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Slave to Nothing",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "7pXzrXH9Byxfh1mtBXITUm",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Break Away",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0qLWb2cfDXYGJaARjhse2x",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Hooked",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1rlCAEwIPuCMLOHrEug8Uf",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Selfish Eyes",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "7teBeCtwRT0Eg0EkCXOJd6",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "A Greater Sense of Self",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "59E8p9To7RnGxoJaTUWRCo",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Forever Unbroken",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1HAUvRtKBrkOWtJbjJW4Zw",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Impostor",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5jBjRnEQJyGMEp9iECer7i",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "Cleanse My Soul",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "4B2GRgBY0biZ5oiy4fG3zi",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "The Final Thoughts of a Dying Man",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0s9WRjf1fKJtyN3TSgaltj",
+        "addedAt": "2024-03-20T17:22:54Z"
+    },
+    {
+        "trackName": "I Don\u2019t Wanna Die",
+        "artists": [
+            "Hollywood Undead"
+        ],
+        "trackId": "0AHJTnZiaOO4FhTJZxNQ9j",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Going Under",
+        "artists": [
+            "Evanescence"
+        ],
+        "trackId": "3UygY7qW2cvG9Llkay6i1i",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Creation",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0WCKVvfTQdQcYQ4oIYu8g2",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Warpath",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0HAC2lrMhe113Ciytn5KRo",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Hollow King (Sound of the End)",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0v38iGltIglmplUI3j5e9k",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Broken Fame",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5DRk9zjJeW7WnNLitI0fC3",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Bitter End",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5qUP58oHnZrbcEyqYTHp6q",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Skin & Bones",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2SGOG0aRMXdfFLsMia2VYj",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "The Resistance",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "4NVjTiZC3u33oPYNQ5CNg4",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Identity",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "15M3aq642Q3FJQIiumsFuU",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "The Lioness",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "42xcunX6IPjeHYxPw69dBj",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Eyes to See",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "6sAfJAcJO8jTvKgcMfkwnt",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Destruction",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5YANIXEjq5ix88du1LUxvG",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Already Dead",
+        "artists": [
+            "Hollywood Undead"
+        ],
+        "trackId": "0bTjMx79m5NMCsHDTyAwBY",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Undead",
+        "artists": [
+            "Hollywood Undead"
+        ],
+        "trackId": "5wBLDkxVvclanSitx5jq8e",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Time Bomb",
+        "artists": [
+            "Hollywood Undead"
+        ],
+        "trackId": "3tI114qzJyZYctfLPonBeG",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Heart Of A Champion",
+        "artists": [
+            "Hollywood Undead"
+        ],
+        "trackId": "1rTQqr5Z3q1lld1PqmSLJE",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Il Diluvio",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "5WyLvhw21vyfxQ7T6JiIvb",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Ancient Waters",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "1mS9qBMYUsBPcb14c1zUM1",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Buried",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "7nq9fnf7vCWAOUYvqYzmdh",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Parallels",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2yyBCR1MRfvINVNwPa3CSV",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "The Architect",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2ylQOozScXZFKv8cSKzH0l",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Descendants",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "0zMgmzZsTfFz7uFw3ZFXIH",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Unchanging",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "2HEWPyFMeNIPWp0kbS59VT",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Keep Me Alive",
+        "artists": [
+            "Fit For A King"
+        ],
+        "trackId": "4s2bQn6NAM0oUwU172g62z",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "You",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "0NIkKL6wsLK5V2vX97zOTr",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Wrong Side of Heaven",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "6xgO2ICtpT8jDcYvVsCKIB",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Burn MF",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "4EJZgvebpQvxvoPTRUvWrK",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "I.M.Sin",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "2YdkZa3Fg7KLA06oWdgGxY",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Anywhere But Here (feat. Maria Brink)",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "3ASqLQWbgejOEJzxP4mrfY",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Dot Your Eyes",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "7zyJ2g9o0nVOBbDavVveCl",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "M.I.N.E (End This Way)",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "2N8lohLapIF4bRuh3bxQS6",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Mama Said Knock You Out (feat. Tech N9ne)",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "5TYtHFn15WDPvE2UDhbzKT",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Diary of a Deadman",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "44AsfbNAwg3hQIbEIyXVuh",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "I.M.Sin",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "3I94qxxiGfzRQlmTwjZWS4",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Anywhere But Here",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "6OmMs6UcUfKFsoogOdKKaC",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Dot Your Eyes",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "78mffX1VgHOhgkw73hKn9B",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "AfterLife",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "51lcM37Li2HOhk8F8kPwUv",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Street Dreams",
+        "artists": [
+            "Hollywood Undead"
+        ],
+        "trackId": "50pOwvrZmQ3FwYDNtmMP83",
+        "addedAt": "2024-03-20T17:22:53Z"
+    },
+    {
+        "trackName": "Like a Nightmare",
+        "artists": [
+            "Deadset Society"
+        ],
+        "trackId": "6ldfbljsXS4kSuGxSvJTm1",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Automatic",
+        "artists": [
+            "Deadset Society"
+        ],
+        "trackId": "438Y2Pncieie15Trk9Bnkb",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Outside Looking In",
+        "artists": [
+            "Deadset Society"
+        ],
+        "trackId": "0E72vRlJPJhR36CGbgxA3j",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "BFG Division - Doom",
+        "artists": [
+            "Alex Terrible"
+        ],
+        "trackId": "5FuCkxGY4GMDRAFiI0nvY6",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "La Grange - 2005 Remaster",
+        "artists": [
+            "ZZ Top"
+        ],
+        "trackId": "70YvYr2hGlS01bKRIho1HM",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Anxiety (feat. Ricky Armellino)",
+        "artists": [
+            "Currents"
+        ],
+        "trackId": "1KaEruGo58xsUzoh8pCHXa",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Here To Die",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "2DOR01aOsurJWQ1N9U5ng9",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Weight Beneath My Sin",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "3kHdBLnPm5gOc5mNIqa0La",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Wrecking Ball",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "5AhzPOOBY5AIqli0bHYbAC",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Battle Born",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "4wkKpuC990DwNJBsbVIAPJ",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Cradle to the Grave",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "0IY0susCRiZKWwua9xlL74",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Matter of Time",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "4IL1oNPB8vCuyjkUR9EDLY",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "The Agony of Regret",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "5WCAH8bEvv9hxzDkRVeED7",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Cold",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "55LUubN7TG6DhcXAvIO8sm",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Let This Go",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "6kxyQEK786O6spUgn7M1KH",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "My Heart Lied",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "242uc3i40CGarH1Nyfh8Ro",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "A Day in My Life",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "3nWDxOpJm7nRzMXDyWWW1D",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "House of the Rising Sun",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "3cZr1Z832aXANu6a9fifkx",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Kingdom of Storm and Thunder",
+        "artists": [
+            "Alex Terrible"
+        ],
+        "trackId": "7jyCwLajaXwwn4YY6bOatP",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Thunderbird",
+        "artists": [
+            "ZZ Top"
+        ],
+        "trackId": "3yf3Z9pm0i1vXJlpwxezk3",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Behind Bars (with Brantley Gilbert and Struggle Jennings)",
+        "artists": [
+            "Jelly Roll"
+        ],
+        "trackId": "7cc7O93YhNSTUSwzI6uF39",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "IOU",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "3nqpRRpUhwfo6BqibVqeuj",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Living The Dream",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "6AYMGd7RLbwDjYd6lJdIjL",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Blue on Black",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "7nioCrPVTkYopUB1rTvtK1",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Lift Me Up",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "1L82mjibDdF0YAv9FWp00s",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Watch You Bleed",
+        "artists": [
+            "Five Finger Death Punch"
+        ],
+        "trackId": "1yFz5j1B9TqIVwblu6QSUi",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Son Of A Sinner",
+        "artists": [
+            "Jelly Roll"
+        ],
+        "trackId": "6ngGiVX91DRmGDH4G5EgeO",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Sharp Dressed Man - 2008 Remaster",
+        "artists": [
+            "ZZ Top"
+        ],
+        "trackId": "1UBQ5GK8JaQjm5VbkBZY66",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "At Least We Thought It Was - Demo",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2BaF4YXGzNlzReTaO1SMQ0",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "I've Been There Before - Demo",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "4EBa493w2ybnP5D9VPHEpK",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Against The World - Demo",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2GCC4e3wQuwlRl564EX7fu",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Closer Than We've Ever Been - Demo",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "4BFO5Spejf6zeT23E5lnU9",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "You Promised - Demo",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "08AbkvIUrDIJHbQoUmRW20",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Read Me My Rights - Live at Red Rocks",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "6kULHqoySWDSXh6Od9sBzR",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Hell On Wheels - Live at Red Rocks",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "3nqklRK07aZsQekpWOHTEc",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Grown Ass Man - Live at Red Rocks",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "7d7xdSc2b7kULY4XR11lF5",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Outlaw Women - Live at Red Rocks",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "3S4gSDNjfPxmk3OM9Yoq79",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Kick It In The Sticks - Live at Red Rocks",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "3FHAFIfO5nT6KJmGj0zikh",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Hard Days",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2AqbOAAgaNRygNIJYcM69I",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "If You Want A Bad Boy",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "4b9QEoSGgftEImfWIneSjo",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "17 Again",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "7qgsIONiXn49hfU4OfgBSJ",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Bottoms Up",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "477pWnF7WFWb9Qs6g8rs4J",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "That Was Us",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2MTAaxiFnP9j4aqlnrfsYV",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "I'm Gone",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "54bJf67A3yEdidf9z2XY21",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "My Baby's Guns N' Roses",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "0pqXmjMhNVD9oq00BpB2tm",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Lights Of My Hometown",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2iQNTD3soB2hrXng9flo7V",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "One Hell Of An Amen",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2XEl9DfBj88c8p2bdfx1qu",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Small Town Throwdown",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "0rX4YStqUt1k1VEBe1U4HJ",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Let It Ride",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "1ap5ClEPXvy36XRBrtDj9v",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "My Faith In You",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "723w1AOP7CbSbXITdEkf7U",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "G.R.I.T.S.",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "5rVF720uSMg2TszIkZ4ykS",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Read Me My Rights",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "0CrhIYKizM7cLxJVh2AocH",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Grown Ass Man",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "1VgrB3hp9d25KY9TYJ8rk2",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Bottoms Up - Remix",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "6hbwFerDj55bMGZZvcInze",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Do What The Night Wants",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "3cH7XRzvfKXAUjBSpk8zV6",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Stone Cold Sober",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2gbJBL8vlG4j8XuTnmsXnq",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Same Old Song",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "63eoVP7u5vjvV0oNcZo4W3",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Just As I Am",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "12BI7se1InCsCQW0TOwYlE",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "What Happens In A Small Town",
+        "artists": [
+            "Brantley Gilbert",
+            "Lindsay Ell"
+        ],
+        "trackId": "3g9OCNXY2aSbGRQGY17qVE",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "My Baby's Guns N' Roses",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "0xEGbbtf0SgJxy7aLB7Kc1",
+        "addedAt": "2024-03-20T17:22:52Z"
+    },
+    {
+        "trackName": "Rolex\u00ae On A Redneck",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "1z4DZ2z4Lt5dlBcBFmtYyR",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Bury Me Upside Down - 2023",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "5CxCg7yCAA6YZ8P6XurAxa",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Not Like Us",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "0Mb1VQyXB8DcYBtCLN59gR",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Gone But Not Forgotten",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "1lJuY06cD1aBtPJ4Xh9LFK",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Hell On Wheels",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "18WhWzFnqEbE04y4H5Y13z",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Bending The Rules And Breaking The Law",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "1G2TUxQCyUieOl4maQErch",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Back In The Day",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "1gFvsKNdzRkNF1XMdK6Ke1",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "My Kind Of Crazy",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "4FcOYKkhIXgvO787zu0Cxy",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Kick It In The Sticks",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "01ZepwW5W3Z4fwl4bzaHyY",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Halfway To Heaven",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2QEQFkPeC1F61D0WDU3xuO",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Saving Amy",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "0iED9oTgJbZ7wuKBrZOjkl",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Country Must Be Country Wide",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "454JIJlQ8GvrCoBvSfq3KA",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Take It Outside",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "6qjcR3YhnmZ8qT7BGOXLR6",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Them Boys",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "0hpOoqJXIzuMnVz2vhSwNt",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Fall Into Me",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2MedaqRcSsxA1hiiXGoK7s",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Dirt Road Anthem (Revisited)",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "13KyJdVV5uKFdwwkJiK7Vc",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "More Than Miles",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "28ov70yrukmJDAFtiThdTS",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "You Don't Know Her Like I Do",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "4WnY4W5KrqglCdIus8X9Bo",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Hell On An Angel",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "1fJFIngJHiI3upOXCb1hkJ",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Off The Rails",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "6h3eHLBhpWL5KQLRKxXz76",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Son Of The Dirty South",
+        "artists": [
+            "Brantley Gilbert",
+            "Jelly Roll"
+        ],
+        "trackId": "5lWWNi2dh0egWU7l2l6UM1",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Welcome To Hazeville",
+        "artists": [
+            "Brantley Gilbert",
+            "Colt Ford"
+        ],
+        "trackId": "7KDyGBkjIGoyHN9i6vrQrR",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Fire\u2019t Up",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "748wrs9n0dSXFyY3VRZB9w",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Not Like Us",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "6GdCj32q4puZ1haV6Kh2z2",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Rockin' Chairs",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "4vcTG3BarJqJYkGJ7tlGXR",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "The Ones That Like Me",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "0HmJATZAiKmDJqh74w0AMu",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "The Weekend",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "4pgH1FyU6pAaKPMzg7pSZ7",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "You Could Be That Girl",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "39SXHWT5PamE2pkmz81tV8",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Smokin' Gun",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "7vSxxvyj24QexV3VwY745a",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Bro Code",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "32GZj6UM3cRu2mskIPPtI2",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "It's About To Get Dirty",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "5oRpAWHxDJIsxvGcsgGuD4",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Tried To Tell Ya",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "5pqVaDooeAB8gEhoBITJFq",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "In My Head",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "6nhUH7Ovj9byknzMscUZ4K",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Way Back",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "4lPrOkZ6gTQW0EFm2nw37d",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Baby Be Crazy",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "5QI5JbzF85LRE4DNIL5gIM",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Outlaw In Me",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "7Iuee2005TlARd0bAG4A0d",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Bullet In A Bonfire",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2PLW2C2iFTjY818U1wdVEx",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "The Devil Don't Sleep",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "39PAjE1Riqpd02ttPYSfEN",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "We're Gonna Ride Again",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "2p3e6BEluuTCZ8UzodClUK",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Three Feet Of Water",
+        "artists": [
+            "Brantley Gilbert"
+        ],
+        "trackId": "6t7fw5QJG7yzIc4yTU1IoE",
+        "addedAt": "2024-03-20T17:22:51Z"
+    },
+    {
+        "trackName": "Common Dread // Constant Threat",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "0GV4qlUqgq0LFcOkdKKtxf",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Disarray",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "1mMJsuMiHNmRuusm2OPOJy",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Alive (Instrumental)",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "6YOfv61CiS5Ge6rKIZGXWN",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Haunted Dreams (Instrumental)",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "7GLBFFDzBF2pKk5a4RoDlJ",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Hollow Home (Instrumental)",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "6WesP7PDkMCwsK1fA90tia",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Nothing Lasts Forever (Instrumental)",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "7BUi4JBuMfstO0M0g0RqcU",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Common Dread // Constant Threat (Instrumental)",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "75Lhz4HjWAJOU4wAfw9wYe",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Disarray (Instrumental)",
+        "artists": [
+            "Sail's End"
+        ],
+        "trackId": "6yRC84mxEuZ0zp6RtMTRTO",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "In My Skin",
+        "artists": [
+            "Lionheart"
+        ],
+        "trackId": "6TBcOZTXOlspz4wlUpt1fu",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "DO IT LIKE",
+        "artists": [
+            "HourHouse"
+        ],
+        "trackId": "4JNvbFZcpUFfYJQmNZc0Va",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Lost In The Static",
+        "artists": [
+            "After The Burial"
+        ],
+        "trackId": "7zKoAeplPMS3bcqIZ4crp4",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "You Asked for It",
+        "artists": [
+            "Emmure"
+        ],
+        "trackId": "0diSnstejl46AiNC2ISoeW",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "IN THE END",
+        "artists": [
+            "Nate Vickers",
+            "Ekoh"
+        ],
+        "trackId": "0gP9Ya4jRd3dcYmMJZFNXE",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Creep",
+        "artists": [
+            "Alpha Wolf"
+        ],
+        "trackId": "0MLktMbt74tMfIg4tAZqbU",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "The Orphan",
+        "artists": [
+            "Paleface Swiss"
+        ],
+        "trackId": "1maGwMYv6cakqEGHbDd17h",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "False Idol",
+        "artists": [
+            "Bury the Darkness"
+        ],
+        "trackId": "0Su1pywnvLSbPnYE8NAfGA",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Blood In the Dirt",
+        "artists": [
+            "Artizan",
+            "FFM"
+        ],
+        "trackId": "2UcH8VQ4pbU6cvmGbWWOb6",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "All American Nightmare",
+        "artists": [
+            "Hinder"
+        ],
+        "trackId": "51HpNM8RKewP5PAuBLqXwy",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Too Far Gone",
+        "artists": [
+            "Cane Hill"
+        ],
+        "trackId": "7jx7ekt4QjmMExl041n5zD",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Born To Be Wild - Single Version",
+        "artists": [
+            "Steppenwolf"
+        ],
+        "trackId": "3lN8PP6R2IxbLP05QpYXng",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "Stick to Drawing",
+        "artists": [
+            "conscience"
+        ],
+        "trackId": "3pqyev1pzIN7HSWH9BefhG",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "TIL THE HEARSE COME",
+        "artists": [
+            "conscience"
+        ],
+        "trackId": "6NHGlhtXdbEpg8Faz6HsWo",
+        "addedAt": "2024-03-19T21:27:46Z"
+    },
+    {
+        "trackName": "The Search",
+        "artists": [
+            "The Animal In Me"
+        ],
+        "trackId": "0wAHupWI8ZuJlaTo5EON09",
+        "addedAt": "2024-03-19T21:27:45Z"
+    },
+    {
+        "trackName": "Complex",
+        "artists": [
+            "Zimm"
+        ],
+        "trackId": "7afx8v2ZlJxKm2qLJjhHE2",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Song of the South",
+        "artists": [
+            "Alabama"
+        ],
+        "trackId": "2uX5f3x2cObov0iDAPln4o",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "The Hunter",
+        "artists": [
+            "Adam Jensen"
+        ],
+        "trackId": "0HoxJw3Gt3w4psA1cC3Yn7",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "When Legends Rise",
+        "artists": [
+            "Godsmack"
+        ],
+        "trackId": "1Si7crvw1M6Kgz9XiAtMiJ",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Alive",
+        "artists": [
+            "Tigress"
+        ],
+        "trackId": "2JW8bob6y2m8fTQETirGxK",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Die in This Town",
+        "artists": [
+            "The Seige"
+        ],
+        "trackId": "0bqrFwY1HixfnusFxhYbDl",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Whatever It Takes",
+        "artists": [
+            "Stephen Stanley"
+        ],
+        "trackId": "5qrU9pGRCBcs0YTE65hH12",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "HATE ME",
+        "artists": [
+            "rustpr"
+        ],
+        "trackId": "5XKtdlc7hB4yQN5TawXnKy",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "The Fall Of Earth",
+        "artists": [
+            "Anonymuz"
+        ],
+        "trackId": "5P97cNrQfTUw9j72Mx8P3b",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Deadwood",
+        "artists": [
+            "Really Slow Motion"
+        ],
+        "trackId": "5nyef8bHyXaglyArVUNlre",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Arrival",
+        "artists": [
+            "Hopsin"
+        ],
+        "trackId": "2LmrdqCwPX0HVIJYYMp1CT",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Make Believe",
+        "artists": [
+            "Catalust"
+        ],
+        "trackId": "4ffdlLMT2LZSUOitizihbg",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Evoke",
+        "artists": [
+            "Our Promise"
+        ],
+        "trackId": "7bUtuF3qbiDkjWbQOOsBvz",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Where Light Divides the Holler",
+        "artists": [
+            "Knocked Loose"
+        ],
+        "trackId": "6BVH6nyMBj601mSaUbbqKc",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Last One Standing (feat. Polo G, Mozzy & Eminem) - From Venom: Let There Be Carnage",
+        "artists": [
+            "Skylar Grey",
+            "Polo G",
+            "Eminem"
+        ],
+        "trackId": "3r9m79pHykbs4FrCXlq1oO",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Not Meant to Be",
+        "artists": [
+            "Theory of a Deadman"
+        ],
+        "trackId": "5xyACR2lzIyzFepF4qlAas",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Death Whistle",
+        "artists": [
+            "Signs of the Swarm"
+        ],
+        "trackId": "1vUjqIGapgMyAFXOLUrYHO",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Spartan",
+        "artists": [
+            "Midi Monstaz"
+        ],
+        "trackId": "0hxWhpWdSOIll5zB3U8l9D",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Galactic Order",
+        "artists": [
+            "Assemble the Chariots"
+        ],
+        "trackId": "4fTYgx1L02Uni6fnSbi93F",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "If You're Gonna Play in Texas (You Gotta Have a Fiddle in the Band)",
+        "artists": [
+            "Alabama"
+        ],
+        "trackId": "225W9qCk2o51QyFZiEVDW9",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "No Particular Place To Go",
+        "artists": [
+            "Chuck Berry"
+        ],
+        "trackId": "3qt3ybU6MScMxMKL2TYBvt",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "You Never Can Tell",
+        "artists": [
+            "Chuck Berry"
+        ],
+        "trackId": "6FT83pFXKhDlXDsNJFAHWz",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Basileus Rise",
+        "artists": [
+            "SAPPHYR"
+        ],
+        "trackId": "3vYrIcdKdpHP6Y8d0VE74m",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Spit",
+        "artists": [
+            "Earthshatter"
+        ],
+        "trackId": "50uhwbJvDSYMbPZo1uO7ih",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Flash Bang",
+        "artists": [
+            "Fukkit",
+            "Dutchman"
+        ],
+        "trackId": "4svrshpdIytbEI2RSt0ctO",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Be Somebody",
+        "artists": [
+            "Thousand Foot Krutch"
+        ],
+        "trackId": "33MnSYLvtOrbj5zwfioEiH",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "War of Change",
+        "artists": [
+            "Thousand Foot Krutch"
+        ],
+        "trackId": "1qUHD9oPIMFHKpR12NY2KC",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "ZOMBIE",
+        "artists": [
+            "Mirrorcell"
+        ],
+        "trackId": "0lHLbClbEmIBnOh4aBE6f5",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Johnny B. Goode",
+        "artists": [
+            "Chuck Berry"
+        ],
+        "trackId": "2QfiRTz5Yc8DdShCxG1tB2",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Roll Over Beethoven",
+        "artists": [
+            "Chuck Berry"
+        ],
+        "trackId": "6C7aTTCUWRK7dD379yUT3W",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Blameless",
+        "artists": [
+            "If Not For Me"
+        ],
+        "trackId": "7y5A9nnNw6ZF3fQyrkZEeL",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Aura",
+        "artists": [
+            "ONI"
+        ],
+        "trackId": "62WghXe4ZEhaydOF1E1S8v",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "One Shell at a Time (feat. Wess Nyle & Cymple Man)",
+        "artists": [
+            "Racket County",
+            "The Lacs",
+            "Hard Target"
+        ],
+        "trackId": "0r8iGbLdoHwmm7sqnkrqLa",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Unstoppable",
+        "artists": [
+            "The Score"
+        ],
+        "trackId": "6rrKbzJGGDlSZgLphopS49",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Fallout",
+        "artists": [
+            "ENOX"
+        ],
+        "trackId": "6JPp8fS5WXfqKwEaAIhimH",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Finish Line",
+        "artists": [
+            "Skillet"
+        ],
+        "trackId": "2GJ1xx5ZoeIJYbQKLSpoZ3",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Battle of the Heroes",
+        "artists": [
+            "John Williams"
+        ],
+        "trackId": "1u3nu8fNWFua6mQjw4ReEt",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Anakin's Betrayal",
+        "artists": [
+            "John Williams"
+        ],
+        "trackId": "4sLtmtKMmA5iCIa90tWhSe",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Til I Die",
+        "artists": [
+            "THEY.",
+            "Dillon Francis"
+        ],
+        "trackId": "5rTcQ0Mw0YxGEMLVlwzOdm",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "I'm Gonna Get What's Mine",
+        "artists": [
+            "Graffiti Ghosts"
+        ],
+        "trackId": "4Jhw0vhoq9UlfmMN9lGXrL",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Last Man Standing",
+        "artists": [
+            "Graffiti Ghosts"
+        ],
+        "trackId": "6l7ydMQraSCbbSLVNNW4EW",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "This Is What I Live For",
+        "artists": [
+            "Graffiti Ghosts"
+        ],
+        "trackId": "4T8P9izNCLzimT1aiMT7te",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "All My Life",
+        "artists": [
+            "Attack Attack!"
+        ],
+        "trackId": "60ICDcC995UF0nu85r75qV",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Enemy",
+        "artists": [
+            "Brand of Sacrifice"
+        ],
+        "trackId": "2sjE0P1Qtnhx8cIMyTynic",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Everything You Wanted",
+        "artists": [
+            "If Not For Me"
+        ],
+        "trackId": "3BrT8IC9flGHw78gzPLifE",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Made For This",
+        "artists": [
+            "Graffiti Ghosts"
+        ],
+        "trackId": "0fuAUinQdNDd1Zmg3lZSwe",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Miracle",
+        "artists": [
+            "A Day To Remember"
+        ],
+        "trackId": "2ah5gOCogw00A62XBoepmc",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "damn! (with Chad Kroeger) [Remix]",
+        "artists": [
+            "Jeris Johnson",
+            "Ricky Desktop",
+            "Chad Kroeger"
+        ],
+        "trackId": "3IO95XfEPBkCYAxgCFREuK",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Fight For Me",
+        "artists": [
+            "GAWVI"
+        ],
+        "trackId": "0mfpBXjYkiYt4Qrr2aFQ6U",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Severance",
+        "artists": [
+            "Guilt Trip"
+        ],
+        "trackId": "6HsWsEwUfC10y95VxMcIZP",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Death Is Not Defeat",
+        "artists": [
+            "Architects"
+        ],
+        "trackId": "5T1uebljPkznNMQHnBnPDy",
+        "addedAt": "2024-03-19T21:27:44Z"
+    },
+    {
+        "trackName": "Doomsday",
+        "artists": [
+            "Architects"
+        ],
+        "trackId": "6NvFnHaFXUttOycsNjD0YM",
+        "addedAt": "2024-03-19T21:27:44Z"
+    }
+]

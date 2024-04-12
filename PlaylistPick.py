@@ -23,13 +23,19 @@ class pickPlaylist():
             add = f'{name} {owner} {count}'
             lb.insert(END, add)
         lb.pack()
-        b = Button(frame, text='Confirm', command=lambda: self.select(frame, nextPage, lb))
+        b = Button(frame, text='Confirm', command=lambda: self.select(root, frame, nextPage, lb, playlists))
         b.pack()
-    def select(self, frame, nextPage, lb):
+    def select(self, root, frame, nextPage, lb, playlists):
         selected = lb.curselection()
-        print([lb.get(i) for i in selected])
+        hold = [lb.get(i) for i in selected]
+
+        for j in playlists:
+            if j['Playlist Name'] in hold[0]:
+                playlist = j
+                break
         if nextPage == 'cleanPlayDate':
-            n = cleanByDate(selected)
+            root.title('Clean Playlist By Date')
+            n = cleanByDate(frame, playlist, authItems)
 
 
     def getUserPlaylists(self):
