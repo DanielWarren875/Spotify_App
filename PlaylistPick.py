@@ -4,11 +4,9 @@ import json
 from Screens.cleanByDateScreen import *
 userId = ''
 class pickPlaylist():
-    def __init__(self, frame, nextPage, root, auth, cont):
+    def __init__(self, frame, nextPage, root, auth):
         global userId
         global authItems
-        global con
-        con = cont
         authItems = auth
         root.title('Pick a Playlist')
         if userId == '':
@@ -23,8 +21,11 @@ class pickPlaylist():
             add = f'{name} {owner} {count}'
             lb.insert(END, add)
         lb.pack()
+        back = Button(frame, text='Back', command=lambda: self.back())
         b = Button(frame, text='Confirm', command=lambda: self.select(root, frame, nextPage, lb, playlists))
         b.pack()
+    def back(self, frame):
+        print('Yes')
     def select(self, root, frame, nextPage, lb, playlists):
         selected = lb.curselection()
         hold = [lb.get(i) for i in selected]
@@ -39,19 +40,22 @@ class pickPlaylist():
 
 
     def getUserPlaylists(self):
-        url = f'https://api.spotify.com/v1/users/{userId}/playlists'
+        url = f'https://api.spotify.com/v1/me/playlists'
         header = {
             'Authorization': authItems['type'] + ' ' + authItems['accessTok']
         }
         r = requests.get(url=url, headers=header)
+        print(r.text)
         x = json.loads(r.text)
         next = x['next']
         ownerPlay = []
         ownerPlay.append(self.getLikedPlaylistInfo())
         #otherPlay = []
+        
         while next != None:
             url = next
             items = x['items']
+            
             for i in items:
                 owner = i['owner']['id']
                 name = i['name']
