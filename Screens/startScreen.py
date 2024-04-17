@@ -1,5 +1,6 @@
 from tkinter import *
 from Controller import *
+from authItems import * 
 import base64
 import random
 import string
@@ -10,10 +11,12 @@ import json
 import webbrowser
 
 class start():
-    def __init__(self, framer, controller, root1):
+    def __init__(self, framer, controller, root1, authItems1):
         global frame
         global con
         global root
+        global authItems
+        authItems = authItems1
         frame = framer
         con = controller
         root = root1
@@ -21,7 +24,6 @@ class start():
         b.pack()
 
     def startProgram(self, start):
-        global authItems
         f = open('AuthItems.json', 'r')
         if os.stat('/Users/danielwarren/Desktop/Spotify_App/AuthItems.json').st_size != 0:
             x = json.load(f)
@@ -37,7 +39,9 @@ class start():
                     'Access_Time': x['Access_Time'],
                     'Expire_Time': x['Expire_Time']
                 }
-                con.pickPage(root, 'Main', frame, authItems)
+                items = authenticateItems()
+                items.setAuthItems(authItems)
+                con.pickPage(root, 'Main', frame, items)
                 return
         c = 'bf9fd0131e0a4c56ab5ec69dc87befc3'
         s = '9ab7c1a94f2841d6bb97102680edd97d'
@@ -94,7 +98,9 @@ class start():
             'Access_Time': now,
             'Expire_Time': expTime
         }
-
+        a = authenticateItems()
+        a.setAuthItems(items=authItems)
         f = open('AuthItems.json', 'w')
         json.dump(authItems, f, indent=4)
-        con.pickPage(root, 'Main', frame, authItems)
+        con.pickPage(root, 'Main', frame, a)
+

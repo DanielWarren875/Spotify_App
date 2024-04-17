@@ -2,12 +2,13 @@ from tkinter import *
 import requests
 import json
 from Screens.cleanByDateScreen import *
+from authItems import *
 userId = ''
 class pickPlaylist():
     def __init__(self, frame, nextPage, root, auth):
         global userId
         global authItems
-        authItems = auth
+        authItems = auth.getAuthItems()
         root.title('Pick a Playlist')
         if userId == '':
             userId = self.getUserId()
@@ -24,8 +25,6 @@ class pickPlaylist():
         back = Button(frame, text='Back', command=lambda: self.back())
         b = Button(frame, text='Confirm', command=lambda: self.select(root, frame, nextPage, lb, playlists))
         b.pack()
-    def back(self, frame):
-        print('Yes')
     def select(self, root, frame, nextPage, lb, playlists):
         selected = lb.curselection()
         hold = [lb.get(i) for i in selected]
@@ -45,7 +44,6 @@ class pickPlaylist():
             'Authorization': authItems['type'] + ' ' + authItems['accessTok']
         }
         r = requests.get(url=url, headers=header)
-        print(r.text)
         x = json.loads(r.text)
         next = x['next']
         ownerPlay = []

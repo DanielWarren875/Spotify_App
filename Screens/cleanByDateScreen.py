@@ -62,7 +62,6 @@ class cleanByDate():
         years = []
         earliest = trackInfo[len(trackInfo) - 1]['addedAt']
         latest = trackInfo[0]['addedAt']
-        print(f'{earliest} {latest}')
         for i in range(2015, datetime.datetime.now().year + 1):
             years.append(i)
         months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
