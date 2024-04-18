@@ -1,8 +1,10 @@
 from tkinter import *
 import requests
 import json
+from Screens.RevertScreen import *
 from Screens.cleanByDateScreen import *
 from authItems import *
+
 userId = ''
 class pickPlaylist():
     def __init__(self, frame, nextPage, root, auth):
@@ -14,7 +16,7 @@ class pickPlaylist():
             userId = self.getUserId()
         playlists = self.getUserPlaylists()
         length = len(playlists)
-        lb = Listbox(frame, selectmode=SINGLE, height=length)
+        lb = Listbox(frame, selectmode=SINGLE, height=length, width=200)
         for i in playlists:
             name = i['Playlist Name']
             owner = i['Owner']
@@ -22,7 +24,7 @@ class pickPlaylist():
             add = f'{name} {owner} {count}'
             lb.insert(END, add)
         lb.pack()
-        back = Button(frame, text='Back', command=lambda: self.back())
+        
         b = Button(frame, text='Confirm', command=lambda: self.select(root, frame, nextPage, lb, playlists))
         b.pack()
     def select(self, root, frame, nextPage, lb, playlists):
@@ -36,6 +38,9 @@ class pickPlaylist():
         if nextPage == 'cleanPlayDate':
             root.title('Clean Playlist By Date')
             n = cleanByDate(frame, playlist, authItems)
+        elif nextPage == 'Revert':
+            root.title('Revert Playlist to Previous Version')
+            r = revertScreen(frame, authItems, playlist)
 
 
     def getUserPlaylists(self):

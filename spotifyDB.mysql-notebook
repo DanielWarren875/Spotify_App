@@ -2,7 +2,7 @@
     "type": "MySQLNotebook",
     "version": "1.0",
     "caption": "DB Notebook",
-    "content": "\\about\nuse spotify;\n\ncreate table users(\n    userId varchar(100) PRIMARY KEY\n);\n\nCREATE table playlists(\n    owner VARCHAR(100),\n    playlistName VARCHAR(100),\n    versionNum INT AUTO_INCREMENT UNIQUE,\n    PRIMARY KEY(playlistName, versionNum)\n);\n\nCREATE table tracks(\n    playlistName VARCHAR(100),\n    versionNum INT UNIQUE,\n    trackName VARCHAR(100),\n    artists VARCHAR(100),\n    trackId VARCHAR(100) PRIMARY KEY,\n    FOREIGN KEY (playlistName) REFERENCES playlists(playlistName),\n    FOREIGN KEY (versionNum) REFERENCES playlists(versionNum)\n);\n\nDELETE from users WHERE userId=\"cydawg99\";\nDELETE from playlists WHERE owner=\"cydawg99\";\n\n",
+    "content": "\\about\nuse spotify;\n\ncreate table users(\n    userId varchar(100) PRIMARY KEY\n);\n\nCREATE table playlists(\n    owner VARCHAR(100),\n    playlistName VARCHAR(100),\n    versionNum INT AUTO_INCREMENT UNIQUE,\n    PRIMARY KEY(playlistName, versionNum)\n);\n\nCREATE table tracks(\n    playlistName VARCHAR(100),\n    versionNum INT UNIQUE,\n    trackName VARCHAR(100),\n    artists VARCHAR(100),\n    trackId VARCHAR(100) PRIMARY KEY,\n    FOREIGN KEY (playlistName) REFERENCES playlists(playlistName),\n    FOREIGN KEY (versionNum) REFERENCES playlists(versionNum)\n);\n\n",
     "options": {
         "tabSize": 4,
         "insertSpaces": true,
@@ -15,11 +15,11 @@
             {
                 "inSelectionMode": false,
                 "selectionStart": {
-                    "lineNumber": 28,
+                    "lineNumber": 24,
                     "column": 1
                 },
                 "position": {
-                    "lineNumber": 28,
+                    "lineNumber": 24,
                     "column": 1
                 }
             }
@@ -27,10 +27,10 @@
         "viewState": {
             "scrollLeft": 0,
             "firstPosition": {
-                "lineNumber": 12,
+                "lineNumber": 8,
                 "column": 1
             },
-            "firstPositionDeltaTop": -17
+            "firstPositionDeltaTop": -1
         },
         "contributionsState": {
             "editor.contrib.folding": {},
@@ -71,23 +71,9 @@
         {
             "state": {
                 "start": 2,
-                "end": 26,
+                "end": 24,
                 "language": "mysql",
-                "result": {
-                    "type": "text",
-                    "text": [
-                        {
-                            "type": 0,
-                            "index": 5,
-                            "content": "MySQL Error (1205): ClassicSession.run_sql: Lock wait timeout exceeded; try restarting transaction",
-                            "language": "ansi"
-                        }
-                    ],
-                    "executionInfo": {
-                        "text": ""
-                    }
-                },
-                "currentHeight": 40,
+                "currentHeight": 28,
                 "statements": [
                     {
                         "delimiter": ";",
@@ -129,19 +115,10 @@
                         "delimiter": ";",
                         "span": {
                             "start": 543,
-                            "length": 44
+                            "length": 1
                         },
-                        "contentStart": 546,
-                        "state": 0
-                    },
-                    {
-                        "delimiter": ";",
-                        "span": {
-                            "start": 587,
-                            "length": 46
-                        },
-                        "contentStart": 589,
-                        "state": 0
+                        "contentStart": 542,
+                        "state": 3
                     }
                 ]
             },
@@ -149,28 +126,8 @@
         },
         {
             "state": {
-                "start": 27,
-                "end": 27,
-                "language": "mysql",
-                "currentHeight": 180,
-                "statements": [
-                    {
-                        "delimiter": ";",
-                        "span": {
-                            "start": 0,
-                            "length": 0
-                        },
-                        "contentStart": 1,
-                        "state": 0
-                    }
-                ]
-            },
-            "data": []
-        },
-        {
-            "state": {
-                "start": 28,
-                "end": 28,
+                "start": 25,
+                "end": 25,
                 "language": "mysql",
                 "currentHeight": 180,
                 "statements": [
