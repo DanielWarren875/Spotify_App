@@ -6,7 +6,6 @@ from authItems import *
 from Screens.RevertScreen import *
 
 r = revertScreen()
-'''
 root = Tk()
 root.title('Start')
 root.geometry('500x500')
@@ -16,4 +15,3 @@ con = Controller()
 a = authenticateItems()
 con.pickPage(root, 'Start', frame, a)
 root.mainloop()
-'''

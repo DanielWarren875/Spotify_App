@@ -37,7 +37,8 @@ class start():
                     'refreshTok': x['refreshTok'],
                     'scope': x['scope'], 
                     'Access_Time': x['Access_Time'],
-                    'Expire_Time': x['Expire_Time']
+                    'Expire_Time': x['Expire_Time'],
+                    'UserId': x['UserId']
                 }
                 items = authenticateItems()
                 items.setAuthItems(authItems)
@@ -89,6 +90,13 @@ class start():
         now = datetime.datetime.now()
         expTime = str(now + datetime.timedelta(seconds=3600))
         now = str(now)
+        url = 'https://api.spotify.com/v1/me'
+        headers = {
+            'Authorization': x['token_type'] + ' ' + x['access_token']
+        }
+        r = requests.get(url=url, headers=headers)
+        y = json.loads(r.text)
+
         authItems = {
             'accessTok': x['access_token'],
             'type': x['token_type'],
@@ -96,9 +104,11 @@ class start():
             'refreshTok': x['refresh_token'],
             'scope': x['scope'], 
             'Access_Time': now,
-            'Expire_Time': expTime
+            'Expire_Time': expTime,
+            'UserId': y['id']
         }
         a = authenticateItems()
+        print(authItems)
         a.setAuthItems(items=authItems)
         f = open('AuthItems.json', 'w')
         json.dump(authItems, f, indent=4)

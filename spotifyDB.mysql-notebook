@@ -2,11 +2,11 @@
     "type": "MySQLNotebook",
     "version": "1.0",
     "caption": "DB Notebook",
-    "content": "\\about\nuse spotify;\n\ncreate table users(\n    userId varchar(100) PRIMARY KEY\n);\n\nCREATE table playlists(\n    owner VARCHAR(100),\n    playlistName VARCHAR(100) PRIMARY KEY,\n    versionNum INT AUTO_INCREMENT UNIQUE,\n    FOREIGN KEY (owner) REFERENCES users(userId)\n);\n\nCREATE table tracks(\n    playlistName VARCHAR(100),\n    versionNum INT UNIQUE,\n    trackName VARCHAR(100),\n    artists VARCHAR(100),\n    trackId VARCHAR(100) PRIMARY KEY,\n    FOREIGN KEY (playlistName) REFERENCES playlists(playlistName),\n    FOREIGN KEY (versionNum) REFERENCES playlists(versionNum)\n);\n\n",
+    "content": "\\about\nuse spotify;\n\ncreate table users(\n    userId varchar(100) PRIMARY KEY\n);\n\nCREATE table playlists(\n    owner VARCHAR(100),\n    playlistName VARCHAR(100),\n    versionNum INT AUTO_INCREMENT UNIQUE,\n    PRIMARY KEY(playlistName, versionNum)\n);\n\nCREATE table tracks(\n    playlistName VARCHAR(100),\n    versionNum INT UNIQUE,\n    trackName VARCHAR(100),\n    artists VARCHAR(100),\n    trackId VARCHAR(100) PRIMARY KEY,\n    FOREIGN KEY (playlistName) REFERENCES playlists(playlistName),\n    FOREIGN KEY (versionNum) REFERENCES playlists(versionNum)\n);\n\nDELETE from users WHERE userId=\"cydawg99\";\nDELETE from playlists WHERE owner=\"cydawg99\";\n\n",
     "options": {
         "tabSize": 4,
-        "indentSize": 4,
         "insertSpaces": true,
+        "indentSize": 4,
         "defaultEOL": "LF",
         "trimAutoWhitespace": true
     },
@@ -15,22 +15,22 @@
             {
                 "inSelectionMode": false,
                 "selectionStart": {
-                    "lineNumber": 10,
-                    "column": 43
+                    "lineNumber": 28,
+                    "column": 1
                 },
                 "position": {
-                    "lineNumber": 10,
-                    "column": 43
+                    "lineNumber": 28,
+                    "column": 1
                 }
             }
         ],
         "viewState": {
             "scrollLeft": 0,
             "firstPosition": {
-                "lineNumber": 4,
+                "lineNumber": 12,
                 "column": 1
             },
-            "firstPositionDeltaTop": -10
+            "firstPositionDeltaTop": -17
         },
         "contributionsState": {
             "editor.contrib.folding": {},
@@ -71,20 +71,23 @@
         {
             "state": {
                 "start": 2,
-                "end": 24,
+                "end": 26,
                 "language": "mysql",
                 "result": {
                     "type": "text",
                     "text": [
                         {
-                            "type": 4,
-                            "index": 3,
-                            "resultId": "f3dfbf46-f335-41bb-fcc0-cff98b7e60dc",
-                            "content": "OK, 0 records retrieved in 34.327ms"
+                            "type": 0,
+                            "index": 5,
+                            "content": "MySQL Error (1205): ClassicSession.run_sql: Lock wait timeout exceeded; try restarting transaction",
+                            "language": "ansi"
                         }
-                    ]
+                    ],
+                    "executionInfo": {
+                        "text": ""
+                    }
                 },
-                "currentHeight": 28,
+                "currentHeight": 40,
                 "statements": [
                     {
                         "delimiter": ";",
@@ -108,7 +111,7 @@
                         "delimiter": ";",
                         "span": {
                             "start": 72,
-                            "length": 186
+                            "length": 167
                         },
                         "contentStart": 74,
                         "state": 0
@@ -116,20 +119,29 @@
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 258,
+                            "start": 239,
                             "length": 304
                         },
-                        "contentStart": 260,
+                        "contentStart": 241,
                         "state": 0
                     },
                     {
                         "delimiter": ";",
                         "span": {
-                            "start": 562,
-                            "length": 1
+                            "start": 543,
+                            "length": 44
                         },
-                        "contentStart": 561,
-                        "state": 3
+                        "contentStart": 546,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 587,
+                            "length": 46
+                        },
+                        "contentStart": 589,
+                        "state": 0
                     }
                 ]
             },
@@ -137,8 +149,28 @@
         },
         {
             "state": {
-                "start": 25,
-                "end": 25,
+                "start": 27,
+                "end": 27,
+                "language": "mysql",
+                "currentHeight": 180,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 1,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 28,
+                "end": 28,
                 "language": "mysql",
                 "currentHeight": 180,
                 "statements": [
