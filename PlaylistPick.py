@@ -2,6 +2,7 @@ from tkinter import *
 import requests
 import json
 from Screens.RevertScreen import *
+from Screens.cleanByArt import cleanByArt
 from Screens.cleanByDateScreen import *
 from authItems import *
 
@@ -38,6 +39,9 @@ class pickPlaylist():
         if nextPage == 'cleanPlayDate':
             root.title('Clean Playlist By Date')
             n = cleanByDate(frame, playlist, authItems)
+        elif nextPage == 'cleanPlayArt':
+            root.title('Clean Playlist By Artist')
+            n = cleanByArt(frame, playlist, authItems)
         elif nextPage == 'Revert':
             root.title('Revert Playlist to Previous Version')
             r = revertScreen(frame, authItems, playlist)

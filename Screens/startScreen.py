@@ -1,7 +1,6 @@
 from tkinter import *
 from Controller import *
 from authItems import * 
-from DBInteraction import *
 import base64
 import random
 import string
@@ -112,8 +111,5 @@ class start():
         a.setAuthItems(items=authItems)
         f = open('AuthItems.json', 'w')
         json.dump(authItems, f, indent=4)
-
-        db = dbInteraction()
-        db.inputValueToUsers('users', 'userId', userId)
         con.pickPage(root, 'Main', frame, a)
 

@@ -18,7 +18,6 @@ class cleanByDate():
         r = requests.get(url=url, headers=header)
         x = json.loads(r.text)
         next = x['next']
-        earliest = datetime.datetime.now()
         while next != None:
             items = x['items']
             for i in items:
@@ -61,8 +60,9 @@ class cleanByDate():
             trackInfo.append(info)
         years = []
         earliest = trackInfo[len(trackInfo) - 1]['addedAt']
-        latest = trackInfo[0]['addedAt']
-        for i in range(2015, datetime.datetime.now().year + 1):
+        #latest = trackInfo[0]['addedAt']
+        earliest = datetime.datetime.strptime(earliest, '%Y-%m-%dT%H:%M:%SZ')
+        for i in range(earliest.year, datetime.datetime.now().year + 1):
             years.append(i)
         months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
         days = []

@@ -6,6 +6,9 @@ from PlaylistPick import *
 from Screens.QuitScreen import *
 from Screens.startScreen import start
 class Controller():
+    def __init__(self, root, frame, authItems):
+        global back
+        back = Button(root, text='Back to Main', command=lambda: self.pickPage(root, 'Main', frame, authItems))
     def pickPage(self, root, page, frame, authItems):
         self.clearFrame(frame)
         if page == 'Start':
@@ -13,32 +16,28 @@ class Controller():
         elif page == 'Main':
             self.clearFrame(frame)
             root.title('Main')
+            back.forget()
             m = MainScreen(frame, self, root, authItems)
         elif page == 'cleanPlayDate':
             self.clearFrame(frame)
-            back = Button(root, text='Back to Main', command=lambda: self.pickPage(root, 'Main', frame, authItems))
             back.pack()
             n = pickPlaylist(frame, page, root, authItems)
         elif page == 'cleanPlayArt':
             self.clearFrame(frame)
-            back = Button(root, text='Back to Main', command=self.pickPage(root, 'Main', frame, authItems))
-            #back.pack()
-            n = pickPlaylist(root, page, root, authItems, con)
+            back.pack()
+            n = pickPlaylist(frame, page, root, authItems)
         elif page == 'cleanPlayUser':
             self.clearFrame(frame)
-            back = Button(root, text='Back to Main', command=self.pickPage(root, 'Main', frame, authItems))
-            #back.pack()
-            n = pickPlaylist(root, page, root, authItems, con)
+            back.pack()
+            n = pickPlaylist(frame, page, root, authItems)
         elif page == 'revert':
             self.clearFrame(frame)
-            back = Button(root, text='Back to Main Screen', command=self.pickPage(root, 'Main', frame, authItems))
-            #back.pack()
-            pickPlaylist(frame, page, root, authItems)
+            back.pack()
+            n = pickPlaylist(frame, page, root, authItems)
         elif page == 'Quit':
             self.clearFrame(frame)
             root.title('Quit')
-            back = Button(frame, text='Back to Main', command=self.pickPage(root, 'Main', frame, authItems))
-            #back.pack()
+            back.pack()
             Quit(frame, root)
 
     def clearFrame(self, root):
