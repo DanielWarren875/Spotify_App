@@ -9,6 +9,8 @@ import datetime
 import os
 import json
 import webbrowser
+from DBInteraction import *
+
 
 class start():
     def __init__(self, framer, controller, root1, authItems1):
@@ -111,5 +113,8 @@ class start():
         a.setAuthItems(items=authItems)
         f = open('AuthItems.json', 'w')
         json.dump(authItems, f, indent=4)
+
+        db = dbInteraction()
+        db.addUserToDB(userId)
         con.pickPage(root, 'Main', frame, a)
 

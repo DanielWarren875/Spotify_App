@@ -5,7 +5,7 @@ from Screens.RevertScreen import *
 from Screens.cleanByArt import cleanByArt
 from Screens.cleanByDateScreen import *
 from authItems import *
-
+from DBInteraction import *
 userId = ''
 class pickPlaylist():
     def __init__(self, frame, nextPage, root, auth):
@@ -16,6 +16,12 @@ class pickPlaylist():
         if userId == '':
             userId = self.getUserId()
         playlists = self.getUserPlaylists()
+
+        db = dbInteraction()
+        db.addUserPlaylists(userId, playlists)
+
+
+
         length = len(playlists)
         lb = Listbox(frame, selectmode=SINGLE, height=length, width=200)
         for i in playlists:

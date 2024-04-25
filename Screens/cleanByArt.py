@@ -1,6 +1,7 @@
 import json
 import requests
 from tkinter import *
+from DBInteraction import *
 class cleanByArt():
     def __init__(self, frame, playlist, authItems):
         self.clearFrame(frame)
