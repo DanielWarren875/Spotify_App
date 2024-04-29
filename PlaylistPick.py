@@ -18,7 +18,6 @@ class pickPlaylist():
         playlists = self.getUserPlaylists()
 
         db = dbInteraction()
-        db.addUserPlaylists(userId, playlists)
 
 
 

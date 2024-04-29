@@ -1,0 +1,10 @@
+{
+    "accessTok": "BQBwQGJ6lr9fgFlZShQCnY0iUoKRSF9JpGriV2baSeRy2GfnaaKIFN6SFcWJvQA7_3JO_O3GxsZQGIfIRWOWGsDNAf4J5-Wm5_UD_kTsyX5xO74evtOptbOygrDFGVjYFp-i31UKBfK23jRYw8DBWpOdljExaBzwr80cyuCozjVBgcdsJkh_Oymt-MqWk5wIogBXYjfOPG-yiwG7-kP9eOc",
+    "type": "Bearer",
+    "expires_in": 3600,
+    "refreshTok": "AQB50dRbtFlNlD-r2t24-q7nzCgUbPUQJMYoPYIP7T-gQ80KW4OyKvR8lNQlGtvxKxTb1UwqgQ-zJ_45vlseViyo5AmmgIx2z_0VPHIalu9SlxaRJ1Y2KI1d8YWHJybvBVo",
+    "scope": "playlist-read-private playlist-read-collaborative user-library-read user-read-email user-read-private",
+    "Access_Time": "2024-04-26 14:14:18.419226",
+    "Expire_Time": "2024-04-26 15:14:18.419226",
+    "UserId": "cydawg99"
+}

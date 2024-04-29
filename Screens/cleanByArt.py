@@ -5,6 +5,8 @@ from DBInteraction import *
 class cleanByArt():
     def __init__(self, frame, playlist, authItems):
         self.clearFrame(frame)
+        global db
+        db = dbInteraction()
         if playlist['Playlist Name'] == 'Liked Playlist':
             self.clearLiked(frame, authItems)
     def clearLiked(self, frame, authItems):
@@ -15,6 +17,18 @@ class cleanByArt():
         hold = self.getArtsFromLiked(url, header)
         arts = hold['ArtistsW/Count']
         trackIds = hold['ArtistsW/TrackIds']
+        
+        userId = self.getUserId(authItems)
+        playlistId = userId + 'Liked Playlist'
+        playlistId = "".join(playlistId.split())
+        self.checkForDups(trackIds)
+        return
+        print(trackIds)
+        print(len(trackIds))
+        return
+
+        db.addPlaylistTracks(userId, playlistId, trackIds)
+
         length = len(arts)
         lb = Listbox(frame, selectmode=MULTIPLE, height=length, width=200)
         b = Button(frame, text='Confirm', command=lambda: self.selectFromLiked(frame, lb, trackIds, arts, authItems))
@@ -42,6 +56,9 @@ class cleanByArt():
             holdName = j['Artist']
             if holdName in artistsToRemove:
                 removeTrackIds.append(j['TrackId'])
+        self.getUserId(authItems)
+
+    def getUserId(self, authItems):
         url = 'https://api.spotify.com/v1/me'
         header = {
             'Authorization': authItems['type'] + ' ' + authItems['accessTok']
@@ -49,8 +66,7 @@ class cleanByArt():
 
         r = requests.get(url=url, headers=header)
         x = json.loads(r.text)
-        userId = x['id']
-
+        return x['id']
 
     def getArtsFromLiked(self, url, header):
         r = requests.get(url=url, headers=header)
@@ -63,28 +79,39 @@ class cleanByArt():
             for i in items:
                 holdArts = i['track']['artists']
                 trackId = i['track']['id']
+                trackName = i['track']['name']
+                
+                artNames = []
                 for j in holdArts:
                     hold = j['name']
                     arts.append(hold)
-                    holdInfo = {
-                        'TrackId': trackId,
-                        'Artist': hold
-                    }
-                    trackIds.append(holdInfo)
+                    artNames.append(hold)
+                holdInfo = {
+                    'TrackId': trackId,
+                    'TrackName': trackName,
+                    'Artist': artNames
+                }
+                trackIds.append(holdInfo)
             url = next
             r = requests.get(url=url, headers=header)
             x = json.loads(r.text)
             next = x['next']
         items = x['items']
         for i in items:
-            holdArts = i['track']['artists']
-            trackId = i['track']['id']
-            for j in holdArts:
-                hold = j['name']
-                arts.append(hold)
+            items = x['items']
+            for i in items:
+                holdArts = i['track']['artists']
+                trackId = i['track']['id']
+                trackName = i['track']['name']
+                artNames = []
+                for j in holdArts:
+                    hold = j['name']
+                    arts.append(hold)
+                    artNames.append(hold)
                 holdInfo = {
-                        'TrackId': trackId,
-                        'Artist': hold
+                    'TrackId': trackId,
+                    'TrackName': trackName,
+                    'Artist': artNames
                 }
                 trackIds.append(holdInfo)
 
@@ -106,3 +133,8 @@ class cleanByArt():
     def clearFrame(self, frame):
         for i in frame.winfo_children():
             i.destroy()
+    def checkForDups(self, trackIds):
+        for i in trackIds:
+            for j in trackIds:
+                if i['TrackId'] == j['TrackId'] and i != j:
+                    print(i)
