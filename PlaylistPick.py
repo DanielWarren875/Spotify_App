@@ -2,8 +2,7 @@ from tkinter import *
 import requests
 import json
 from Screens.RevertScreen import *
-from Screens.cleanByArt import cleanByArt
-from Screens.cleanByDateScreen import *
+from Screens.CleanByArtScreen import cleanByArt
 from authItems import *
 from DBInteraction import *
 userId = ''
@@ -41,10 +40,7 @@ class pickPlaylist():
             if j['Playlist Name'] in hold[0]:
                 playlist = j
                 break
-        if nextPage == 'cleanPlayDate':
-            root.title('Clean Playlist By Date')
-            n = cleanByDate(frame, playlist, authItems)
-        elif nextPage == 'cleanPlayArt':
+        if nextPage == 'cleanPlayArt':
             root.title('Clean Playlist By Artist')
             n = cleanByArt(frame, playlist, authItems)
         elif nextPage == 'Revert':
