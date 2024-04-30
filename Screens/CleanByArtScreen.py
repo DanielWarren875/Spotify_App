@@ -9,7 +9,6 @@ class cleanByArt():
         global db
         db = dbInteraction()
         authItems = auth
-        print(playlist)
         if playlist['Playlist Name'] == 'Liked Playlist':
             x = self.getDataFromLiked()
         else:
@@ -30,7 +29,8 @@ class cleanByArt():
         #Load current version of playlist into firebase
         #Delete Tracks from Playlist
         userId = self.getUserId()
-        db.addPlaylistTracks(userId, playlist, data)
+        print('Confirm')
+        db.addUserPlaylist(userId, playlist)
 
     def getDataFromLiked(self):
         url = 'https://api.spotify.com/v1/me/tracks?limit=50'
@@ -52,10 +52,11 @@ class cleanByArt():
             next = x['next']
         f.write('\t' + r.text)
         f.write(']\n}')
+        f.close()
 
         with open('holdData.json') as f:
             x = json.load(f)
-        
+            f.close()
         data = x['data']
         info = []
         trackArtists = []

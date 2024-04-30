@@ -1,9 +1,7 @@
 import json
-import requests
 import firebase_admin
 from firebase_admin import firestore
 from firebase_admin import credentials
-#from firebase_admin import db
 
 class dbInteraction():
     def __init__(self):
@@ -15,7 +13,6 @@ class dbInteraction():
     def addUserToDB(self, userId):
         users = db.collection('users')
         docs = users.stream()
-        print(docs)
         
         if userId in docs:
             return
@@ -26,31 +23,31 @@ class dbInteraction():
             })
     
     def addUserPlaylist(self, userId, playlist):
-        hold = f' {userId}'
-        hold = playlist[0].split(hold)
-        playlistName = hold[0]
-        trackCount = hold[1]
-        trackCount = trackCount[1:]
+        playlistName = playlist['Playlist Name']
+        trackCount = playlist['Track Count']
 
         userDBPlaylistIds = self.getUserDBPlaylistIds(userId)
         playlistId = userId + playlistName
-        playlistId = "".join(playlistId.split())
-        
+        playlistId = "".join(playlistId.split()).replace(" ", "")
+
         if playlistId not in userDBPlaylistIds:
             ref = db.collection('users').document(userId)
-            ref.update({'playlists': firestore.ArrayUnion([playlistId])})
+            hold = db.collection('playlists').document(playlistId)
+            ref.update({'playlists': firestore.ArrayUnion([hold])})
             ref = db.collection('playlists').document(playlistId)
             ref.set({
                 'playlistId': playlistId,
                 'playlistName': playlistName,
                 'versionCount': 1
             })
-            versionId = playlistName + '1'
+            versionId = playlistId + '1'
             ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId)
-            trackCount = 0
             ref.set({
+                'trackCount': trackCount,
                 'tracks': self.addTracks()
             })
+        else:
+            self.findMatchingVersion(playlistId)
 
     def addTracks(self):
         f = open('holdData.json', 'r')
@@ -58,6 +55,7 @@ class dbInteraction():
 
         data = x['data']
         trackRefs = []
+        count = 0
         for i in data:
             items = i['items']
             for j in items:
@@ -80,9 +78,19 @@ class dbInteraction():
                 trackRefs.append(ref)
         return trackRefs
         
+    def findMatchingVersion(self, playlistId):
+        num = 1
+        versionId = playlistId + str(num)
+        
+        ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId).get()
+        
+        while ref.exists:
+            print(versionId + ' exists\n')
+            num = num + 1
+            versionId = playlistId + str(num)
+            ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId).get()
 
-
-
+        print(versionId + ' does not exist')
             
             
 
@@ -92,6 +100,3 @@ class dbInteraction():
         doc = userPlaylists.get().to_dict()
 
         return doc['playlists']
-
-x = dbInteraction()
-x.addTracks()

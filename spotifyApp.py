@@ -1,9 +1,6 @@
 from tkinter import *
-from Screens.QuitScreen import Quit
-from PlaylistPick import *
 from Controller import *
 from authItems import *
-from Screens.RevertScreen import *
 
 
 root = Tk()
