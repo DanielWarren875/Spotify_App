@@ -8,7 +8,7 @@ from Screens.RevertScreen import *
 
 root = Tk()
 root.title('Start')
-root.geometry('500x500')
+root.geometry('1500x1500')
 frame = Frame(root)
 frame.pack()
 a = authenticateItems()

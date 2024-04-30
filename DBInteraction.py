@@ -45,28 +45,40 @@ class dbInteraction():
                 'playlistName': playlistName,
                 'versionCount': 1
             })
+            versionId = playlistName + '1'
+            ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId)
+            trackCount = 0
+            ref.set({
+                'tracks': self.addTracks()
+            })
 
-    def addPlaylistTracks(self, userId, playlistId, tracks):
-        count = 1
-        versionId = userId + playlistId + str(count)
-        versionId = "".join(versionId.split())
+    def addTracks(self):
+        f = open('holdData.json', 'r')
+        x = json.load(f)
 
-        while True:
-            ref = db.collection('playlists').document(playlistId).collection('playlistVersions').document(versionId)
-            doc = ref.get()
-            if doc.exists:
-                count = count + 1
-                versionId = userId + playlistId + str(count)
-                versionId = "".join(versionId.split())
-            else:
-                break
-        
-        ref = db.collection('playlists').document(playlistId).collection('playlistVersions').document(versionId)
-        ref.set({
-            'trackCount': len(tracks),
-            'trackIds': []
-        })
-        
+        data = x['data']
+        trackRefs = []
+        for i in data:
+            items = i['items']
+            for j in items:
+                trackName = j['track']['name']
+                trackId = j['track']['id']
+                arts = j['track']['artists']
+                holdArtNames = []
+                holdArtIds = []
+                for k in arts:
+                    hold = k['name']
+                    holdId = k['id']
+                    holdArtNames.append(hold)
+                    holdArtIds.append(holdId)
+                ref = db.collection('tracks').document(trackId)
+                ref.set({
+                    'Track Name': trackName,
+                    'Artist Names': holdArtNames,
+                    'Artist Ids': holdArtIds
+                })
+                trackRefs.append(ref)
+        return trackRefs
         
 
 
@@ -80,3 +92,6 @@ class dbInteraction():
         doc = userPlaylists.get().to_dict()
 
         return doc['playlists']
+
+x = dbInteraction()
+x.addTracks()

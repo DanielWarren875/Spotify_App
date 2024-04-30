@@ -42,6 +42,7 @@ class pickPlaylist():
                 break
         if nextPage == 'cleanPlayArt':
             root.title('Clean Playlist By Artist')
+            self.clearFrame(root)
             n = cleanByArt(frame, playlist, authItems)
         elif nextPage == 'Revert':
             root.title('Revert Playlist to Previous Version')
@@ -113,3 +114,10 @@ class pickPlaylist():
         r = requests.get(url=url, headers=header)
         x = json.loads(r.text)
         return x['id']
+    def clearFrame(self, root):
+        for i in root.winfo_children():
+            if isinstance(i, Frame):
+                for j in i.winfo_children():
+                    j.destroy()
+            else:
+                i.destroy()
