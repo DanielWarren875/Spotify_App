@@ -1,3 +1,4 @@
+import datetime
 import json
 import firebase_admin
 from firebase_admin import firestore
@@ -29,7 +30,8 @@ class dbInteraction():
         userDBPlaylistIds = self.getUserDBPlaylistIds(userId)
         playlistId = userId + playlistName
         playlistId = "".join(playlistId.split()).replace(" ", "")
-
+        
+        #Check if playlist exists, if so add to firestore
         if playlistId not in userDBPlaylistIds:
             ref = db.collection('users').document(userId)
             hold = db.collection('playlists').document(playlistId)
@@ -44,10 +46,21 @@ class dbInteraction():
             ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId)
             ref.set({
                 'trackCount': trackCount,
+                'Date Added': str(datetime.date.today()),
                 'tracks': self.addTracks()
             })
         else:
-            self.findMatchingVersion(playlistId)
+            x = self.findMatchingVersion(playlistId)
+            print(x)
+            if not x['matchApi']:
+                ref = db.collection('playlists').document(playlistId).collection('versions').document(x['versionId'])
+                ref.set({
+                    'trackCount': trackCount,
+                    'Date Added': str(datetime.date.today()),
+                    'tracks': self.addTracks()
+                })
+                return x['versionId']
+            
 
     def addTracks(self):
         f = open('holdData.json', 'r')
@@ -55,7 +68,6 @@ class dbInteraction():
 
         data = x['data']
         trackRefs = []
-        count = 0
         for i in data:
             items = i['items']
             for j in items:
@@ -77,26 +89,58 @@ class dbInteraction():
                 })
                 trackRefs.append(ref)
         return trackRefs
-        
+       
     def findMatchingVersion(self, playlistId):
         num = 1
         versionId = playlistId + str(num)
         
+        f = open('holdData.json', 'r')
+        x = json.load(f)
+        data = x['data']
+        apiTrackIds = []
+        for i in data:
+            items = i['items']
+            for j in items:
+                holdId = j['track']['id']
+                apiTrackIds.append(holdId)
         ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId).get()
-        
         while ref.exists:
-            print(versionId + ' exists\n')
-            num = num + 1
-            versionId = playlistId + str(num)
-            ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId).get()
-
-        print(versionId + ' does not exist')
-            
-            
+            match = True
+            dbTracks = ref.to_dict()
+            dbTracks = dbTracks['tracks']
+            if len(dbTracks) != len(apiTrackIds):
+                match = False
+                num = num + 1
+                versionId = playlistId + str(num)
+                ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId).get()
+                continue
+            else:
+                for i in range(0, len(dbTracks)):
+                    dbId = dbTracks[i].id
+                    if dbId not in apiTrackIds[i]:
+                        match = False
+                        break
+            if match:
+                return {
+                    'matchApi': True,
+                    'versionId': versionId,
+                    'tracks': self.addTracks()
+                }
+            else:
+                num = num + 1
+                versionId = playlistId + str(num)
+                ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId).get()
+        return {
+            'matchApi': False,
+            'versionId': versionId,
+            'tracks': self.addTracks()
+        }  
 
 
     def getUserDBPlaylistIds(self, userId):
         userPlaylists = db.collection('users').document(userId)
         doc = userPlaylists.get().to_dict()
-
-        return doc['playlists']
+        hold = []
+        for i in doc['playlists']:
+            hold.append(i.id)
+        return hold

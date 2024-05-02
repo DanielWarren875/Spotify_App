@@ -3,6 +3,157 @@
 	{
   "href" : "https://api.spotify.com/v1/me/tracks?offset=0&limit=50",
   "items" : [ {
+    "added_at" : "2024-05-02T03:56:45Z",
+    "track" : {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/23OFz99wX0NDBBwrxthLWU"
+          },
+          "href" : "https://api.spotify.com/v1/artists/23OFz99wX0NDBBwrxthLWU",
+          "id" : "23OFz99wX0NDBBwrxthLWU",
+          "name" : "The Lacs",
+          "type" : "artist",
+          "uri" : "spotify:artist:23OFz99wX0NDBBwrxthLWU"
+        } ],
+        "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "PR", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/760sXqdIdCq7C9zHKELKYr"
+        },
+        "href" : "https://api.spotify.com/v1/albums/760sXqdIdCq7C9zHKELKYr",
+        "id" : "760sXqdIdCq7C9zHKELKYr",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2735ea4fdd1dbb5226ee33f13d9",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e025ea4fdd1dbb5226ee33f13d9",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048515ea4fdd1dbb5226ee33f13d9",
+          "width" : 64
+        } ],
+        "name" : "Outlaw In Me",
+        "release_date" : "2015-05-26",
+        "release_date_precision" : "day",
+        "total_tracks" : 14,
+        "type" : "album",
+        "uri" : "spotify:album:760sXqdIdCq7C9zHKELKYr"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/23OFz99wX0NDBBwrxthLWU"
+        },
+        "href" : "https://api.spotify.com/v1/artists/23OFz99wX0NDBBwrxthLWU",
+        "id" : "23OFz99wX0NDBBwrxthLWU",
+        "name" : "The Lacs",
+        "type" : "artist",
+        "uri" : "spotify:artist:23OFz99wX0NDBBwrxthLWU"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3TZlqrpMAxc0nR7jKggeyh"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3TZlqrpMAxc0nR7jKggeyh",
+        "id" : "3TZlqrpMAxc0nR7jKggeyh",
+        "name" : "CRUCIFIX",
+        "type" : "artist",
+        "uri" : "spotify:artist:3TZlqrpMAxc0nR7jKggeyh"
+      } ],
+      "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "PR", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
+      "disc_number" : 1,
+      "duration_ms" : 213425,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QMDPP1400126"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5p11ci0E16odrfp2ufAhBZ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5p11ci0E16odrfp2ufAhBZ",
+      "id" : "5p11ci0E16odrfp2ufAhBZ",
+      "is_local" : false,
+      "name" : "Outlaw In Me",
+      "popularity" : 48,
+      "preview_url" : "https://p.scdn.co/mp3-preview/04c609be7937d8f7655c4a2073e25fe0b0f9cfc4?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
+      "track_number" : 14,
+      "type" : "track",
+      "uri" : "spotify:track:5p11ci0E16odrfp2ufAhBZ"
+    }
+  }, {
+    "added_at" : "2024-05-01T22:04:11Z",
+    "track" : {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4cFA9cxl7v3CrFYxOOXsSs"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4cFA9cxl7v3CrFYxOOXsSs",
+          "id" : "4cFA9cxl7v3CrFYxOOXsSs",
+          "name" : "Sam Grow",
+          "type" : "artist",
+          "uri" : "spotify:artist:4cFA9cxl7v3CrFYxOOXsSs"
+        } ],
+        "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "PR", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1TusviJ3LdopxprOQ8IAjp"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1TusviJ3LdopxprOQ8IAjp",
+        "id" : "1TusviJ3LdopxprOQ8IAjp",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2732f82be3d07e704436340243e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e022f82be3d07e704436340243e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048512f82be3d07e704436340243e",
+          "width" : 64
+        } ],
+        "name" : "This Town",
+        "release_date" : "2021-09-10",
+        "release_date_precision" : "day",
+        "total_tracks" : 12,
+        "type" : "album",
+        "uri" : "spotify:album:1TusviJ3LdopxprOQ8IAjp"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4cFA9cxl7v3CrFYxOOXsSs"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4cFA9cxl7v3CrFYxOOXsSs",
+        "id" : "4cFA9cxl7v3CrFYxOOXsSs",
+        "name" : "Sam Grow",
+        "type" : "artist",
+        "uri" : "spotify:artist:4cFA9cxl7v3CrFYxOOXsSs"
+      } ],
+      "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "PR", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
+      "disc_number" : 1,
+      "duration_ms" : 161928,
+      "explicit" : true,
+      "external_ids" : {
+        "isrc" : "QMDPP1900933"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0LxJRRCfKQ7BKn4jnOWVwb"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0LxJRRCfKQ7BKn4jnOWVwb",
+      "id" : "0LxJRRCfKQ7BKn4jnOWVwb",
+      "is_local" : false,
+      "name" : "Kiss My Ass",
+      "popularity" : 59,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b46b24754ea7313a128da51826a46d8633f9d882?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
+      "track_number" : 10,
+      "type" : "track",
+      "uri" : "spotify:track:0LxJRRCfKQ7BKn4jnOWVwb"
+    }
+  }, {
     "added_at" : "2024-04-24T17:44:15Z",
     "track" : {
       "album" : {
@@ -1151,7 +1302,7 @@
       "id" : "1fP8OX218w9tMiRLKbEhLe",
       "is_local" : false,
       "name" : "King For A Day",
-      "popularity" : 28,
+      "popularity" : 27,
       "preview_url" : "https://p.scdn.co/mp3-preview/e9c5981d5e5e8273313bda46f6418a27da31292d?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -2642,7 +2793,7 @@
       "id" : "18fNDUjar18nshuDcgbqpU",
       "is_local" : false,
       "name" : "Haunted Dreams",
-      "popularity" : 13,
+      "popularity" : 12,
       "preview_url" : "https://p.scdn.co/mp3-preview/1427c08bd65222b2a69a9861d009cae1f10c8bc2?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -2713,7 +2864,7 @@
       "id" : "4sF9uMBjUo334K5wjZijkR",
       "is_local" : false,
       "name" : "Hollow Home",
-      "popularity" : 10,
+      "popularity" : 9,
       "preview_url" : "https://p.scdn.co/mp3-preview/eae865a780eecc00c21e38bde54e3644d7ee82bb?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -2855,7 +3006,7 @@
       "id" : "6nonTdcZbN2pmyiN032MXw",
       "is_local" : false,
       "name" : "Intro 2",
-      "popularity" : 53,
+      "popularity" : 52,
       "preview_url" : "https://p.scdn.co/mp3-preview/301025a29efea2008eb11438e16a5cb79f43d16e?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -2926,7 +3077,7 @@
       "id" : "6WKk8l8EXiwPBYlmSlhZWx",
       "is_local" : false,
       "name" : "Therapy Session",
-      "popularity" : 63,
+      "popularity" : 62,
       "preview_url" : "https://p.scdn.co/mp3-preview/bc6b4cec79c19fe17caae62514c907e78b29f3f1?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -3068,7 +3219,7 @@
       "id" : "10bt2wAkFgCWRCEOyAyWT9",
       "is_local" : false,
       "name" : "How Could You Leave Us",
-      "popularity" : 64,
+      "popularity" : 63,
       "preview_url" : "https://p.scdn.co/mp3-preview/63746cdfe5334bc34bb0f3a28c097f800bd5be89?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -3139,7 +3290,7 @@
       "id" : "4Jtn7b3hgyzSQKj9ZMiht3",
       "is_local" : false,
       "name" : "Breathe",
-      "popularity" : 51,
+      "popularity" : 50,
       "preview_url" : "https://p.scdn.co/mp3-preview/86b5c1fa0d195060c10fb69bf4c8c25cf5cc7cbd?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 5,
       "type" : "track",
@@ -3210,7 +3361,7 @@
       "id" : "0ZFayEwoO5qqYjsOi8YDjO",
       "is_local" : false,
       "name" : "Real",
-      "popularity" : 60,
+      "popularity" : 59,
       "preview_url" : "https://p.scdn.co/mp3-preview/92dc1b33bfdc2c927fbc95e53a8742038ddf8998?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -3509,7 +3660,16 @@
       "type" : "track",
       "uri" : "spotify:track:3m6HMeFX6GIlGPMBcLEN6t"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:23:00Z",
     "track" : {
       "album" : {
@@ -3651,16 +3811,7 @@
       "type" : "track",
       "uri" : "spotify:track:3cNmoc8vvy0T0m65PLdNEU"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
-  "offset" : 0,
-  "previous" : null,
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:23:00Z",
     "track" : {
       "album" : {
@@ -4018,7 +4169,7 @@
       "id" : "7tTRFVlFzk6yTnoMcParmi",
       "is_local" : false,
       "name" : "JUST LIKE YOU",
-      "popularity" : 67,
+      "popularity" : 66,
       "preview_url" : "https://p.scdn.co/mp3-preview/9af4076723b5e8076b3be08eb2e6bd16b18c30ae?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -5625,7 +5776,7 @@
       "id" : "3oLe5ZILASG8vU5dxIMfLY",
       "is_local" : false,
       "name" : "The Search",
-      "popularity" : 75,
+      "popularity" : 74,
       "preview_url" : "https://p.scdn.co/mp3-preview/d74629427f19063bccc36caab74f924d093918a8?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -5838,7 +5989,7 @@
       "id" : "0aQA9DP54h37OevE7hRc2a",
       "is_local" : false,
       "name" : "My Stress",
-      "popularity" : 63,
+      "popularity" : 62,
       "preview_url" : "https://p.scdn.co/mp3-preview/d807b8406ba626684aba1aeca0e86c4d193331e9?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -7149,7 +7300,16 @@
       "type" : "track",
       "uri" : "spotify:track:2LCGFBu1ej6zt4r1VGPjny"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
+  "offset" : 50,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=0&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:59Z",
     "track" : {
       "album" : {
@@ -7291,16 +7451,7 @@
       "type" : "track",
       "uri" : "spotify:track:5yetwZ4BDlgCzd5typypWU"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
-  "offset" : 50,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=0&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:59Z",
     "track" : {
       "album" : {
@@ -8555,7 +8706,7 @@
       "id" : "1kO0nC4VnEjMBeJZI7g2T2",
       "is_local" : false,
       "name" : "My Life",
-      "popularity" : 59,
+      "popularity" : 58,
       "preview_url" : "https://p.scdn.co/mp3-preview/2e9b25e0f07699df1f7a6e189389ff4d139b6281?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
@@ -10384,7 +10535,7 @@
       "id" : "10ofpKhJZ2Wlh19ngsDO7K",
       "is_local" : false,
       "name" : "Play with Fire",
-      "popularity" : 9,
+      "popularity" : 8,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -10535,7 +10686,7 @@
       "id" : "277kkbKWZtQUpnK19WcEM6",
       "is_local" : false,
       "name" : "Forgotten",
-      "popularity" : 29,
+      "popularity" : 28,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -10834,7 +10985,16 @@
       "type" : "track",
       "uri" : "spotify:track:67eX1ovaHyVPUinMHeUtIM"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
+  "offset" : 100,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:58Z",
     "track" : {
       "album" : {
@@ -10976,16 +11136,7 @@
       "type" : "track",
       "uri" : "spotify:track:1RQwcsdHIW5p86cx8zuf1I"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
-  "offset" : 100,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:58Z",
     "track" : {
       "album" : {
@@ -14492,7 +14643,16 @@
       "type" : "track",
       "uri" : "spotify:track:5E1uA250yvX6jtphBqm6YD"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
+  "offset" : 150,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:57Z",
     "track" : {
       "album" : {
@@ -14634,16 +14794,7 @@
       "type" : "track",
       "uri" : "spotify:track:3KhF2YiNpJvGpfiCW45R6D"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
-  "offset" : 150,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:57Z",
     "track" : {
       "album" : {
@@ -17195,7 +17346,7 @@
       "id" : "1jE7Yc9YTVbY2dy6ANva6K",
       "is_local" : false,
       "name" : "Hard to Hate",
-      "popularity" : 32,
+      "popularity" : 31,
       "preview_url" : "https://p.scdn.co/mp3-preview/c836c30514cc29d66dbc3ea7fa8642af7278d5f3?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -18039,7 +18190,7 @@
       "id" : "3bq8WiQrEXMwPAibYs7tpu",
       "is_local" : false,
       "name" : "Nobody Praying For Me",
-      "popularity" : 66,
+      "popularity" : 65,
       "preview_url" : "https://p.scdn.co/mp3-preview/4d8b0d9604ffa5c6ce7ca20614bd5eb58d08ac08?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
@@ -18276,7 +18427,16 @@
       "type" : "track",
       "uri" : "spotify:track:3T9madiD4zl9P1hIqr255g"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
+  "offset" : 200,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:56Z",
     "track" : {
       "album" : {
@@ -18418,16 +18578,7 @@
       "type" : "track",
       "uri" : "spotify:track:10I3CmmwT0BkOVhduDy53o"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
-  "offset" : 200,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:56Z",
     "track" : {
       "album" : {
@@ -19362,7 +19513,7 @@
       "id" : "4KAzYqfcijCSZa2P3etHoM",
       "is_local" : false,
       "name" : "Big Green Tractor",
-      "popularity" : 12,
+      "popularity" : 11,
       "preview_url" : null,
       "track_number" : 9,
       "type" : "track",
@@ -20038,7 +20189,7 @@
       "id" : "3jevgr3fYdv9wYO3IDJq2a",
       "is_local" : false,
       "name" : "Awaken",
-      "popularity" : 63,
+      "popularity" : 62,
       "preview_url" : "https://p.scdn.co/mp3-preview/902fa5eeab491a1a41a1d383ceba1b64fdb544c9?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -21947,7 +22098,7 @@
       "id" : "39xcUmVIl9joB5EQVlngrx",
       "is_local" : false,
       "name" : "When Everything Means Nothing (Cinematic)",
-      "popularity" : 27,
+      "popularity" : 26,
       "preview_url" : "https://p.scdn.co/mp3-preview/ba7c2de181b6dc103459bd04f8a811abe861766c?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 11,
       "type" : "track",
@@ -22024,7 +22175,16 @@
       "type" : "track",
       "uri" : "spotify:track:6xHI9KjUjYT0FPtGO8Mxa1"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
+  "offset" : 250,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:55Z",
     "track" : {
       "album" : {
@@ -22152,16 +22312,7 @@
       "type" : "track",
       "uri" : "spotify:track:3lpnYiJSFZmtsIM13OyRfa"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
-  "offset" : 250,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:55Z",
     "track" : {
       "album" : {
@@ -25664,7 +25815,7 @@
       "id" : "2l2peU8uNVWVccF9mkyD7m",
       "is_local" : false,
       "name" : "Sink Below",
-      "popularity" : 37,
+      "popularity" : 36,
       "preview_url" : "https://p.scdn.co/mp3-preview/962784bb6aac1f879f33d795b46a9fd3bcefef65?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -25735,7 +25886,7 @@
       "id" : "39daVR5fEyW1ontQkLlIgJ",
       "is_local" : false,
       "name" : "Reaper",
-      "popularity" : 47,
+      "popularity" : 46,
       "preview_url" : "https://p.scdn.co/mp3-preview/697897163eb7faaf1502f527ef548edad6ba0e6b?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 5,
       "type" : "track",
@@ -25821,7 +25972,16 @@
       "type" : "track",
       "uri" : "spotify:track:4urhJ3jYiNfzQJAm60vrqa"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
+  "offset" : 300,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:54Z",
     "track" : {
       "album" : {
@@ -25957,22 +26117,13 @@
       "id" : "0NPp9Um8tIteSVHBa6Ukuo",
       "is_local" : false,
       "name" : "Fracture",
-      "popularity" : 37,
+      "popularity" : 36,
       "preview_url" : "https://p.scdn.co/mp3-preview/b21f9a2e3d68eaa1dc571bdeacf648cc496577e3?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
       "uri" : "spotify:track:0NPp9Um8tIteSVHBa6Ukuo"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
-  "offset" : 300,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:54Z",
     "track" : {
       "album" : {
@@ -29425,7 +29576,16 @@
       "type" : "track",
       "uri" : "spotify:track:3I94qxxiGfzRQlmTwjZWS4"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
+  "offset" : 350,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:53Z",
     "track" : {
       "album" : {
@@ -29585,16 +29745,7 @@
       "type" : "track",
       "uri" : "spotify:track:78mffX1VgHOhgkw73hKn9B"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
-  "offset" : 350,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:53Z",
     "track" : {
       "album" : {
@@ -31781,7 +31932,7 @@
       "id" : "1UBQ5GK8JaQjm5VbkBZY66",
       "is_local" : false,
       "name" : "Sharp Dressed Man - 2008 Remaster",
-      "popularity" : 46,
+      "popularity" : 45,
       "preview_url" : null,
       "track_number" : 3,
       "type" : "track",
@@ -31994,7 +32145,7 @@
       "id" : "2GCC4e3wQuwlRl564EX7fu",
       "is_local" : false,
       "name" : "Against The World - Demo",
-      "popularity" : 21,
+      "popularity" : 22,
       "preview_url" : "https://p.scdn.co/mp3-preview/637307c4212cb10bcd9312e2289e0657187199de?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 19,
       "type" : "track",
@@ -33065,7 +33216,16 @@
       "type" : "track",
       "uri" : "spotify:track:2iQNTD3soB2hrXng9flo7V"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
+  "offset" : 400,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:52Z",
     "track" : {
       "album" : {
@@ -33225,16 +33385,7 @@
       "type" : "track",
       "uri" : "spotify:track:0rX4YStqUt1k1VEBe1U4HJ"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
-  "offset" : 400,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:52Z",
     "track" : {
       "album" : {
@@ -34400,7 +34551,7 @@
       "id" : "1lJuY06cD1aBtPJ4Xh9LFK",
       "is_local" : false,
       "name" : "Gone But Not Forgotten",
-      "popularity" : 38,
+      "popularity" : 37,
       "preview_url" : "https://p.scdn.co/mp3-preview/d5a81f2fa9a5c3cfe727b2fff125b4e5db7891a9?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -34542,7 +34693,7 @@
       "id" : "1G2TUxQCyUieOl4maQErch",
       "is_local" : false,
       "name" : "Bending The Rules And Breaking The Law",
-      "popularity" : 34,
+      "popularity" : 33,
       "preview_url" : "https://p.scdn.co/mp3-preview/a5da93d1e99426d1dd7bb5ef08b1dd6510e5e9b3?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -35181,7 +35332,7 @@
       "id" : "2MedaqRcSsxA1hiiXGoK7s",
       "is_local" : false,
       "name" : "Fall Into Me",
-      "popularity" : 42,
+      "popularity" : 41,
       "preview_url" : "https://p.scdn.co/mp3-preview/2fc772ec618c52a18671da2d70de17f4a949c1f9?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 11,
       "type" : "track",
@@ -35741,7 +35892,7 @@
       "id" : "7KDyGBkjIGoyHN9i6vrQrR",
       "is_local" : false,
       "name" : "Welcome To Hazeville",
-      "popularity" : 34,
+      "popularity" : 33,
       "preview_url" : "https://p.scdn.co/mp3-preview/d405e9b1fd7b15d8c89a0e9e674d9514ccfafe4a?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -36741,7 +36892,16 @@
       "type" : "track",
       "uri" : "spotify:track:7Iuee2005TlARd0bAG4A0d"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
+  "offset" : 450,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:51Z",
     "track" : {
       "album" : {
@@ -36883,16 +37043,7 @@
       "type" : "track",
       "uri" : "spotify:track:39PAjE1Riqpd02ttPYSfEN"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
-  "offset" : 450,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:51Z",
     "track" : {
       "album" : {
@@ -36957,7 +37108,7 @@
       "id" : "2p3e6BEluuTCZ8UzodClUK",
       "is_local" : false,
       "name" : "We're Gonna Ride Again",
-      "popularity" : 22,
+      "popularity" : 23,
       "preview_url" : "https://p.scdn.co/mp3-preview/0c5e35cc76dbfb8f3d7f0566e918bdee8b5de19c?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 15,
       "type" : "track",
@@ -40408,7 +40559,16 @@
       "type" : "track",
       "uri" : "spotify:track:3vYrIcdKdpHP6Y8d0VE74m"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=550&limit=50",
+  "offset" : 500,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
+  "total" : 579
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=550&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-19T21:27:44Z",
     "track" : {
       "album" : {
@@ -40568,16 +40728,7 @@
       "type" : "track",
       "uri" : "spotify:track:4svrshpdIytbEI2RSt0ctO"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=550&limit=50",
-  "offset" : 500,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
-  "total" : 577
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=550&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-19T21:27:44Z",
     "track" : {
       "album" : {
@@ -40997,7 +41148,7 @@
       "id" : "7y5A9nnNw6ZF3fQyrkZEeL",
       "is_local" : false,
       "name" : "Blameless",
-      "popularity" : 43,
+      "popularity" : 42,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -41086,7 +41237,7 @@
       "id" : "62WghXe4ZEhaydOF1E1S8v",
       "is_local" : false,
       "name" : "Aura",
-      "popularity" : 40,
+      "popularity" : 39,
       "preview_url" : "https://p.scdn.co/mp3-preview/e1e6852787c5ee13e83f3219a7f93b8323d8e179?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 7,
       "type" : "track",
@@ -41282,7 +41433,7 @@
       "id" : "6rrKbzJGGDlSZgLphopS49",
       "is_local" : false,
       "name" : "Unstoppable",
-      "popularity" : 72,
+      "popularity" : 71,
       "preview_url" : "https://p.scdn.co/mp3-preview/4fe0dc878deff58937241ebe4264eb00d141d746?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -41353,7 +41504,7 @@
       "id" : "6JPp8fS5WXfqKwEaAIhimH",
       "is_local" : false,
       "name" : "Fallout",
-      "popularity" : 25,
+      "popularity" : 24,
       "preview_url" : "https://p.scdn.co/mp3-preview/fdb52f8f90ebac539b789bc3b351cf244007a4c3?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -42108,7 +42259,7 @@
       "id" : "3BrT8IC9flGHw78gzPLifE",
       "is_local" : false,
       "name" : "Everything You Wanted",
-      "popularity" : 36,
+      "popularity" : 35,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -42661,6 +42812,6 @@
   "next" : null,
   "offset" : 550,
   "previous" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
-  "total" : 577
+  "total" : 579
 }]
 }
