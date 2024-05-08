@@ -11,11 +11,13 @@ class dbInteraction():
             app = firebase_admin.initialize_app(cred)
         global db
         db = firestore.client()
+
     def addUserToDB(self, userId):
-        users = db.collection('users')
-        docs = users.stream()
-        
-        if userId in docs:
+        users = db.collection('users').get()
+        ids = []
+        for i in users:
+            ids.append(i.id)
+        if userId in ids:
             return
         else:
             doc = db.collection('users').document(userId)
@@ -49,9 +51,9 @@ class dbInteraction():
                 'Date Added': str(datetime.date.today()),
                 'tracks': self.addTracks()
             })
+            
         else:
             x = self.findMatchingVersion(playlistId)
-            print(x)
             if not x['matchApi']:
                 ref = db.collection('playlists').document(playlistId).collection('versions').document(x['versionId'])
                 ref.set({
@@ -135,8 +137,36 @@ class dbInteraction():
             'versionId': versionId,
             'tracks': self.addTracks()
         }  
-
-
+    def getPlaylistVersionData(self, userId, playlistName):
+        x = self.getUserDBPlaylistIds(userId)
+        holdName = userId + playlistName.replace(' ', '')
+        ref = None
+        print(x)
+        for i in x:
+            if holdName in i:
+                ref = db.collection('playlists').document(i)
+        if ref == None:
+            return None
+        
+        ref1 = ref.collection('versions').get()
+        holdIds = []
+        for i in ref1:
+            holdIds.append(i.id)
+        
+        info = []
+        for i in holdIds:
+            ref1 = ref.collection('versions').document(i)
+            versionId = ref1.id
+            ref1 = ref1.get().to_dict()
+            holdInfo = {
+                'versionId': versionId,
+                'dateAdded': ref1['Date Added'],
+                'trackCount': ref1['trackCount'],
+                'trackRefs': ref1['tracks']
+            }
+            info.append(holdInfo)
+        return info
+    
     def getUserDBPlaylistIds(self, userId):
         userPlaylists = db.collection('users').document(userId)
         doc = userPlaylists.get().to_dict()
@@ -144,3 +174,13 @@ class dbInteraction():
         for i in doc['playlists']:
             hold.append(i.id)
         return hold
+
+    def getTrackInfo(self, trackId):
+        ref = db.collection('tracks').document(trackId).get().to_dict()
+        artists = ''
+        for i in ref['Artist Names']:
+            artists = artists + ' ' + i
+        return {
+            'trackName': ref['Track Name'],
+            'artists': artists
+        }

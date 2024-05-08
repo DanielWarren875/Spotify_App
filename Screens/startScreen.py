@@ -51,7 +51,7 @@ class start():
         redirect = 'http://localhost:80'
         chars = string.ascii_lowercase + string.digits
         state = ''.join(random.choice(chars) for i in range(16))
-        scope = 'user-read-private,user-read-email,playlist-read-private,user-library-read,playlist-read-collaborative'
+        scope = 'user-read-private,user-read-email,playlist-read-private,user-library-read,playlist-read-collaborative,user-library-modify'
         type = 'code'
         url = f'http://accounts.spotify.com/authorize?response_type={type}'
         url = url + f'&client_id={c}&scope={scope}'

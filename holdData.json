@@ -3,84 +3,146 @@
 	{
   "href" : "https://api.spotify.com/v1/me/tracks?offset=0&limit=50",
   "items" : [ {
-    "added_at" : "2024-05-02T03:56:45Z",
+    "added_at" : "2024-05-05T20:04:50Z",
     "track" : {
       "album" : {
-        "album_type" : "album",
+        "album_type" : "single",
         "artists" : [ {
           "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/23OFz99wX0NDBBwrxthLWU"
+            "spotify" : "https://open.spotify.com/artist/4HgqjpBaWctBWVHafQIpRt"
           },
-          "href" : "https://api.spotify.com/v1/artists/23OFz99wX0NDBBwrxthLWU",
-          "id" : "23OFz99wX0NDBBwrxthLWU",
-          "name" : "The Lacs",
+          "href" : "https://api.spotify.com/v1/artists/4HgqjpBaWctBWVHafQIpRt",
+          "id" : "4HgqjpBaWctBWVHafQIpRt",
+          "name" : "Born Of Osiris",
           "type" : "artist",
-          "uri" : "spotify:artist:23OFz99wX0NDBBwrxthLWU"
+          "uri" : "spotify:artist:4HgqjpBaWctBWVHafQIpRt"
         } ],
-        "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "PR", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
+        "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/760sXqdIdCq7C9zHKELKYr"
+          "spotify" : "https://open.spotify.com/album/3Nmi023OjclW3imkrnGXuG"
         },
-        "href" : "https://api.spotify.com/v1/albums/760sXqdIdCq7C9zHKELKYr",
-        "id" : "760sXqdIdCq7C9zHKELKYr",
+        "href" : "https://api.spotify.com/v1/albums/3Nmi023OjclW3imkrnGXuG",
+        "id" : "3Nmi023OjclW3imkrnGXuG",
         "images" : [ {
           "height" : 640,
-          "url" : "https://i.scdn.co/image/ab67616d0000b2735ea4fdd1dbb5226ee33f13d9",
+          "url" : "https://i.scdn.co/image/ab67616d0000b273fa629cc0d370adab303af29b",
           "width" : 640
         }, {
           "height" : 300,
-          "url" : "https://i.scdn.co/image/ab67616d00001e025ea4fdd1dbb5226ee33f13d9",
+          "url" : "https://i.scdn.co/image/ab67616d00001e02fa629cc0d370adab303af29b",
           "width" : 300
         }, {
           "height" : 64,
-          "url" : "https://i.scdn.co/image/ab67616d000048515ea4fdd1dbb5226ee33f13d9",
+          "url" : "https://i.scdn.co/image/ab67616d00004851fa629cc0d370adab303af29b",
           "width" : 64
         } ],
-        "name" : "Outlaw In Me",
-        "release_date" : "2015-05-26",
+        "name" : "Elevate",
+        "release_date" : "2024-04-24",
         "release_date_precision" : "day",
-        "total_tracks" : 14,
+        "total_tracks" : 2,
         "type" : "album",
-        "uri" : "spotify:album:760sXqdIdCq7C9zHKELKYr"
+        "uri" : "spotify:album:3Nmi023OjclW3imkrnGXuG"
       },
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/23OFz99wX0NDBBwrxthLWU"
+          "spotify" : "https://open.spotify.com/artist/4HgqjpBaWctBWVHafQIpRt"
         },
-        "href" : "https://api.spotify.com/v1/artists/23OFz99wX0NDBBwrxthLWU",
-        "id" : "23OFz99wX0NDBBwrxthLWU",
-        "name" : "The Lacs",
+        "href" : "https://api.spotify.com/v1/artists/4HgqjpBaWctBWVHafQIpRt",
+        "id" : "4HgqjpBaWctBWVHafQIpRt",
+        "name" : "Born Of Osiris",
         "type" : "artist",
-        "uri" : "spotify:artist:23OFz99wX0NDBBwrxthLWU"
-      }, {
+        "uri" : "spotify:artist:4HgqjpBaWctBWVHafQIpRt"
+      } ],
+      "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
+      "disc_number" : 1,
+      "duration_ms" : 193714,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USYFZ2405501"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5xSUwN5ZFBuoLWV4UnWVta"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5xSUwN5ZFBuoLWV4UnWVta",
+      "id" : "5xSUwN5ZFBuoLWV4UnWVta",
+      "is_local" : false,
+      "name" : "Elevate",
+      "popularity" : 52,
+      "preview_url" : "https://p.scdn.co/mp3-preview/70843216676ecf3e5a1ef0e8d4d57e67497236d7?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:5xSUwN5ZFBuoLWV4UnWVta"
+    }
+  }, {
+    "added_at" : "2024-05-05T01:41:17Z",
+    "track" : {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2zgG1GPDvjaBgxeQaVXI14"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2zgG1GPDvjaBgxeQaVXI14",
+          "id" : "2zgG1GPDvjaBgxeQaVXI14",
+          "name" : "All That Remains",
+          "type" : "artist",
+          "uri" : "spotify:artist:2zgG1GPDvjaBgxeQaVXI14"
+        } ],
+        "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "PR", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/3TZlqrpMAxc0nR7jKggeyh"
+          "spotify" : "https://open.spotify.com/album/2hPKkbMX9RJTi2BCIX5czA"
         },
-        "href" : "https://api.spotify.com/v1/artists/3TZlqrpMAxc0nR7jKggeyh",
-        "id" : "3TZlqrpMAxc0nR7jKggeyh",
-        "name" : "CRUCIFIX",
+        "href" : "https://api.spotify.com/v1/albums/2hPKkbMX9RJTi2BCIX5czA",
+        "id" : "2hPKkbMX9RJTi2BCIX5czA",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2739cffac9305a90c1e689f04c0",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e029cffac9305a90c1e689f04c0",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048519cffac9305a90c1e689f04c0",
+          "width" : 64
+        } ],
+        "name" : "Divine",
+        "release_date" : "2024-05-03",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:2hPKkbMX9RJTi2BCIX5czA"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2zgG1GPDvjaBgxeQaVXI14"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2zgG1GPDvjaBgxeQaVXI14",
+        "id" : "2zgG1GPDvjaBgxeQaVXI14",
+        "name" : "All That Remains",
         "type" : "artist",
-        "uri" : "spotify:artist:3TZlqrpMAxc0nR7jKggeyh"
+        "uri" : "spotify:artist:2zgG1GPDvjaBgxeQaVXI14"
       } ],
       "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "PR", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
       "disc_number" : 1,
-      "duration_ms" : 213425,
+      "duration_ms" : 219676,
       "explicit" : false,
       "external_ids" : {
-        "isrc" : "QMDPP1400126"
+        "isrc" : "QZRUP2400154"
       },
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/5p11ci0E16odrfp2ufAhBZ"
+        "spotify" : "https://open.spotify.com/track/1QCj1poCyvcNUkMV5hu4Ad"
       },
-      "href" : "https://api.spotify.com/v1/tracks/5p11ci0E16odrfp2ufAhBZ",
-      "id" : "5p11ci0E16odrfp2ufAhBZ",
+      "href" : "https://api.spotify.com/v1/tracks/1QCj1poCyvcNUkMV5hu4Ad",
+      "id" : "1QCj1poCyvcNUkMV5hu4Ad",
       "is_local" : false,
-      "name" : "Outlaw In Me",
-      "popularity" : 48,
-      "preview_url" : "https://p.scdn.co/mp3-preview/04c609be7937d8f7655c4a2073e25fe0b0f9cfc4?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
-      "track_number" : 14,
+      "name" : "Divine",
+      "popularity" : 51,
+      "preview_url" : "https://p.scdn.co/mp3-preview/51bd93f95ce41a6d0dd543a8972673ea7a996594?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
+      "track_number" : 1,
       "type" : "track",
-      "uri" : "spotify:track:5p11ci0E16odrfp2ufAhBZ"
+      "uri" : "spotify:track:1QCj1poCyvcNUkMV5hu4Ad"
     }
   }, {
     "added_at" : "2024-05-01T22:04:11Z",
@@ -298,7 +360,7 @@
       "id" : "2A0i4ouphiRJ1TG40WWOBM",
       "is_local" : false,
       "name" : "For The Glory (feat. Hollywood Undead)",
-      "popularity" : 51,
+      "popularity" : 50,
       "preview_url" : "https://p.scdn.co/mp3-preview/e790fc476a78eee920baac6bc3e893fdd6ee49f6?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -378,7 +440,7 @@
       "id" : "6q1F8dDPA8z2iaTE4XW2gG",
       "is_local" : false,
       "name" : "Idol (feat. Tech N9ne)",
-      "popularity" : 53,
+      "popularity" : 52,
       "preview_url" : "https://p.scdn.co/mp3-preview/54494323af4849a53fd1d9147aebbb1c28561b22?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -458,7 +520,7 @@
       "id" : "5I9Ew37wUDS9N7wHkYfjlU",
       "is_local" : false,
       "name" : "Empty",
-      "popularity" : 38,
+      "popularity" : 39,
       "preview_url" : "https://p.scdn.co/mp3-preview/262bfc7eafa1547a49d9155c2eb65b7afe667475?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -529,7 +591,7 @@
       "id" : "5qgE7aJHiBoGClXmNxWrC9",
       "is_local" : false,
       "name" : "Worship Is Warfare",
-      "popularity" : 31,
+      "popularity" : 30,
       "preview_url" : "https://p.scdn.co/mp3-preview/0e17ab5c403f5b61bae3758f039c19e6deb1ed20?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -778,7 +840,7 @@
       "id" : "1vvrzYC15EGMXzuEQ8OVyR",
       "is_local" : false,
       "name" : "Hands Like Barber",
-      "popularity" : 34,
+      "popularity" : 33,
       "preview_url" : "https://p.scdn.co/mp3-preview/d6d2603605984edc78970cbbc72b68f5da54a6e8?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -1444,7 +1506,7 @@
       "id" : "2ovEjstYAsHoKpe7JRCn7y",
       "is_local" : false,
       "name" : "Thorns",
-      "popularity" : 43,
+      "popularity" : 42,
       "preview_url" : "https://p.scdn.co/mp3-preview/56e356b002ee656db7ed746a4b4ebaf33fa7baec?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -1657,7 +1719,7 @@
       "id" : "5fBGzLhu0si4NmmeovXZEO",
       "is_local" : false,
       "name" : "The Sound of Silence 3: Three",
-      "popularity" : 25,
+      "popularity" : 24,
       "preview_url" : "https://p.scdn.co/mp3-preview/13438597815be929b76c55e3a3a285573eed9649?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -1799,7 +1861,7 @@
       "id" : "0IjqvPyctsYf3ASQPHWBvB",
       "is_local" : false,
       "name" : "Hope",
-      "popularity" : 48,
+      "popularity" : 47,
       "preview_url" : "https://p.scdn.co/mp3-preview/5086eeaf359a7623c3cc11005f2fed5ddd986400?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -2012,7 +2074,7 @@
       "id" : "1Q3HtTFGxjmEljAw7Y0CaR",
       "is_local" : false,
       "name" : "Options",
-      "popularity" : 58,
+      "popularity" : 57,
       "preview_url" : "https://p.scdn.co/mp3-preview/082b0c310666a7ab446dd3a5c9e86f1310ef79d9?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 16,
       "type" : "track",
@@ -2296,7 +2358,7 @@
       "id" : "1gZFRYcPz3wKevEaNYRwfW",
       "is_local" : false,
       "name" : "Time - Edit",
-      "popularity" : 55,
+      "popularity" : 54,
       "preview_url" : "https://p.scdn.co/mp3-preview/f9b7273bb47f88a8c88f4d252a2ab2e845969ad9?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 20,
       "type" : "track",
@@ -2367,7 +2429,7 @@
       "id" : "7fEoIHFRBGeszHJBkXcjQ4",
       "is_local" : false,
       "name" : "Antpile",
-      "popularity" : 4,
+      "popularity" : 3,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -2438,7 +2500,7 @@
       "id" : "3M1RZOhzt4lG3vpSYwffhe",
       "is_local" : false,
       "name" : "The Hammer",
-      "popularity" : 2,
+      "popularity" : 1,
       "preview_url" : null,
       "track_number" : 3,
       "type" : "track",
@@ -2722,7 +2784,7 @@
       "id" : "6SD2BwjwWruS4eqQk5HBUa",
       "is_local" : false,
       "name" : "Alive",
-      "popularity" : 23,
+      "popularity" : 22,
       "preview_url" : "https://p.scdn.co/mp3-preview/2f41f1e62568a1e05fcc20dc65f97292f9262d18?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -3580,7 +3642,16 @@
       "type" : "track",
       "uri" : "spotify:track:3XeB1bCs6NSaLKmTkVbx6R"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:23:00Z",
     "track" : {
       "album" : {
@@ -3660,16 +3731,7 @@
       "type" : "track",
       "uri" : "spotify:track:3m6HMeFX6GIlGPMBcLEN6t"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
-  "offset" : 0,
-  "previous" : null,
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:23:00Z",
     "track" : {
       "album" : {
@@ -3734,7 +3796,7 @@
       "id" : "0lOMLHxg0Fz70i2BE5o334",
       "is_local" : false,
       "name" : "Wish You Wouldn't",
-      "popularity" : 49,
+      "popularity" : 48,
       "preview_url" : "https://p.scdn.co/mp3-preview/206da3594eaf1d13d7b0510df5316bde79853039?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 11,
       "type" : "track",
@@ -4027,7 +4089,7 @@
       "id" : "1mvI5pGoh84IiFSbWxEkGH",
       "is_local" : false,
       "name" : "CLOUDS",
-      "popularity" : 66,
+      "popularity" : 65,
       "preview_url" : "https://p.scdn.co/mp3-preview/d1e6a39f43c4952ad5d5eeea6c80be0489358d6a?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -4311,7 +4373,7 @@
       "id" : "1YEXlV81t42IuXMnL600rg",
       "is_local" : false,
       "name" : "PRIDEFUL",
-      "popularity" : 55,
+      "popularity" : 54,
       "preview_url" : "https://p.scdn.co/mp3-preview/d365979110bbf612934d3904aa5a48f6ede1a6a0?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 5,
       "type" : "track",
@@ -4684,7 +4746,7 @@
       "id" : "6ziQdexOHyC2gkZ1iNoi1w",
       "is_local" : false,
       "name" : "PAID MY DUES",
-      "popularity" : 63,
+      "popularity" : 62,
       "preview_url" : "https://p.scdn.co/mp3-preview/0aa59954659fa378395903002090237ae70af033?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 10,
       "type" : "track",
@@ -4755,7 +4817,7 @@
       "id" : "4eL4EOrlxrKK9TmyVjueXd",
       "is_local" : false,
       "name" : "CLOUDS - Edit",
-      "popularity" : 51,
+      "popularity" : 50,
       "preview_url" : "https://p.scdn.co/mp3-preview/03a9fd41c8587d5462c2ed4f235555944b427b20?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 11,
       "type" : "track",
@@ -5261,7 +5323,7 @@
       "id" : "3DJtOEjnHQemekvG3IYUfq",
       "is_local" : false,
       "name" : "Face It",
-      "popularity" : 49,
+      "popularity" : 48,
       "preview_url" : "https://p.scdn.co/mp3-preview/455d6f660d52698217262d70ec9fcdba76be2381?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -5332,7 +5394,7 @@
       "id" : "5qGizZYD1lbhGFdTR1yoFv",
       "is_local" : false,
       "name" : "Motivated",
-      "popularity" : 51,
+      "popularity" : 50,
       "preview_url" : "https://p.scdn.co/mp3-preview/8dd66601cb13c9f9f96553c45c033a0ce2ed3a10?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 7,
       "type" : "track",
@@ -5403,7 +5465,7 @@
       "id" : "2QpFbRlnBo2TRhy5FyldSD",
       "is_local" : false,
       "name" : "Notepad",
-      "popularity" : 51,
+      "popularity" : 50,
       "preview_url" : "https://p.scdn.co/mp3-preview/c79699217afe37237c0173e53e5f802667a76063?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
@@ -5474,7 +5536,7 @@
       "id" : "5oLWKwAejXRkOv8bKaTBO7",
       "is_local" : false,
       "name" : "Turn The Music Up",
-      "popularity" : 59,
+      "popularity" : 58,
       "preview_url" : "https://p.scdn.co/mp3-preview/6b34c90c2b34f53905201fcf5aabf9cbb7cca659?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 9,
       "type" : "track",
@@ -5918,7 +5980,7 @@
       "id" : "4cBlIM5AjnQ74f52Dv7T5K",
       "is_local" : false,
       "name" : "Change",
-      "popularity" : 66,
+      "popularity" : 65,
       "preview_url" : "https://p.scdn.co/mp3-preview/3d499fe8be0697919b8f5245f585a7a2bd50a775?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -6131,7 +6193,7 @@
       "id" : "6MxMqCgqmekcr0VwSU7AVH",
       "is_local" : false,
       "name" : "Time",
-      "popularity" : 70,
+      "popularity" : 69,
       "preview_url" : "https://p.scdn.co/mp3-preview/2b89cad01e622ee2118028981f9d94f6a82efc5c?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -6850,7 +6912,7 @@
       "id" : "0pHrAAe6sSVDeUeNe5IesY",
       "is_local" : false,
       "name" : "MOTTO",
-      "popularity" : 66,
+      "popularity" : 65,
       "preview_url" : "https://p.scdn.co/mp3-preview/98136bf96c23375c763ffb49f2eb25c51d3e2415?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -7001,7 +7063,7 @@
       "id" : "1PvhuffRIPgvOYsa6tPEkr",
       "is_local" : false,
       "name" : "MAMA",
-      "popularity" : 60,
+      "popularity" : 59,
       "preview_url" : "https://p.scdn.co/mp3-preview/6e248d8a9e32f33f6f78d0d1ccfca12c096c063a?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -7220,7 +7282,16 @@
       "type" : "track",
       "uri" : "spotify:track:6fMpW2jYiXS6tpx2WgMIys"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
+  "offset" : 50,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=0&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:59Z",
     "track" : {
       "album" : {
@@ -7300,16 +7371,7 @@
       "type" : "track",
       "uri" : "spotify:track:2LCGFBu1ej6zt4r1VGPjny"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
-  "offset" : 50,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=0&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:59Z",
     "track" : {
       "album" : {
@@ -8271,7 +8333,7 @@
       "id" : "0we7ShV1o6cPTFjxOADPbC",
       "is_local" : false,
       "name" : "Outcast",
-      "popularity" : 57,
+      "popularity" : 56,
       "preview_url" : "https://p.scdn.co/mp3-preview/42ef02dd488ab4b69b86b226301b835f7de1303f?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -8564,7 +8626,7 @@
       "id" : "52okn5MNA47tk87PeZJLEL",
       "is_local" : false,
       "name" : "Let You Down",
-      "popularity" : 80,
+      "popularity" : 79,
       "preview_url" : "https://p.scdn.co/mp3-preview/48e3201996af61c4e48bb5f8dbdd004db4a6a63b?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -8848,7 +8910,7 @@
       "id" : "3i5qVV8azKqGFK4Gzdt5YS",
       "is_local" : false,
       "name" : "If You Want Love",
-      "popularity" : 73,
+      "popularity" : 72,
       "preview_url" : "https://p.scdn.co/mp3-preview/de77d80f9d17c2b8dd4d391fe9b9ea0bedb553f5?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 10,
       "type" : "track",
@@ -9132,7 +9194,7 @@
       "id" : "0zdycLZKxVZ3EA8Nuxo35M",
       "is_local" : false,
       "name" : "One Hundred",
-      "popularity" : 52,
+      "popularity" : 51,
       "preview_url" : "https://p.scdn.co/mp3-preview/b40ea855722c93a2a433b509e2d051fade7e3bb3?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 15,
       "type" : "track",
@@ -9878,7 +9940,7 @@
       "id" : "7sVOXV0aWjuTYtCbZdxPQn",
       "is_local" : false,
       "name" : "Doom Crossing: Eternal Horizons",
-      "popularity" : 60,
+      "popularity" : 59,
       "preview_url" : "https://p.scdn.co/mp3-preview/3281cdebc5ab9f847ed039427c7214e82906d641?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -10375,7 +10437,7 @@
       "id" : "6gZcANFdoD9kIsr4OMzFBI",
       "is_local" : false,
       "name" : "Arthur Rhodes",
-      "popularity" : 27,
+      "popularity" : 26,
       "preview_url" : "https://p.scdn.co/mp3-preview/a7afd5df94a626fd6f61e3d17dfdccec9a6a2b22?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -10535,7 +10597,7 @@
       "id" : "10ofpKhJZ2Wlh19ngsDO7K",
       "is_local" : false,
       "name" : "Play with Fire",
-      "popularity" : 8,
+      "popularity" : 7,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -10686,7 +10748,7 @@
       "id" : "277kkbKWZtQUpnK19WcEM6",
       "is_local" : false,
       "name" : "Forgotten",
-      "popularity" : 28,
+      "popularity" : 26,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -10914,7 +10976,16 @@
       "type" : "track",
       "uri" : "spotify:track:4oyUjJauYl4zVrozOYk3il"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
+  "offset" : 100,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:58Z",
     "track" : {
       "album" : {
@@ -10985,16 +11056,7 @@
       "type" : "track",
       "uri" : "spotify:track:67eX1ovaHyVPUinMHeUtIM"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
-  "offset" : 100,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=50&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:58Z",
     "track" : {
       "album" : {
@@ -11352,7 +11414,7 @@
       "id" : "6o9qkzDtEETNiBvxkEJeNK",
       "is_local" : false,
       "name" : "No Sucka MC's",
-      "popularity" : 42,
+      "popularity" : 41,
       "preview_url" : "https://p.scdn.co/mp3-preview/bbf8225b30307edaeaa811ddda8504fded87c8be?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 9,
       "type" : "track",
@@ -12071,7 +12133,7 @@
       "id" : "4UEo1b0wWrtHMC8bVqPiH8",
       "is_local" : false,
       "name" : "Nightmare",
-      "popularity" : 73,
+      "popularity" : 72,
       "preview_url" : "https://p.scdn.co/mp3-preview/c781eca2ae8f1196661b5dfb2314e85a7dd104d1?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -13820,7 +13882,7 @@
       "id" : "5Mje6fkgfBuBMdxdaE89M0",
       "is_local" : false,
       "name" : "No Lives Matter",
-      "popularity" : 55,
+      "popularity" : 54,
       "preview_url" : "https://p.scdn.co/mp3-preview/9800b809b503fed55100765aafa4c72a240f5c70?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -14572,7 +14634,16 @@
       "type" : "track",
       "uri" : "spotify:track:6gcRcCkx2K09BucndWZMCS"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
+  "offset" : 150,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:57Z",
     "track" : {
       "album" : {
@@ -14643,16 +14714,7 @@
       "type" : "track",
       "uri" : "spotify:track:5E1uA250yvX6jtphBqm6YD"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
-  "offset" : 150,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=100&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:57Z",
     "track" : {
       "album" : {
@@ -14717,7 +14779,7 @@
       "id" : "2BzEsfwqucjlBSFu8s74sz",
       "is_local" : false,
       "name" : "Crushed",
-      "popularity" : 52,
+      "popularity" : 51,
       "preview_url" : "https://p.scdn.co/mp3-preview/7c9fb52c4c519b03f14c34cd10e2d507d1c115c2?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -15001,7 +15063,7 @@
       "id" : "6fybp4N6eW3bsFAvARxyVe",
       "is_local" : false,
       "name" : "Ain't Talkin' 'Bout Love - 2015 Remaster",
-      "popularity" : 69,
+      "popularity" : 68,
       "preview_url" : "https://p.scdn.co/mp3-preview/9092d30da2a9e171d9ab29616e229396235660d2?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -15161,7 +15223,7 @@
       "id" : "2iptAVf9jZerlywLwiGhak",
       "is_local" : false,
       "name" : "Fallen Angel",
-      "popularity" : 63,
+      "popularity" : 62,
       "preview_url" : "https://p.scdn.co/mp3-preview/666fc2e14e34a8a50adaab86233eef6445c37368?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -15374,7 +15436,7 @@
       "id" : "2hEYslbdYWFSIA6JboUvnR",
       "is_local" : false,
       "name" : "DEVIL",
-      "popularity" : 63,
+      "popularity" : 64,
       "preview_url" : "https://p.scdn.co/mp3-preview/f84b61c506fb1370fae3d31b8b7a6bed0418e648?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -16022,7 +16084,7 @@
       "id" : "7v8N46DsAgCuFeoxLKUzUG",
       "is_local" : false,
       "name" : "Slow It to Flow It",
-      "popularity" : 24,
+      "popularity" : 23,
       "preview_url" : "https://p.scdn.co/mp3-preview/8c1e7056350125acbd444920c868eb4d4679b1f5?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -16093,7 +16155,7 @@
       "id" : "6jkpnvfMM9pEWYe68yNIYt",
       "is_local" : false,
       "name" : "dying lately",
-      "popularity" : 49,
+      "popularity" : 48,
       "preview_url" : "https://p.scdn.co/mp3-preview/fcffe212006c3f95092d6d1f6170054ad4c03974?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -16591,7 +16653,7 @@
       "id" : "0F3N5ZnngUeVMlW7L2lgRW",
       "is_local" : false,
       "name" : "Survivor",
-      "popularity" : 46,
+      "popularity" : 45,
       "preview_url" : "https://p.scdn.co/mp3-preview/a12cc7b9479f4f50cdf7fd4dbcdea969e063487d?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -16955,7 +17017,7 @@
       "id" : "1GodulW331hO1RQTf1KpjD",
       "is_local" : false,
       "name" : "The End / Undead",
-      "popularity" : 49,
+      "popularity" : 48,
       "preview_url" : "https://p.scdn.co/mp3-preview/e4a4aa112fae64265ffaf98d81230550d97eefb3?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
@@ -17728,7 +17790,7 @@
       "id" : "14GwnOeC9qYEKEA6uOZepa",
       "is_local" : false,
       "name" : "One Of Them Girls",
-      "popularity" : 67,
+      "popularity" : 66,
       "preview_url" : "https://p.scdn.co/mp3-preview/4febdd30e7aa9c65ac6cdab4bb6d74b8945087c7?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -17870,7 +17932,7 @@
       "id" : "5wane5dFpp8xgriui6y0c7",
       "is_local" : false,
       "name" : "Ol' Red",
-      "popularity" : 67,
+      "popularity" : 68,
       "preview_url" : "https://p.scdn.co/mp3-preview/60d936a6fa435c7c5f3503a16258844bea4f9014?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 5,
       "type" : "track",
@@ -18048,7 +18110,7 @@
       "id" : "05f1rPg0cUUbShsL4FYcPt",
       "is_local" : false,
       "name" : "Ready for War",
-      "popularity" : 21,
+      "popularity" : 19,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -18356,7 +18418,16 @@
       "type" : "track",
       "uri" : "spotify:track:0nnsBvdSmaGfphj44qiFRl"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
+  "offset" : 200,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:56Z",
     "track" : {
       "album" : {
@@ -18427,16 +18498,7 @@
       "type" : "track",
       "uri" : "spotify:track:3T9madiD4zl9P1hIqr255g"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
-  "offset" : 200,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=150&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:56Z",
     "track" : {
       "album" : {
@@ -18501,7 +18563,7 @@
       "id" : "567qUIm5ugDyOIcMbdBedg",
       "is_local" : false,
       "name" : "Savior",
-      "popularity" : 24,
+      "popularity" : 23,
       "preview_url" : "https://p.scdn.co/mp3-preview/d522d5df951891ee963e7c74df25442a50d1f6eb?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -18945,7 +19007,7 @@
       "id" : "2qYsSHsYkihWx043HVJQRV",
       "is_local" : false,
       "name" : "Dirt Road Anthem",
-      "popularity" : 16,
+      "popularity" : 15,
       "preview_url" : null,
       "track_number" : 2,
       "type" : "track",
@@ -19513,7 +19575,7 @@
       "id" : "4KAzYqfcijCSZa2P3etHoM",
       "is_local" : false,
       "name" : "Big Green Tractor",
-      "popularity" : 11,
+      "popularity" : 10,
       "preview_url" : null,
       "track_number" : 9,
       "type" : "track",
@@ -19673,7 +19735,7 @@
       "id" : "4Gh9JSLAUWXGEuO6IdbEvM",
       "is_local" : false,
       "name" : "Worst Mistakes",
-      "popularity" : 51,
+      "popularity" : 50,
       "preview_url" : "https://p.scdn.co/mp3-preview/be5ce8fb024f016b8922613fced8eed074fc08be?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -19762,7 +19824,7 @@
       "id" : "25rACA4FhGFeNnypyCPgYd",
       "is_local" : false,
       "name" : "Cycles",
-      "popularity" : 44,
+      "popularity" : 43,
       "preview_url" : "https://p.scdn.co/mp3-preview/3129510faa1605e05dabee6e2e8dca1b88dc2b4a?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
@@ -19904,7 +19966,7 @@
       "id" : "6gdLyYNuhWBzqwlOFSsXC7",
       "is_local" : false,
       "name" : "Better Together",
-      "popularity" : 78,
+      "popularity" : 77,
       "preview_url" : "https://p.scdn.co/mp3-preview/dc03e6ce3863164c798191cda6d35161cdba5c15?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 17,
       "type" : "track",
@@ -20438,7 +20500,7 @@
       "id" : "2Cd0EWyX3ICPIPXiCjVe2w",
       "is_local" : false,
       "name" : "Ready To Roll",
-      "popularity" : 44,
+      "popularity" : 43,
       "preview_url" : "https://p.scdn.co/mp3-preview/a617e7103f247d606d171a0d1e49715402e6738e?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -20589,7 +20651,7 @@
       "id" : "6foY66mWZN0pSRjZ408c00",
       "is_local" : false,
       "name" : "Whiskey Glasses",
-      "popularity" : 81,
+      "popularity" : 80,
       "preview_url" : "https://p.scdn.co/mp3-preview/8bfbda21b7e6c086f8d5461c05226cbf2f3e31fa?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -20944,7 +21006,7 @@
       "id" : "5aXnvqjF1DjYGLZDz8NsBe",
       "is_local" : false,
       "name" : "We Are All Lost",
-      "popularity" : 27,
+      "popularity" : 26,
       "preview_url" : "https://p.scdn.co/mp3-preview/effbde010ec9ce8f50f295d504afff6f7a65a83a?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
@@ -21601,7 +21663,7 @@
       "id" : "3khWoEmMwiuQtYDb5jrdxx",
       "is_local" : false,
       "name" : "Anthem of the Defeated",
-      "popularity" : 34,
+      "popularity" : 33,
       "preview_url" : "https://p.scdn.co/mp3-preview/d0f6ed5e90cc4e674551299811fcb861015442b9?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -21814,7 +21876,7 @@
       "id" : "4e16CHu6mmqI5TIEkHYFtD",
       "is_local" : false,
       "name" : "Shattered Glass",
-      "popularity" : 45,
+      "popularity" : 44,
       "preview_url" : "https://p.scdn.co/mp3-preview/50a2d4a56c921e80053d2003c8f5656c61047a6d?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 7,
       "type" : "track",
@@ -22104,7 +22166,16 @@
       "type" : "track",
       "uri" : "spotify:track:39xcUmVIl9joB5EQVlngrx"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
+  "offset" : 250,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:55Z",
     "track" : {
       "album" : {
@@ -22175,16 +22246,7 @@
       "type" : "track",
       "uri" : "spotify:track:6xHI9KjUjYT0FPtGO8Mxa1"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
-  "offset" : 250,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=200&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:55Z",
     "track" : {
       "album" : {
@@ -22715,7 +22777,7 @@
       "id" : "1sLNcITzwHvMRxc6TOv0Hz",
       "is_local" : false,
       "name" : "MIGRAINES",
-      "popularity" : 36,
+      "popularity" : 35,
       "preview_url" : "https://p.scdn.co/mp3-preview/247f44c2447bb4cb0f3e8645eb73388f294e6439?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -23444,7 +23506,7 @@
       "id" : "2GHJ7SJUd1KunqhFyI7vFf",
       "is_local" : false,
       "name" : "Someone I Used To Know",
-      "popularity" : 3,
+      "popularity" : 2,
       "preview_url" : null,
       "track_number" : 4,
       "type" : "track",
@@ -23604,7 +23666,7 @@
       "id" : "3NNPXSLp2aHYY8sD4q9Mhe",
       "is_local" : false,
       "name" : "Blow Up",
-      "popularity" : 45,
+      "popularity" : 44,
       "preview_url" : "https://p.scdn.co/mp3-preview/8dfc67abb98c9ab045e7f118fa94265c6b28df79?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -23675,7 +23737,7 @@
       "id" : "6guWjUuNYziyNXgjFo1IpF",
       "is_local" : false,
       "name" : "Houston, We Got a Problem",
-      "popularity" : 70,
+      "popularity" : 69,
       "preview_url" : "https://p.scdn.co/mp3-preview/eaf21ce05fb794cf84112b4fa6950c8f7030167c?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 13,
       "type" : "track",
@@ -23897,7 +23959,7 @@
       "id" : "682E6XBr1HpsHolFidOlGN",
       "is_local" : false,
       "name" : "Raised 'Round Here",
-      "popularity" : 37,
+      "popularity" : 36,
       "preview_url" : "https://p.scdn.co/mp3-preview/7e7bece30fb475a175ddf7479db19fb0b45a009d?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -23977,7 +24039,7 @@
       "id" : "0b2IVjeD268pYd7VUhmtKI",
       "is_local" : false,
       "name" : "Knee Deep (feat. Jimmy Buffett)",
-      "popularity" : 1,
+      "popularity" : 0,
       "preview_url" : null,
       "track_number" : 2,
       "type" : "track",
@@ -24084,7 +24146,7 @@
       "id" : "7asFSf2pkWNEG3E5EuN1QR",
       "is_local" : false,
       "name" : "Take Over",
-      "popularity" : 62,
+      "popularity" : 61,
       "preview_url" : "https://p.scdn.co/mp3-preview/73ec7cbe8d4448fb981265437212f5b33e9e5eaf?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -24528,7 +24590,7 @@
       "id" : "1sqqUxxiUlG4y4KQS0PceJ",
       "is_local" : false,
       "name" : "Hollow Eyes",
-      "popularity" : 22,
+      "popularity" : 21,
       "preview_url" : "https://p.scdn.co/mp3-preview/2263ef3fc4eb6f69c3fc9f98ed9375ea4e02ccac?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 7,
       "type" : "track",
@@ -24599,7 +24661,7 @@
       "id" : "2alwXGR4Nl3AYdZe2oHzWT",
       "is_local" : false,
       "name" : "The Roots Within",
-      "popularity" : 21,
+      "popularity" : 20,
       "preview_url" : "https://p.scdn.co/mp3-preview/cdc1609e8f7cbcdb1c2fc91bd3d44f1035794c4d?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
@@ -25025,7 +25087,7 @@
       "id" : "2jS0i4Y5dCqzZ36GUEP7V0",
       "is_local" : false,
       "name" : "The Path",
-      "popularity" : 45,
+      "popularity" : 44,
       "preview_url" : "https://p.scdn.co/mp3-preview/555017992d22b40c5f0ccd321f7a59f7e05b4b66?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -25096,7 +25158,7 @@
       "id" : "3evtociYVr6hBVfdzryQzE",
       "is_local" : false,
       "name" : "Prophet",
-      "popularity" : 35,
+      "popularity" : 34,
       "preview_url" : "https://p.scdn.co/mp3-preview/66fecccabb30b3041f2d52b069d144855d47cf38?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 5,
       "type" : "track",
@@ -25167,7 +25229,7 @@
       "id" : "0ONwGFXxdo1vai166F5AEz",
       "is_local" : false,
       "name" : "Locked (In My Head)",
-      "popularity" : 51,
+      "popularity" : 50,
       "preview_url" : "https://p.scdn.co/mp3-preview/993933e2c9363be2502e83bf2fc6159e47873a98?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -25892,7 +25954,16 @@
       "type" : "track",
       "uri" : "spotify:track:39daVR5fEyW1ontQkLlIgJ"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
+  "offset" : 300,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:54Z",
     "track" : {
       "album" : {
@@ -25966,22 +26037,13 @@
       "id" : "4urhJ3jYiNfzQJAm60vrqa",
       "is_local" : false,
       "name" : "Times Like This",
-      "popularity" : 42,
+      "popularity" : 41,
       "preview_url" : "https://p.scdn.co/mp3-preview/86399c550d0d8cfcddcf33ceb83bdbd5698bfa3f?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
       "uri" : "spotify:track:4urhJ3jYiNfzQJAm60vrqa"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
-  "offset" : 300,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=250&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:54Z",
     "track" : {
       "album" : {
@@ -26188,7 +26250,7 @@
       "id" : "5nKJ7tCsPhlnQpwpyfZJG4",
       "is_local" : false,
       "name" : "Reaching Out",
-      "popularity" : 38,
+      "popularity" : 37,
       "preview_url" : "https://p.scdn.co/mp3-preview/cb834089cd5a61cf75f7b4cf56d843358b8470c4?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 9,
       "type" : "track",
@@ -26330,7 +26392,7 @@
       "id" : "1glEYfGEc1kfSSULWi9jPz",
       "is_local" : false,
       "name" : "Kill the Pain",
-      "popularity" : 30,
+      "popularity" : 29,
       "preview_url" : "https://p.scdn.co/mp3-preview/e2af5ca1aee22893a68862a5154fa64b59aa6ec6?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -28460,7 +28522,7 @@
       "id" : "7nq9fnf7vCWAOUYvqYzmdh",
       "is_local" : false,
       "name" : "Buried",
-      "popularity" : 22,
+      "popularity" : 21,
       "preview_url" : "https://p.scdn.co/mp3-preview/5721239e9862d4bf5adaf58b88be13a08d0ffea8?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -29496,7 +29558,16 @@
       "type" : "track",
       "uri" : "spotify:track:44AsfbNAwg3hQIbEIyXVuh"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
+  "offset" : 350,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:53Z",
     "track" : {
       "album" : {
@@ -29576,16 +29647,7 @@
       "type" : "track",
       "uri" : "spotify:track:3I94qxxiGfzRQlmTwjZWS4"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
-  "offset" : 350,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=300&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:53Z",
     "track" : {
       "album" : {
@@ -30023,7 +30085,7 @@
       "id" : "438Y2Pncieie15Trk9Bnkb",
       "is_local" : false,
       "name" : "Automatic",
-      "popularity" : 37,
+      "popularity" : 36,
       "preview_url" : "https://p.scdn.co/mp3-preview/c7e8995b14da71ecae7e36d62d109f8b2150fa76?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -30236,7 +30298,7 @@
       "id" : "70YvYr2hGlS01bKRIho1HM",
       "is_local" : false,
       "name" : "La Grange - 2005 Remaster",
-      "popularity" : 47,
+      "popularity" : 45,
       "preview_url" : null,
       "track_number" : 8,
       "type" : "track",
@@ -31399,7 +31461,7 @@
       "id" : "7cc7O93YhNSTUSwzI6uF39",
       "is_local" : false,
       "name" : "Behind Bars (with Brantley Gilbert and Struggle Jennings)",
-      "popularity" : 4,
+      "popularity" : 3,
       "preview_url" : null,
       "track_number" : 4,
       "type" : "track",
@@ -31861,7 +31923,7 @@
       "id" : "6ngGiVX91DRmGDH4G5EgeO",
       "is_local" : false,
       "name" : "Son Of A Sinner",
-      "popularity" : 76,
+      "popularity" : 75,
       "preview_url" : "https://p.scdn.co/mp3-preview/0453b38bfe76fbd1cdc67ca63154fc024c875247?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -31932,7 +31994,7 @@
       "id" : "1UBQ5GK8JaQjm5VbkBZY66",
       "is_local" : false,
       "name" : "Sharp Dressed Man - 2008 Remaster",
-      "popularity" : 45,
+      "popularity" : 43,
       "preview_url" : null,
       "track_number" : 3,
       "type" : "track",
@@ -32145,7 +32207,7 @@
       "id" : "2GCC4e3wQuwlRl564EX7fu",
       "is_local" : false,
       "name" : "Against The World - Demo",
-      "popularity" : 22,
+      "popularity" : 21,
       "preview_url" : "https://p.scdn.co/mp3-preview/637307c4212cb10bcd9312e2289e0657187199de?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 19,
       "type" : "track",
@@ -32500,7 +32562,7 @@
       "id" : "7d7xdSc2b7kULY4XR11lF5",
       "is_local" : false,
       "name" : "Grown Ass Man - Live at Red Rocks",
-      "popularity" : 15,
+      "popularity" : 14,
       "preview_url" : "https://p.scdn.co/mp3-preview/0963ea8d8bad1703c96121c219f60394a9290516?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 24,
       "type" : "track",
@@ -33145,7 +33207,16 @@
       "type" : "track",
       "uri" : "spotify:track:0pqXmjMhNVD9oq00BpB2tm"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
+  "offset" : 400,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:52Z",
     "track" : {
       "album" : {
@@ -33216,16 +33287,7 @@
       "type" : "track",
       "uri" : "spotify:track:2iQNTD3soB2hrXng9flo7V"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
-  "offset" : 400,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=350&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:52Z",
     "track" : {
       "album" : {
@@ -34764,7 +34826,7 @@
       "id" : "1gFvsKNdzRkNF1XMdK6Ke1",
       "is_local" : false,
       "name" : "Back In The Day",
-      "popularity" : 33,
+      "popularity" : 32,
       "preview_url" : "https://p.scdn.co/mp3-preview/5620419bbd71fc5eda9f6c0db4f58c485a7a6be3?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -34977,7 +35039,7 @@
       "id" : "2QEQFkPeC1F61D0WDU3xuO",
       "is_local" : false,
       "name" : "Halfway To Heaven",
-      "popularity" : 35,
+      "popularity" : 34,
       "preview_url" : "https://p.scdn.co/mp3-preview/482895288feb91b6864e5b0c11cb5984f391d7a7?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 6,
       "type" : "track",
@@ -35963,7 +36025,7 @@
       "id" : "748wrs9n0dSXFyY3VRZB9w",
       "is_local" : false,
       "name" : "Fire’t Up",
-      "popularity" : 56,
+      "popularity" : 55,
       "preview_url" : "https://p.scdn.co/mp3-preview/e66c7617f080365a54cd3d352943a4440db59d4b?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -36176,7 +36238,7 @@
       "id" : "0HmJATZAiKmDJqh74w0AMu",
       "is_local" : false,
       "name" : "The Ones That Like Me",
-      "popularity" : 27,
+      "popularity" : 26,
       "preview_url" : "https://p.scdn.co/mp3-preview/97f03c1a40f19b6e9c077d8adf9039eb8653bd4d?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -36673,7 +36735,7 @@
       "id" : "6nhUH7Ovj9byknzMscUZ4K",
       "is_local" : false,
       "name" : "In My Head",
-      "popularity" : 24,
+      "popularity" : 23,
       "preview_url" : "https://p.scdn.co/mp3-preview/fd8979489324f120c17fe2319ec3ee591e5be3e7?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 9,
       "type" : "track",
@@ -36821,7 +36883,16 @@
       "type" : "track",
       "uri" : "spotify:track:5QI5JbzF85LRE4DNIL5gIM"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
+  "offset" : 450,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-20T17:22:51Z",
     "track" : {
       "album" : {
@@ -36892,16 +36963,7 @@
       "type" : "track",
       "uri" : "spotify:track:7Iuee2005TlARd0bAG4A0d"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
-  "offset" : 450,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=400&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-20T17:22:51Z",
     "track" : {
       "album" : {
@@ -37108,7 +37170,7 @@
       "id" : "2p3e6BEluuTCZ8UzodClUK",
       "is_local" : false,
       "name" : "We're Gonna Ride Again",
-      "popularity" : 23,
+      "popularity" : 22,
       "preview_url" : "https://p.scdn.co/mp3-preview/0c5e35cc76dbfb8f3d7f0566e918bdee8b5de19c?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 15,
       "type" : "track",
@@ -37179,7 +37241,7 @@
       "id" : "6t7fw5QJG7yzIc4yTU1IoE",
       "is_local" : false,
       "name" : "Three Feet Of Water",
-      "popularity" : 22,
+      "popularity" : 21,
       "preview_url" : "https://p.scdn.co/mp3-preview/c3ded2fa8f9c3d033d685289833444f0ad476734?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 16,
       "type" : "track",
@@ -37392,7 +37454,7 @@
       "id" : "6YOfv61CiS5Ge6rKIZGXWN",
       "is_local" : false,
       "name" : "Alive (Instrumental)",
-      "popularity" : 5,
+      "popularity" : 4,
       "preview_url" : "https://p.scdn.co/mp3-preview/fc6ddfae44410a257391f4e3291eec142f9f0b91?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 7,
       "type" : "track",
@@ -37534,7 +37596,7 @@
       "id" : "6WesP7PDkMCwsK1fA90tia",
       "is_local" : false,
       "name" : "Hollow Home (Instrumental)",
-      "popularity" : 4,
+      "popularity" : 3,
       "preview_url" : "https://p.scdn.co/mp3-preview/35027e437c68f4f8fd3eb5fe408d55ba45898718?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 9,
       "type" : "track",
@@ -37676,7 +37738,7 @@
       "id" : "75Lhz4HjWAJOU4wAfw9wYe",
       "is_local" : false,
       "name" : "Common Dread // Constant Threat (Instrumental)",
-      "popularity" : 4,
+      "popularity" : 3,
       "preview_url" : "https://p.scdn.co/mp3-preview/4301d0a32ae2f9ed26dba04430f2cf2e27a41d33?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 11,
       "type" : "track",
@@ -37960,7 +38022,7 @@
       "id" : "7zKoAeplPMS3bcqIZ4crp4",
       "is_local" : false,
       "name" : "Lost In The Static",
-      "popularity" : 55,
+      "popularity" : 54,
       "preview_url" : "https://p.scdn.co/mp3-preview/976132d5ffc92090ec8dccc82988b98e556b70f5?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -38999,7 +39061,7 @@
       "id" : "2uX5f3x2cObov0iDAPln4o",
       "is_local" : false,
       "name" : "Song of the South",
-      "popularity" : 69,
+      "popularity" : 68,
       "preview_url" : "https://p.scdn.co/mp3-preview/5bf1771f985c577172a78899f1d8cf9421be71aa?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 12,
       "type" : "track",
@@ -39141,7 +39203,7 @@
       "id" : "1Si7crvw1M6Kgz9XiAtMiJ",
       "is_local" : false,
       "name" : "When Legends Rise",
-      "popularity" : 6,
+      "popularity" : 5,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -39283,7 +39345,7 @@
       "id" : "0bqrFwY1HixfnusFxhYbDl",
       "is_local" : false,
       "name" : "Die in This Town",
-      "popularity" : 57,
+      "popularity" : 56,
       "preview_url" : "https://p.scdn.co/mp3-preview/71801fe0220fa45b101367e7b1e81978bada2d14?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 2,
       "type" : "track",
@@ -39567,7 +39629,7 @@
       "id" : "5nyef8bHyXaglyArVUNlre",
       "is_local" : false,
       "name" : "Deadwood",
-      "popularity" : 62,
+      "popularity" : 61,
       "preview_url" : "https://p.scdn.co/mp3-preview/a31743d7201d7f9b150d2b7b9819c5ff1184e707?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -40118,7 +40180,7 @@
       "id" : "1vUjqIGapgMyAFXOLUrYHO",
       "is_local" : false,
       "name" : "Death Whistle",
-      "popularity" : 40,
+      "popularity" : 39,
       "preview_url" : "https://p.scdn.co/mp3-preview/0c2465f89b2c8d3699a6b24e339078a76170217e?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 10,
       "type" : "track",
@@ -40198,7 +40260,7 @@
       "id" : "0hxWhpWdSOIll5zB3U8l9D",
       "is_local" : false,
       "name" : "Spartan",
-      "popularity" : 10,
+      "popularity" : 8,
       "preview_url" : null,
       "track_number" : 6,
       "type" : "track",
@@ -40488,7 +40550,16 @@
       "type" : "track",
       "uri" : "spotify:track:6FT83pFXKhDlXDsNJFAHWz"
     }
-  }, {
+  } ],
+  "limit" : 50,
+  "next" : "https://api.spotify.com/v1/me/tracks?offset=550&limit=50",
+  "offset" : 500,
+  "previous" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
+  "total" : 580
+},
+	{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=550&limit=50",
+  "items" : [ {
     "added_at" : "2024-03-19T21:27:44Z",
     "track" : {
       "album" : {
@@ -40559,16 +40630,7 @@
       "type" : "track",
       "uri" : "spotify:track:3vYrIcdKdpHP6Y8d0VE74m"
     }
-  } ],
-  "limit" : 50,
-  "next" : "https://api.spotify.com/v1/me/tracks?offset=550&limit=50",
-  "offset" : 500,
-  "previous" : "https://api.spotify.com/v1/me/tracks?offset=450&limit=50",
-  "total" : 579
-},
-	{
-  "href" : "https://api.spotify.com/v1/me/tracks?offset=550&limit=50",
-  "items" : [ {
+  }, {
     "added_at" : "2024-03-19T21:27:44Z",
     "track" : {
       "album" : {
@@ -40793,7 +40855,7 @@
       "id" : "33MnSYLvtOrbj5zwfioEiH",
       "is_local" : false,
       "name" : "Be Somebody",
-      "popularity" : 65,
+      "popularity" : 64,
       "preview_url" : "https://p.scdn.co/mp3-preview/b726bde8082adb8547478eb897a37e862046cc4f?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 7,
       "type" : "track",
@@ -41148,7 +41210,7 @@
       "id" : "7y5A9nnNw6ZF3fQyrkZEeL",
       "is_local" : false,
       "name" : "Blameless",
-      "popularity" : 42,
+      "popularity" : 40,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -41575,7 +41637,7 @@
       "id" : "2GJ1xx5ZoeIJYbQKLSpoZ3",
       "is_local" : false,
       "name" : "Finish Line",
-      "popularity" : 64,
+      "popularity" : 63,
       "preview_url" : "https://p.scdn.co/mp3-preview/34fd64e76fd643eb1021a0e1ddf50a9ccc2e7fcf?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 11,
       "type" : "track",
@@ -41655,7 +41717,7 @@
       "id" : "1u3nu8fNWFua6mQjw4ReEt",
       "is_local" : false,
       "name" : "Battle of the Heroes",
-      "popularity" : 52,
+      "popularity" : 53,
       "preview_url" : "https://p.scdn.co/mp3-preview/d75dcf5aa3850455de469eae2e6dbb56448fc00d?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 3,
       "type" : "track",
@@ -41735,7 +41797,7 @@
       "id" : "4sLtmtKMmA5iCIa90tWhSe",
       "is_local" : false,
       "name" : "Anakin's Betrayal",
-      "popularity" : 51,
+      "popularity" : 52,
       "preview_url" : "https://p.scdn.co/mp3-preview/00a06b00975fe6add10e430ef5411bcdbe8133c7?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 4,
       "type" : "track",
@@ -42108,7 +42170,7 @@
       "id" : "60ICDcC995UF0nu85r75qV",
       "is_local" : false,
       "name" : "All My Life",
-      "popularity" : 58,
+      "popularity" : 57,
       "preview_url" : "https://p.scdn.co/mp3-preview/73b8443efbc78636a6c0201c9401f5679fb8ba93?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 8,
       "type" : "track",
@@ -42188,7 +42250,7 @@
       "id" : "2sjE0P1Qtnhx8cIMyTynic",
       "is_local" : false,
       "name" : "Enemy",
-      "popularity" : 45,
+      "popularity" : 44,
       "preview_url" : "https://p.scdn.co/mp3-preview/d542a33ef26f080b353f1b11f55851946a75b50b?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
       "track_number" : 1,
       "type" : "track",
@@ -42259,7 +42321,7 @@
       "id" : "3BrT8IC9flGHw78gzPLifE",
       "is_local" : false,
       "name" : "Everything You Wanted",
-      "popularity" : 35,
+      "popularity" : 33,
       "preview_url" : null,
       "track_number" : 1,
       "type" : "track",
@@ -42812,6 +42874,6 @@
   "next" : null,
   "offset" : 550,
   "previous" : "https://api.spotify.com/v1/me/tracks?offset=500&limit=50",
-  "total" : 579
+  "total" : 580
 }]
 }

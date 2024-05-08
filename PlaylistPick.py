@@ -35,7 +35,7 @@ class pickPlaylist():
     def select(self, root, frame, nextPage, lb, playlists):
         selected = lb.curselection()
         hold = [lb.get(i) for i in selected]
-
+        print(nextPage)
         for j in playlists:
             if j['Playlist Name'] in hold[0]:
                 playlist = j
@@ -44,7 +44,7 @@ class pickPlaylist():
             root.title('Clean Playlist By Artist')
             self.clearFrame(root)
             n = cleanByArt(frame, playlist, authItems)
-        elif nextPage == 'Revert':
+        elif nextPage == 'revert':
             root.title('Revert Playlist to Previous Version')
             r = revertScreen(frame, authItems, playlist)
 
@@ -114,6 +114,8 @@ class pickPlaylist():
         r = requests.get(url=url, headers=header)
         x = json.loads(r.text)
         return x['id']
+    
+
     def clearFrame(self, root):
         for i in root.winfo_children():
             if isinstance(i, Frame):
