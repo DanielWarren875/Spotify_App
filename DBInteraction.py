@@ -184,3 +184,59 @@ class dbInteraction():
             'trackName': ref['Track Name'],
             'artists': artists
         }
+
+    def savePlaylistVersion(self, trackInfo, playlistInfo):
+        ref = db.collection('users').get()
+        for i in ref:
+            if i.id in playlistInfo['versionId']:
+                userId = i.id
+                break
+            else:
+                userId = 'Not Found'
+        if userId == 'Not Found':
+            print(userId)
+            return
+        ref = db.collection('users').document(userId).get().to_dict()
+        userPlaylists = ref['playlists']
+        for i in range(0, len(userPlaylists)):
+            if userPlaylists[i].id in playlistInfo['versionId']:
+                playlistId = userPlaylists[i].id
+                break
+            else:
+                playlistId = 'Not Found'
+
+        if playlistId == 'Not Found':
+            ref = db.collection('playlists').document(playlistInfo['versionId'])
+            ref.update({
+                'playlistId': playlistInfo['versionId'],
+                'playlistName': playlistInfo['versionId'],
+                'versionCount': 1
+            })
+        else:
+            ref = db.collection('playlists').document(playlistId).collection('versions').get()
+            length = len(ref)
+            versionId = playlistId + str(length + 1)
+
+            trackRefs = []
+            
+            for i in trackInfo:
+                id = i['trackId']
+                name = i['trackName']
+                artistIds = i['Artist Ids']
+                artistNames = i['Artist Names']
+                ref = db.collection('tracks').document(id)
+                trackRefs.append(ref)
+                if not ref.get().exists:
+                    print('Fine')
+                    ref.set({
+                        'Track Name': name,
+                        'Artist Ids': artistIds,
+                        'Artist Names': artistNames
+                    })
+            ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId)
+            ref.set({
+                'Date Added': str(datetime.date.today()),
+                'trackCount': len(trackRefs),
+                'tracks': trackRefs
+            })
+

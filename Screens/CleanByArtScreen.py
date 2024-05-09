@@ -26,11 +26,17 @@ class cleanByArt():
 
     def confirm(self, frame, lb, data, playlist):
         selected = lb.curselection()
+        selected = [lb.get(i) for i in selected]
         #Load current version of playlist into firebase
         #Delete Tracks from Playlist
         userId = self.getUserId()
-        print('Confirm')
         db.addUserPlaylist(userId, playlist)
+        artists = []
+
+        for i in selected:
+            name = i[0:int(i.rfind(' '))]
+            artists.append(name)
+        print(artists)
 
     def getDataFromLiked(self):
         url = 'https://api.spotify.com/v1/me/tracks?limit=50'

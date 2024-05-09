@@ -76,7 +76,7 @@ class revertScreen():
                 break
         self.clearFrame(frame)
         l = Label(frame, text='Would you like to keep the songs that are in the playlist but not in this version?')
-        yes = Button(frame, text='Yes', command=None)
+        yes = Button(frame, text='Yes', command=lambda:self.keep(frame, version))
         no = Button(frame, text='No', command=lambda:self.delete(frame, version))
         l.pack()
         yes.pack()
@@ -128,7 +128,7 @@ class revertScreen():
                 url = url[:-1]
                 deleteData = json.dumps({'ids': delete})
                 r = requests.delete(url=url, headers=header, data=deleteData)
-
+            ids.reverse()
             while len(ids) > 0:
                 if len(ids) > 50:
                     add = ids[0:50]
@@ -142,7 +142,116 @@ class revertScreen():
                 url = url[:-1]
                 addData = json.dumps({'ids': add})
                 r = requests.put(url=url, headers=header, data=addData)
+
+    def keep(self, frame, version):
+        self.clearFrame(frame)
+        ids = []
+        for i in version['trackRefs']:
+            ids.append(i)
+        
+        if userId in version['versionId'] and 'LikedPlaylist' in version['versionId']:
+            url = 'https://api.spotify.com/v1/me/tracks'
+            header = {
+                'Authorization': authItems['type'] + ' ' + authItems['accessTok']
+            }
+            r = requests.get(url=url, headers=header)
+            x = json.loads(r.text)
+            next = x['next']
+            while next != None:
+                items = x['items']
+                for i in items:
+                    hold = i['track']['id']
+                    ids.append(hold)
+                url = next
+                r = requests.get(url=url, headers=header)
+                x = json.loads(r.text)
+                next = x['next']
+            items = x['items']
+            for i in items:
+                hold = i['track']['id']
+                ids.append(hold)
+
+            while len(ids) > 0:
+                if len(ids) > 50:
+                    add = ids[0:50]
+                    ids = ids[50:]
+                else:
+                    add = ids
+                    ids = []
+                url = 'https://api.spotify.com/v1/me/tracks?ids='
+
+                for i in range(0, len(add)):
+                    if isinstance(add[i], str):
+                        url = url + add[i] + ','
+                    else:
+                        add[i] = add[i].id
+                        url = url + add[i] + ','
+                url = url[:-1]
+                addData = json.dumps({'ids': add})
+                r = requests.put(url=url, headers=header, data=addData)
             
+            l = Label(frame, text='Would you like to save this new version or go back to the main screen?')
+            yes = Button(frame, text='Save', command=lambda:self.savePlay(frame, version))
+            l.pack()
+            yes.pack()
+    def savePlay(self, frame, version):
+            trackInfo = []
+
+            if userId in version['versionId'] and 'LikedPlaylist' in version['versionId']:
+                url = 'https://api.spotify.com/v1/me/tracks'
+                header = {
+                    'Authorization': authItems['type'] + ' ' + authItems['accessTok']
+                }
+                r = requests.get(url=url, headers=header)
+                x = json.loads(r.text)
+                next = x['next']
+                while next != None:
+                    items = x['items']
+                    for i in items:
+                        trackId = i['track']['id']
+                        trackName = i['track']['name']
+                        arts = i['track']['artists']
+                        artIds = []
+                        artNames = []
+                        for i in arts:
+                            id = i['id']
+                            name = i['name']
+                            artIds.append(id)
+                            artNames.append(name)
+                        info = {
+                            'trackId': trackId,
+                            'trackName': trackName,
+                            'Artist Ids': artIds,
+                            'Artist Names': artNames
+                        }
+                        trackInfo.append(info)
+                    url = next
+                    r = requests.get(url=url, headers=header)
+                    x = json.loads(r.text)
+                    next = x['next']
+                items = x['items']
+                for i in items:
+                        trackId = i['track']['id']
+                        trackName = i['track']['name']
+                        arts = i['track']['artists']
+                        artIds = []
+                        artNames = []
+                        for i in arts:
+                            id = i['id']
+                            name = i['name']
+                            artIds.append(id)
+                            artNames.append(name)
+                        info = {
+                            'trackId': trackId,
+                            'trackName': trackName,
+                            'Artist Ids': artIds,
+                            'Artist Names': artNames
+                        }
+                        trackInfo.append(info)
+
+                db.savePlaylistVersion(trackInfo, version)
+                self.clearFrame(frame)
+                
     def clearFrame(self, frame):
         for i in frame.winfo_children():
             i.destroy()
