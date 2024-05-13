@@ -4,19 +4,20 @@ from DBInteraction import *
 from tkinter import *
 
 class cleanByArt():
-    def __init__(self, frame, playlist, auth):
+    def __init__(self, frame, selectedPlaylist, auth):
         global authItems
         global db
         db = dbInteraction()
         authItems = auth
-        if playlist['Playlist Name'] == 'Liked Playlist':
-            x = self.getDataFromLiked()
+        self.clearFrame(frame)
+        if selectedPlaylist['Playlist Name'] == 'Liked Playlist':
+            data = self.getDataFromLiked()
         else:
-            print('Do something')
-        length = len(x)
+            data = self.getDataFromOther(selectedPlaylist)
+        length = len(data)
         lb = Listbox(frame, selectmode=MULTIPLE, height=length, width=200)
-        confirm = Button(frame, text='Confirm', command=lambda: self.confirm(frame, lb, x, playlist))
-        for i in x:
+        confirm = Button(frame, text='Confirm', command=lambda: self.confirm(frame, lb, data, selectedPlaylist))
+        for i in data:
             name = i['artistName']
             trackCount = len(i['artistTracks'])
             add = f'{name} {trackCount}'
@@ -27,16 +28,53 @@ class cleanByArt():
     def confirm(self, frame, lb, data, playlist):
         selected = lb.curselection()
         selected = [lb.get(i) for i in selected]
+        print('confirm')
+        self.clearFrame(frame)
         #Load current version of playlist into firebase
         #Delete Tracks from Playlist
         userId = self.getUserId()
         db.addUserPlaylist(userId, playlist)
-        artists = []
-
         for i in selected:
             name = i[0:int(i.rfind(' '))]
-            artists.append(name)
-        print(artists)
+            self.deleteFromLiked(name, data)
+            
+    def deleteFromLiked(self, artistName, data):
+        for i in data:
+            if i['artistName'] == artistName:
+                artistId = i['artistId']
+                artistTracks = i['artistTracks']
+                artistTrackIds = i['artistTrackIds']
+                break
+        header = {
+            'Authorization': authItems['type'] + ' ' + authItems['accessTok'],
+            'Content-Type': 'application/json'
+        }
+        url = 'https://api.spotify.com/v1/me/tracks?ids='
+        ids = []
+        for i in artistTrackIds:
+            url = url + i + ','
+            ids.append(i)
+            if len(ids) >= 20:
+                url = url[:-1]
+                data1 = json.dumps({'ids': ids})
+                r = requests.delete(url=url, headers=header, data=data1)
+                ids = []
+                url = 'https://api.spotify.com/v1/me/tracks?ids='
+        url = url[:-1]
+        data1 = json.dumps({'ids': ids})
+        r = requests.delete(url=url, headers=header, data=data1)
+        ids = []
+        url = 'https://api.spotify.com/v1/me/tracks?ids='
+    def getDataFromOther(self, playlistInfo):
+        playlistId = playlistInfo['Playlist Id']
+        url = f'https://api.spotify.com/v1/playlists/{playlistId}'
+        header = {
+            'Authorization': authItems['type'] + ' ' + authItems['accessTok']
+        }
+
+        r = requests.get(url=url, headers=header)
+        x = json.loads(r.text)
+        
 
     def getDataFromLiked(self):
         url = 'https://api.spotify.com/v1/me/tracks?limit=50'
@@ -47,22 +85,19 @@ class cleanByArt():
         r = requests.get(url=url, headers=header)
         x = json.loads(r.text)
         next = x['next']
-
-        f = open('holdData.json', 'w')
-        f.write('{\n\"data\": [\n')
+        
+        dataFromLiked = '{\n\"data\": [\n'
         while next != None:
-            f.write('\t' + r.text + ',\n')
+            dataFromLiked = dataFromLiked + '\t' + r.text + ',\n'
             url = next
             r = requests.get(url=url, headers=header)
             x = json.loads(r.text)
             next = x['next']
-        f.write('\t' + r.text)
-        f.write(']\n}')
-        f.close()
+        dataFromLiked = dataFromLiked + '\t' + r.text
+        dataFromLiked = dataFromLiked + ']\n}'
+        
+        x = json.loads(dataFromLiked)
 
-        with open('holdData.json') as f:
-            x = json.load(f)
-            f.close()
         data = x['data']
         info = []
         trackArtists = []
@@ -116,3 +151,7 @@ class cleanByArt():
         r = requests.get(url=url, headers=header)
         x = json.loads(r.text)
         return x['id']
+    
+    def clearFrame(self, frame):
+        for i in frame.winfo_children():
+            i.destroy()

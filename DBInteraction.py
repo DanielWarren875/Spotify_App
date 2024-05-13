@@ -141,7 +141,7 @@ class dbInteraction():
         x = self.getUserDBPlaylistIds(userId)
         holdName = userId + playlistName.replace(' ', '')
         ref = None
-        print(x)
+        
         for i in x:
             if holdName in i:
                 ref = db.collection('playlists').document(i)
@@ -194,7 +194,6 @@ class dbInteraction():
             else:
                 userId = 'Not Found'
         if userId == 'Not Found':
-            print(userId)
             return
         ref = db.collection('users').document(userId).get().to_dict()
         userPlaylists = ref['playlists']
@@ -227,7 +226,6 @@ class dbInteraction():
                 ref = db.collection('tracks').document(id)
                 trackRefs.append(ref)
                 if not ref.get().exists:
-                    print('Fine')
                     ref.set({
                         'Track Name': name,
                         'Artist Ids': artistIds,

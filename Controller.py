@@ -20,24 +20,24 @@ class Controller():
             m = MainScreen(frame, self, root, authItems)
         elif page == 'cleanPlayDate':
             self.clearFrame(frame)
-            back.pack()
+            back.grid(row=0, column=0)
             n = pickPlaylist(frame, page, root, authItems)
         elif page == 'cleanPlayArt':
             self.clearFrame(frame)
-            back.pack()
+            back.grid(row=0, column=0)
             n = pickPlaylist(frame, page, root, authItems)
         elif page == 'cleanPlayUser':
             self.clearFrame(frame)
-            back.pack()
+            back.grid(row=0, column=0)
             n = pickPlaylist(frame, page, root, authItems)
         elif page == 'revert':
             self.clearFrame(frame)
-            back.pack()
+            back.grid(row=0, column=0)
             n = pickPlaylist(frame, page, root, authItems)
         elif page == 'Quit':
             self.clearFrame(frame)
             root.title('Quit')
-            back.pack()
+            back.grid(row=0, column=0)
             Quit(frame, root)
 
     def clearFrame(self, root):

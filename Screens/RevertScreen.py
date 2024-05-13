@@ -5,7 +5,7 @@ from tkinter import *
 from DBInteraction import dbInteraction
 
 class revertScreen():
-    def __init__(self, frame, auth, selectedPlaylist):
+    def __init__(self, frame, auth, selectedPlaylist, playlists):
         global authItems
         global db
         global userId

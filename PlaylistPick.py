@@ -18,8 +18,6 @@ class pickPlaylist():
 
         db = dbInteraction()
 
-
-
         length = len(playlists)
         lb = Listbox(frame, selectmode=SINGLE, height=length, width=200)
         for i in playlists:
@@ -35,14 +33,12 @@ class pickPlaylist():
     def select(self, root, frame, nextPage, lb, playlists):
         selected = lb.curselection()
         hold = [lb.get(i) for i in selected]
-        print(nextPage)
         for j in playlists:
             if j['Playlist Name'] in hold[0]:
                 playlist = j
                 break
         if nextPage == 'cleanPlayArt':
             root.title('Clean Playlist By Artist')
-            self.clearFrame(root)
             n = cleanByArt(frame, playlist, authItems)
         elif nextPage == 'revert':
             root.title('Revert Playlist to Previous Version')
@@ -59,7 +55,6 @@ class pickPlaylist():
         next = x['next']
         ownerPlay = []
         ownerPlay.append(self.getLikedPlaylistInfo())
-        #otherPlay = []
         
         while next != None:
             url = next
@@ -116,10 +111,6 @@ class pickPlaylist():
         return x['id']
     
 
-    def clearFrame(self, root):
-        for i in root.winfo_children():
-            if isinstance(i, Frame):
-                for j in i.winfo_children():
-                    j.destroy()
-            else:
-                i.destroy()
+    def clearFrame(self, frame):
+        for i in frame.winfo_children():
+            i.destroy()
