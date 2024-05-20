@@ -65,6 +65,7 @@ class cleanByArt():
         r = requests.delete(url=url, headers=header, data=data1)
         ids = []
         url = 'https://api.spotify.com/v1/me/tracks?ids='
+
     def getDataFromOther(self, playlistInfo):
         playlistId = playlistInfo['Playlist Id']
         url = f'https://api.spotify.com/v1/playlists/{playlistId}'
@@ -74,7 +75,46 @@ class cleanByArt():
 
         r = requests.get(url=url, headers=header)
         x = json.loads(r.text)
-        
+        next = x['tracks']['next']
+        holdResponses = '{\n\"data\": [\n'
+        while next != None:
+            holdResponses = holdResponses + '\t' + r.text + ',\n'
+            url = next
+            r = requests.get(url=url, headers=header)
+            x = json.loads(r.text)
+            next = x['tracks']['next']
+        holdResponses = holdResponses + '\t' + r.text
+        holdResponses = holdResponses + '\n]\n}'
+        f = open('holdData.txt', 'w')
+        f.write(holdResponses)
+        x = json.loads(holdResponses)
+
+        data = x['data']
+        info = []
+        trackArtists = []
+        varArtCount = 1
+
+        for i in data:
+            items = i['tracks']['items']
+            for j in items:
+                arts = j['track']['artists']
+                for k in arts:
+                    artistName = k['name']
+                    if artistName not in trackArtists:
+                        if artistName == '':
+                            artistName = f'Various Artists {varArtCount}'
+                            varArtCount = varArtCount + 1
+                        artistId = k['id']
+                        hold = self.getArtTracks(data, artistName, False)
+                        artistInfo = {
+                            'artistName': artistName,
+                            'artistId': artistId,
+                            'artistTracks': hold['artistTracks'],
+                            'artistTrackIds': hold['artistTrackIds']
+                        }
+                        info.append(artistInfo)
+                        trackArtists.append(artistName)
+        return info
 
     def getDataFromLiked(self):
         url = 'https://api.spotify.com/v1/me/tracks?limit=50'
@@ -113,7 +153,7 @@ class cleanByArt():
                             artistName = f'Various Artists {varArtCount}'
                             varArtCount = varArtCount + 1
                         artistId = k['id']
-                        hold = self.getArtTracksFromLiked(data, artistName)
+                        hold = self.getArtTracks(data, artistName, True)
                         artistInfo = {
                             'artistName': artistName,
                             'artistId': artistId,
@@ -124,11 +164,14 @@ class cleanByArt():
                         trackArtists.append(artistName)
         return info
 
-    def getArtTracksFromLiked(self, data, artistName):
+    def getArtTracks(self, data, artistName, isLiked):
         tracks = []
         trackIds = []
         for i in data:
-            items = i['items']
+            if isLiked:
+                items = i['items']
+            else:
+                items = i['tracks']['items']
             for j in items:
                 trackName = j['track']['name']
                 trackId = j['track']['id']
