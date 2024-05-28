@@ -14,9 +14,11 @@ class cleanByArt():
             data = self.getDataFromLiked()
         else:
             data = self.getDataFromOther(selectedPlaylist)
+        holdResponses = data['holdResponses']
+        data = data['data']
         length = len(data)
         lb = Listbox(frame, selectmode=MULTIPLE, height=length, width=200)
-        confirm = Button(frame, text='Confirm', command=lambda: self.confirm(frame, lb, data, selectedPlaylist))
+        confirm = Button(frame, text='Confirm', command=lambda: self.confirm(frame, lb, data, selectedPlaylist, holdResponses))
         for i in data:
             name = i['artistName']
             trackCount = len(i['artistTracks'])
@@ -25,7 +27,7 @@ class cleanByArt():
         confirm.pack()
         lb.pack()
 
-    def confirm(self, frame, lb, data, playlist):
+    def confirm(self, frame, lb, data, playlist, holdData):
         selected = lb.curselection()
         selected = [lb.get(i) for i in selected]
         print('confirm')
@@ -33,7 +35,7 @@ class cleanByArt():
         #Load current version of playlist into firebase
         #Delete Tracks from Playlist
         userId = self.getUserId()
-        db.addUserPlaylist(userId, playlist)
+        db.addUserPlaylist(userId, playlist, holdData)
         for i in selected:
             name = i[0:int(i.rfind(' '))]
             self.deleteFromLiked(name, data)
@@ -85,8 +87,6 @@ class cleanByArt():
             next = x['tracks']['next']
         holdResponses = holdResponses + '\t' + r.text
         holdResponses = holdResponses + '\n]\n}'
-        f = open('holdData.txt', 'w')
-        f.write(holdResponses)
         x = json.loads(holdResponses)
 
         data = x['data']
@@ -114,7 +114,10 @@ class cleanByArt():
                         }
                         info.append(artistInfo)
                         trackArtists.append(artistName)
-        return info
+        return {
+            'data': info,
+            'holdResponses': holdResponses
+        }
 
     def getDataFromLiked(self):
         url = 'https://api.spotify.com/v1/me/tracks?limit=50'
@@ -162,7 +165,10 @@ class cleanByArt():
                         }
                         info.append(artistInfo)
                         trackArtists.append(artistName)
-        return info
+        return {
+            'data': info,
+            'holdResponses': dataFromLiked
+        }
 
     def getArtTracks(self, data, artistName, isLiked):
         tracks = []

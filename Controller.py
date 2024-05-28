@@ -24,7 +24,7 @@ class Controller():
             n = pickPlaylist(frame, page, root, authItems)
         elif page == 'cleanPlayArt':
             self.clearFrame(frame)
-            back.grid(row=1, column=0)
+            back.grid(row=0, column=1)
             n = pickPlaylist(frame, page, root, authItems)
         elif page == 'cleanPlayUser':
             self.clearFrame(frame)
@@ -40,10 +40,6 @@ class Controller():
             back.grid(row=1, column=0)
             Quit(frame, root)
 
-    def clearFrame(self, root):
-        for i in root.winfo_children():
-            if isinstance(i, Frame):
-                for j in i.winfo_children():
-                    j.destroy()
-            else:
-                i.destroy()
+    def clearFrame(self, frame):
+        for i in frame.winfo_children():
+            i.destroy()

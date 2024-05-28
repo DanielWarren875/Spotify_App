@@ -25,7 +25,7 @@ class dbInteraction():
                 'playlists': []
             })
     
-    def addUserPlaylist(self, userId, playlist):
+    def addUserPlaylist(self, userId, playlist, dataFromPlaylist):
         playlistName = playlist['Playlist Name']
         trackCount = playlist['Track Count']
 
@@ -49,29 +49,31 @@ class dbInteraction():
             ref.set({
                 'trackCount': trackCount,
                 'Date Added': str(datetime.date.today()),
-                'tracks': self.addTracks()
+                'tracks': self.addTracks(playlistId=playlistId, holdData=dataFromPlaylist)
             })
             
         else:
-            x = self.findMatchingVersion(playlistId)
+            x = self.findMatchingVersion(playlistId, dataFromPlaylist)
             if not x['matchApi']:
                 ref = db.collection('playlists').document(playlistId).collection('versions').document(x['versionId'])
                 ref.set({
                     'trackCount': trackCount,
                     'Date Added': str(datetime.date.today()),
-                    'tracks': self.addTracks()
+                    'tracks': self.addTracks(playlistId=playlistId, holdData=dataFromPlaylist)
                 })
                 return x['versionId']
             
 
-    def addTracks(self):
-        f = open('holdData.json', 'r')
-        x = json.load(f)
-
+    def addTracks(self, playlistId, holdData):
+        x = json.loads(holdData)
         data = x['data']
         trackRefs = []
         for i in data:
-            items = i['items']
+            if 'Liked Playlist' in playlistId:
+                items = i['items']
+            else:
+                items = i['tracks']['items']
+
             for j in items:
                 trackName = j['track']['name']
                 trackId = j['track']['id']
@@ -92,16 +94,19 @@ class dbInteraction():
                 trackRefs.append(ref)
         return trackRefs
        
-    def findMatchingVersion(self, playlistId):
+    def findMatchingVersion(self, playlistId, holdData):
         num = 1
         versionId = playlistId + str(num)
-        
-        f = open('holdData.json', 'r')
-        x = json.load(f)
+        x = json.loads(holdData)
         data = x['data']
         apiTrackIds = []
+        f = open('holdData.json', 'w')
         for i in data:
-            items = i['items']
+            if 'Liked Playlist' in playlistId:
+                items = i['items']
+            else:
+                items = i['tracks']['items']
+
             for j in items:
                 holdId = j['track']['id']
                 apiTrackIds.append(holdId)
@@ -126,7 +131,7 @@ class dbInteraction():
                 return {
                     'matchApi': True,
                     'versionId': versionId,
-                    'tracks': self.addTracks()
+                    'tracks': self.addTracks(playlistId, holdData)
                 }
             else:
                 num = num + 1
@@ -135,7 +140,7 @@ class dbInteraction():
         return {
             'matchApi': False,
             'versionId': versionId,
-            'tracks': self.addTracks()
+            'tracks': self.addTracks(playlistId, holdData)
         }  
     def getPlaylistVersionData(self, userId, playlistName):
         x = self.getUserDBPlaylistIds(userId)
