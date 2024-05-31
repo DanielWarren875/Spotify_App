@@ -5,6 +5,7 @@ from Screens.RevertScreen import *
 from PlaylistPick import *
 from Screens.QuitScreen import *
 from Screens.startScreen import start
+from Screens.SearchScreen import *
 class Controller():
     def __init__(self, root, frame, authItems):
         global back
@@ -18,13 +19,9 @@ class Controller():
             root.title('Main')
             back.grid_remove()
             m = MainScreen(frame, self, root, authItems)
-        elif page == 'cleanPlayDate':
-            self.clearFrame(frame)
-            back.grid(row=1, column=1)
-            n = pickPlaylist(frame, page, root, authItems)
         elif page == 'cleanPlayArt':
             self.clearFrame(frame)
-            back.grid(row=0, column=1)
+            back.grid(row=2, column=0)
             n = pickPlaylist(frame, page, root, authItems)
         elif page == 'cleanPlayUser':
             self.clearFrame(frame)
@@ -34,6 +31,10 @@ class Controller():
             self.clearFrame(frame)
             back.grid(row=1, column=0)
             n = pickPlaylist(frame, page, root, authItems)
+        elif page == 'search':
+            self.clearFrame(frame)
+            back.grid(row=1, column=0)
+            n = search(frame, root, authItems, self)
         elif page == 'Quit':
             self.clearFrame(frame)
             root.title('Quit')

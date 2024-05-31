@@ -2,7 +2,8 @@ from tkinter import *
 import requests
 import json
 from Screens.RevertScreen import *
-from Screens.CleanByArtScreen import cleanByArt
+from Screens.CleanByArtScreen import *
+from Screens.CleanByUserScreen import *
 from authItems import *
 from DBInteraction import *
 userId = ''
@@ -19,17 +20,19 @@ class pickPlaylist():
         db = dbInteraction()
 
         length = len(playlists)
-        lb = Listbox(frame, selectmode=SINGLE, height=length, width=200)
+        frame.update()
+        width = frame.winfo_width()
+        lb = Listbox(frame, selectmode=SINGLE, height=int(length / 10), width= int(width / 10))
         for i in playlists:
             name = i['Playlist Name']
             owner = i['Owner']
             count = i['Track Count']
             add = f'{name} {owner} {count}'
             lb.insert(END, add)
-        lb.pack()
+        lb.pack(side='left')
         
         b = Button(frame, text='Confirm', command=lambda: self.select(root, frame, nextPage, lb, playlists))
-        b.pack()
+        b.pack(side='bottom')
     def select(self, root, frame, nextPage, lb, playlists):
         selected = lb.curselection()
         hold = [lb.get(i) for i in selected]
@@ -43,6 +46,8 @@ class pickPlaylist():
         elif nextPage == 'revert':
             root.title('Revert Playlist to Previous Version')
             r = revertScreen(frame, authItems, playlist)
+        elif nextPage == 'cleanPlayUser':
+            n = cleanByUser(frame, playlist, authItems)
 
 
     def getUserPlaylists(self):

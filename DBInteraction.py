@@ -69,7 +69,7 @@ class dbInteraction():
         data = x['data']
         trackRefs = []
         for i in data:
-            if 'Liked Playlist' in playlistId:
+            if 'LikedPlaylist' in playlistId:
                 items = i['items']
             else:
                 items = i['tracks']['items']
@@ -102,7 +102,7 @@ class dbInteraction():
         apiTrackIds = []
         f = open('holdData.json', 'w')
         for i in data:
-            if 'Liked Playlist' in playlistId:
+            if 'LikedPlaylist' in playlistId:
                 items = i['items']
             else:
                 items = i['tracks']['items']

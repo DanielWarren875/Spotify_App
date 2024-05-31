@@ -17,15 +17,22 @@ class cleanByArt():
         holdResponses = data['holdResponses']
         data = data['data']
         length = len(data)
-        lb = Listbox(frame, selectmode=MULTIPLE, height=length, width=200)
+        frame.update()
+        width = frame.winfo_width()
+        lb = Listbox(frame, selectmode=MULTIPLE, height=int(length / 10), width=int(width / 20))
         confirm = Button(frame, text='Confirm', command=lambda: self.confirm(frame, lb, data, selectedPlaylist, holdResponses))
+        sb = Scrollbar(frame, orient='vertical')
+        sb.config(command=lb.yview)
+
+        lb.config(yscrollcommand=sb.set)
         for i in data:
             name = i['artistName']
             trackCount = len(i['artistTracks'])
             add = f'{name} {trackCount}'
             lb.insert(END, add)
-        confirm.pack()
-        lb.pack()
+        confirm.pack(side='bottom')
+        lb.pack(side='left')
+        sb.pack(fill='y', side='right')
 
     def confirm(self, frame, lb, data, playlist, holdData):
         selected = lb.curselection()
