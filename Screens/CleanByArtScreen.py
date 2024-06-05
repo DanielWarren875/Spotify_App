@@ -37,7 +37,6 @@ class cleanByArt():
     def confirm(self, frame, lb, data, playlist, holdData):
         selected = lb.curselection()
         selected = [lb.get(i) for i in selected]
-        print('confirm')
         self.clearFrame(frame)
         #Load current version of playlist into firebase
         #Delete Tracks from Playlist
