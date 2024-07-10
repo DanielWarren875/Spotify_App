@@ -6,6 +6,7 @@ from PlaylistPick import *
 from Screens.QuitScreen import *
 from Screens.startScreen import start
 from Screens.SearchScreen import *
+
 class Controller():
     def __init__(self, root, frame, authItems):
         global back

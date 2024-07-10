@@ -228,8 +228,7 @@ class revertScreen():
             yes = Button(frame, text='Save', command=lambda:self.savePlay(frame, version))
             l.pack()
             yes.pack()
-    def checkForDups(self, add, url):
-
+    
     def savePlay(self, frame, version):
             trackInfo = []
 
