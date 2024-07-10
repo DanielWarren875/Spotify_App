@@ -77,6 +77,7 @@ class dbInteraction():
             for j in items:
                 trackName = j['track']['name']
                 trackId = j['track']['id']
+                trackUri = j['track']['uri']
                 arts = j['track']['artists']
                 holdArtNames = []
                 holdArtIds = []
@@ -89,7 +90,8 @@ class dbInteraction():
                 ref.set({
                     'Track Name': trackName,
                     'Artist Names': holdArtNames,
-                    'Artist Ids': holdArtIds
+                    'Artist Ids': holdArtIds,
+                    'Track Uri': trackUri
                 })
                 trackRefs.append(ref)
         return trackRefs
@@ -231,10 +233,12 @@ class dbInteraction():
                 ref = db.collection('tracks').document(id)
                 trackRefs.append(ref)
                 if not ref.get().exists:
+                    uri = i['trackUri']
                     ref.set({
                         'Track Name': name,
                         'Artist Ids': artistIds,
-                        'Artist Names': artistNames
+                        'Artist Names': artistNames,
+                        'Track Uri': uri
                     })
             ref = db.collection('playlists').document(playlistId).collection('versions').document(versionId)
             ref.set({

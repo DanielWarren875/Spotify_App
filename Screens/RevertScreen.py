@@ -10,11 +10,13 @@ class revertScreen():
         global db
         global userId
         global playlistName
+        global playlistInfo
         db = dbInteraction()
         authItems = auth
         self.clearFrame(frame)
         userId = authItems['UserId']
-        playlistName = selectedPlaylist['Playlist Name']
+        playlistInfo = selectedPlaylist
+        playlistName = selectedPlaylist['Playlist Name'].replace(' ', '')
         self.init(frame)
 
     def init(self, frame):
@@ -146,11 +148,19 @@ class revertScreen():
     def keep(self, frame, version):
         self.clearFrame(frame)
         ids = []
+        uris = []
         for i in version['trackRefs']:
-            ids.append(i)
+            ids.append(i.id)
+            hold = i.get().to_dict()
+            hold = hold['Track Uri']
+            if hold not in uris:
+                uris.append(hold)
         
-        if userId in version['versionId'] and 'LikedPlaylist' in version['versionId']:
-            url = 'https://api.spotify.com/v1/me/tracks'
+        if userId in version['versionId'] and playlistName in version['versionId']:
+            if 'LikedPlaylist' == playlistName:
+                url = 'https://api.spotify.com/v1/me/tracks'
+            else:
+                url = 'https://api.spotify.com/v1/playlists/' + playlistInfo['Playlist Id'] + '/tracks'
             header = {
                 'Authorization': authItems['type'] + ' ' + authItems['accessTok']
             }
@@ -170,35 +180,64 @@ class revertScreen():
             for i in items:
                 hold = i['track']['id']
                 ids.append(hold)
-
-            while len(ids) > 0:
-                if len(ids) > 50:
-                    add = ids[0:50]
-                    ids = ids[50:]
-                else:
-                    add = ids
-                    ids = []
-                url = 'https://api.spotify.com/v1/me/tracks?ids='
-
-                for i in range(0, len(add)):
-                    if isinstance(add[i], str):
-                        url = url + add[i] + ','
+                hold = i['track']['uri']
+                if hold not in uris:
+                    uris.append(hold)
+            uris = list(set(uris))
+            while len(ids) > 0 and len(uris) > 0:
+                if 'LikedPlaylist' == playlistName:
+                    if len(ids) > 50:
+                        add = ids[0:50]
+                        ids = ids[50:]
                     else:
-                        add[i] = add[i].id
-                        url = url + add[i] + ','
-                url = url[:-1]
-                addData = json.dumps({'ids': add})
-                r = requests.put(url=url, headers=header, data=addData)
-            
+                        add = ids
+                        ids = []
+                    url = 'https://api.spotify.com/v1/me/tracks?ids='
+                    for i in range(0, len(add)):
+                        if isinstance(add[i], str):
+                            url = url + add[i] + ','
+                        else:
+                            add[i] = add[i].id
+                            url = url + add[i] + ','
+                        url = url[:-1]
+                        addData = json.dumps({'ids': add})
+                        r = requests.put(url=url, headers=header, data=addData)
+                else:
+                    if len(uris) > 50:
+                        add = uris[0:50]
+                        ids = uris[50:]
+                    else:
+                        add = uris
+                        uris = []
+                    
+                    url = 'https://api.spotify.com/v1/playlists/' + playlistInfo['Playlist Id'] + '/tracks'
+                    header = {
+                        'Authorization': authItems['type'] + ' ' + authItems['accessTok'],
+                        'Content-Type': 'application/json'
+                    }
+                    add = self.checkForDups(add, url)
+                    data = {
+                        'uris': add,
+                        'position': 0
+                    }
+                    data = json.dumps(data)
+                    #r = requests.post(url=url, headers=header, data=data)
+                        
+
             l = Label(frame, text='Would you like to save this new version or go back to the main screen?')
             yes = Button(frame, text='Save', command=lambda:self.savePlay(frame, version))
             l.pack()
             yes.pack()
+    def checkForDups(self, add, url):
+
     def savePlay(self, frame, version):
             trackInfo = []
 
-            if userId in version['versionId'] and 'LikedPlaylist' in version['versionId']:
-                url = 'https://api.spotify.com/v1/me/tracks'
+            if userId in version['versionId'] and playlistName in version['versionId']:
+                if playlistName == 'LikedPlaylist':
+                    url = 'https://api.spotify.com/v1/me/tracks'
+                else:
+                    url = 'https://api.spotify.com/v1/playlists/' + playlistInfo['Playlist Id'] + '/tracks'
                 header = {
                     'Authorization': authItems['type'] + ' ' + authItems['accessTok']
                 }

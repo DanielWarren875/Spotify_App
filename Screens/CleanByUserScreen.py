@@ -10,10 +10,9 @@ class cleanByUser():
         db = dbInteraction()
         authItems = auth
         self.clearFrame(frame)
-        if playlist['Playlist Name'] == 'Liked Playlist':
-            data = self.getData(playlist['Playlist Name'])
-        else:
-            data = self.getData(playlist['Playlist Name'])
+            
+        data = self.getData(playlist)
+        print(data)
         frame.update()
         width = frame.winfo_width()
         length = frame.winfo_height()
@@ -45,10 +44,13 @@ class cleanByUser():
         selected = lb.curselection()
 
         deleteIds = []
-        deleteUris = []
+        tracks = []
         for i in selected:
             deleteIds.append(ids[i])
-            deleteUris.append(uris[i])
+            hold = {
+                'uri': uris[i]
+            }
+            tracks.append(hold)
 
         self.clearFrame(frame)
         
@@ -67,18 +69,54 @@ class cleanByUser():
             r = requests.delete(url=url, headers=header, data=data)
         else:
             url = 'https://api.spotify.com/v1/playlists/' + playlist['Playlist Id'] + '/tracks'
+            data = {
+                'tracks': tracks,
+                'snapshot_id': playlist['snapshot_id']
+            }
+            data = json.dumps(data)
+            r = requests.delete(url=url, headers=header, data=data)
+            print(r.text)
+
+
 
 
 
     def getData(self, playlist):
-        if playlist == 'Liked Playlist':
-            url = 'https://api.spotify.com/v1/me/tracks?limit=50'
-        else:
-            print('This function is currently unavailable')
-            return
         header = {
             'Authorization': authItems['type'] + ' ' + authItems['accessTok']
         }
+        data = []
+        if playlist['Playlist Name'] == 'Liked Playlist':
+            url = 'https://api.spotify.com/v1/me/tracks?limit=50'  
+        else:
+            url = 'https://api.spotify.com/v1/playlists/' + playlist['Playlist Id'] + '/tracks'
+        
+        while url != None:
+                r = requests.get(url=url, headers=header)
+                x = json.loads(r.text)
+                next = x['next']
+                items = x['items']
+                for i in items:
+                    dateAdded = i['added_at']
+                    trackName = i['track']['name']
+                    trackId = i['track']['id']
+                    trackUri = i['track']['uri']
+                    albumName = i['track']['album']['name']
+                    arts = i['track']['artists']
+                    holdArtNames = []
+                    for j in arts:
+                        holdName = j['name']
+                        holdArtNames.append(holdName)
+                    info = {
+                        'trackName': trackName,
+                        'trackId': trackId,
+                        'artists': holdArtNames,
+                        'albumName': albumName,
+                        'dateAdded': dateAdded,
+                        'trackUri': trackUri
+                    }
+                    data.append(info)
+                url = next
         '''
         data = {
             'trackName': '',
@@ -88,33 +126,7 @@ class cleanByUser():
             'dateAdded': ''
         }
         '''
-        data = []
-        while url != None:
-            r = requests.get(url=url, headers=header)
-            x = json.loads(r.text)
-            next = x['next']
-            items = x['items']
-            for i in items:
-                dateAdded = i['added_at']
-                trackName = i['track']['name']
-                trackId = i['track']['id']
-                trackUri = i['track']['uri']
-                albumName = i['track']['album']['name']
-                arts = i['track']['artists']
-                holdArtNames = []
-                for j in arts:
-                    holdName = j['name']
-                    holdArtNames.append(holdName)
-                info = {
-                    'trackName': trackName,
-                    'trackId': trackId,
-                    'artists': holdArtNames,
-                    'albumName': albumName,
-                    'dateAdded': dateAdded,
-                    'trackUri': trackUri
-                }
-                data.append(info)
-            url = next
+        
         return data
 
     def clearFrame(self, frame):
