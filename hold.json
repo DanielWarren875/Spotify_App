@@ -1,410 +1,481 @@
 {
-    "href": "https://api.spotify.com/v1/users/cydawg99/playlists?offset=0&limit=100",
-    "limit": 100,
-    "next": null,
-    "offset": 0,
-    "previous": null,
-    "total": 10,
-    "items": [
-        {
-            "collaborative": false,
-            "description": "This is Brantley Gilbert. The essential tracks, all in one playlist.",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3bMBHO"
-            },
-            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DZ06evO3bMBHO",
-            "id": "37i9dQZF1DZ06evO3bMBHO",
-            "images": [
-                {
-                    "height": null,
-                    "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3bMBHO-default.jpg",
-                    "width": null
-                }
-            ],
-            "name": "This Is Brantley Gilbert",
-            "owner": {
-                "display_name": "Spotify",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/spotify"
-                },
-                "href": "https://api.spotify.com/v1/users/spotify",
-                "id": "spotify",
-                "type": "user",
-                "uri": "spotify:user:spotify"
-            },
-            "primary_color": null,
-            "public": true,
-            "snapshot_id": "MTcxMjYyMDgwMCwwMDAwMDAwMDYyZGZjNjNkMTY5ZTRiZTJhM2UzNzg1NWJhMTFmNmQ4",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DZ06evO3bMBHO/tracks",
-                "total": 50
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:37i9dQZF1DZ06evO3bMBHO"
-        },
-        {
-            "collaborative": false,
-            "description": "A musical time capsule from the past has been unsealed\u2026!",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/4xl3fawUGLPG6Ajw1QvEp9"
-            },
-            "href": "https://api.spotify.com/v1/playlists/4xl3fawUGLPG6Ajw1QvEp9",
-            "id": "4xl3fawUGLPG6Ajw1QvEp9",
-            "images": [
-                {
-                    "height": null,
-                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844e8a8d2c648e9f8cc451e62c",
-                    "width": null
-                }
-            ],
-            "name": "My 2023 Playlist in a Bottle",
-            "owner": {
-                "display_name": "cydawg99",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/cydawg99"
-                },
-                "href": "https://api.spotify.com/v1/users/cydawg99",
-                "id": "cydawg99",
-                "type": "user",
-                "uri": "spotify:user:cydawg99"
-            },
-            "primary_color": null,
-            "public": true,
-            "snapshot_id": "NCw5ZTAzOGZjMzNmNzNlMmYwMTdkNzMyN2VlZGVmMjhhZjkyZWQ5ZjNk",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/4xl3fawUGLPG6Ajw1QvEp9/tracks",
-                "total": 5
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:4xl3fawUGLPG6Ajw1QvEp9"
-        },
-        {
-            "collaborative": false,
-            "description": "New album HOPE featuring my new single HAPPY out now!",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/1All5I9pyXjJ2ArZt4zuCX"
-            },
-            "href": "https://api.spotify.com/v1/playlists/1All5I9pyXjJ2ArZt4zuCX",
-            "id": "1All5I9pyXjJ2ArZt4zuCX",
-            "images": [
-                {
-                    "height": null,
-                    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84fc377447dd3e4c38f87e91f2",
-                    "width": null
-                }
-            ],
-            "name": "NF Real Music Playlist",
-            "owner": {
-                "display_name": "NF",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/nfofficial"
-                },
-                "href": "https://api.spotify.com/v1/users/nfofficial",
-                "id": "nfofficial",
-                "type": "user",
-                "uri": "spotify:user:nfofficial"
-            },
-            "primary_color": null,
-            "public": true,
-            "snapshot_id": "NDU4LDYxOGFmODdjMTE3NDc1OWMyMGQ0MWZhYTkwNTVhMmMwMDI3NmNhMjg=",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/1All5I9pyXjJ2ArZt4zuCX/tracks",
-                "total": 85
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:1All5I9pyXjJ2ArZt4zuCX"
-        },
-        {
-            "collaborative": false,
-            "description": "",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/5Vp2zKPdw7czUAxETzYnBN"
-            },
-            "href": "https://api.spotify.com/v1/playlists/5Vp2zKPdw7czUAxETzYnBN",
-            "id": "5Vp2zKPdw7czUAxETzYnBN",
-            "images": [
-                {
-                    "height": 640,
-                    "url": "https://mosaic.scdn.co/640/ab67616d00001e020b1cfc3df4d9d5d4cbce9208ab67616d00001e022fbb3b18cd589fbd526b41deab67616d00001e025f306aa63a7bb18e7bf9152bab67616d00001e02db8507c0d809e10f0cfe35aa",
-                    "width": 640
-                },
-                {
-                    "height": 300,
-                    "url": "https://mosaic.scdn.co/300/ab67616d00001e020b1cfc3df4d9d5d4cbce9208ab67616d00001e022fbb3b18cd589fbd526b41deab67616d00001e025f306aa63a7bb18e7bf9152bab67616d00001e02db8507c0d809e10f0cfe35aa",
-                    "width": 300
-                },
-                {
-                    "height": 60,
-                    "url": "https://mosaic.scdn.co/60/ab67616d00001e020b1cfc3df4d9d5d4cbce9208ab67616d00001e022fbb3b18cd589fbd526b41deab67616d00001e025f306aa63a7bb18e7bf9152bab67616d00001e02db8507c0d809e10f0cfe35aa",
-                    "width": 60
-                }
-            ],
-            "name": "Pre-gym hype",
-            "owner": {
-                "display_name": "cydawg99",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/cydawg99"
-                },
-                "href": "https://api.spotify.com/v1/users/cydawg99",
-                "id": "cydawg99",
-                "type": "user",
-                "uri": "spotify:user:cydawg99"
-            },
-            "primary_color": null,
-            "public": true,
-            "snapshot_id": "MTkyLDU5NzQ5OGQwZTljZjQ2ZTg1YjBjMDYxYTY2ZWI0MGQ0NTc2MWU0NTI=",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/5Vp2zKPdw7czUAxETzYnBN/tracks",
-                "total": 52
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:5Vp2zKPdw7czUAxETzYnBN"
-        },
-        {
-            "collaborative": false,
-            "description": "",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/1Ni5mfdXAD7P4bm0XFm1W2"
-            },
-            "href": "https://api.spotify.com/v1/playlists/1Ni5mfdXAD7P4bm0XFm1W2",
-            "id": "1Ni5mfdXAD7P4bm0XFm1W2",
-            "images": [
-                {
-                    "height": 640,
-                    "url": "https://mosaic.scdn.co/640/ab67616d00001e0269abccfc1c717c95707764f4ab67616d00001e027b08af821e728b3740f12d7eab67616d00001e02cc0c215fc9943ffbc21027afab67616d00001e02cd4ca2d39be31df34a8764ca",
-                    "width": 640
-                },
-                {
-                    "height": 300,
-                    "url": "https://mosaic.scdn.co/300/ab67616d00001e0269abccfc1c717c95707764f4ab67616d00001e027b08af821e728b3740f12d7eab67616d00001e02cc0c215fc9943ffbc21027afab67616d00001e02cd4ca2d39be31df34a8764ca",
-                    "width": 300
-                },
-                {
-                    "height": 60,
-                    "url": "https://mosaic.scdn.co/60/ab67616d00001e0269abccfc1c717c95707764f4ab67616d00001e027b08af821e728b3740f12d7eab67616d00001e02cc0c215fc9943ffbc21027afab67616d00001e02cd4ca2d39be31df34a8764ca",
-                    "width": 60
-                }
-            ],
-            "name": "",
-            "owner": {
-                "display_name": "SESSIONS",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/beatfevermusic"
-                },
-                "href": "https://api.spotify.com/v1/users/beatfevermusic",
-                "id": "beatfevermusic",
-                "type": "user",
-                "uri": "spotify:user:beatfevermusic"
-            },
-            "primary_color": null,
-            "public": true,
-            "snapshot_id": "ODY2LGQzNjk3MGQwMGFiZThhNzg0MzM1MzEyMDYxNmEwMmYwNmVmNTEzMTQ=",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/1Ni5mfdXAD7P4bm0XFm1W2/tracks",
-                "total": 13
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:1Ni5mfdXAD7P4bm0XFm1W2"
-        },
-        {
-            "collaborative": false,
-            "description": "",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/5dEDRYVS5eKB6NTnTakR7n"
-            },
-            "href": "https://api.spotify.com/v1/playlists/5dEDRYVS5eKB6NTnTakR7n",
-            "id": "5dEDRYVS5eKB6NTnTakR7n",
-            "images": [
-                {
-                    "height": 640,
-                    "url": "https://mosaic.scdn.co/640/ab67616d00001e023437554762627229b5543f1fab67616d00001e027a372249355c6ff4b779b773ab67616d00001e02f264447cb01ab9021e97473eab67616d00001e02fbf25f7e99853942ec760d2d",
-                    "width": 640
-                },
-                {
-                    "height": 300,
-                    "url": "https://mosaic.scdn.co/300/ab67616d00001e023437554762627229b5543f1fab67616d00001e027a372249355c6ff4b779b773ab67616d00001e02f264447cb01ab9021e97473eab67616d00001e02fbf25f7e99853942ec760d2d",
-                    "width": 300
-                },
-                {
-                    "height": 60,
-                    "url": "https://mosaic.scdn.co/60/ab67616d00001e023437554762627229b5543f1fab67616d00001e027a372249355c6ff4b779b773ab67616d00001e02f264447cb01ab9021e97473eab67616d00001e02fbf25f7e99853942ec760d2d",
-                    "width": 60
-                }
-            ],
-            "name": "motivation",
-            "owner": {
-                "display_name": "cydawg99",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/cydawg99"
-                },
-                "href": "https://api.spotify.com/v1/users/cydawg99",
-                "id": "cydawg99",
-                "type": "user",
-                "uri": "spotify:user:cydawg99"
-            },
-            "primary_color": null,
-            "public": true,
-            "snapshot_id": "NywxN2JmMDJkYTI1YjJhYWM5ZTFkMTc4MDliNGIzYTE1MTEzZjlkZGI3",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/5dEDRYVS5eKB6NTnTakR7n/tracks",
-                "total": 76
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:5dEDRYVS5eKB6NTnTakR7n"
-        },
-        {
-            "collaborative": false,
-            "description": "",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/70NCKmyZavwGrtGpu3B3pk"
-            },
-            "href": "https://api.spotify.com/v1/playlists/70NCKmyZavwGrtGpu3B3pk",
-            "id": "70NCKmyZavwGrtGpu3B3pk",
-            "images": [
-                {
-                    "height": 640,
-                    "url": "https://mosaic.scdn.co/640/ab67616d00001e0214c95b3975386061f46f3983ab67616d00001e0295d5d85909d5deb5cee9f311ab67616d00001e029cf263e69af0ec393f132838ab67616d00001e02a5e2a8b44b82906062629181",
-                    "width": 640
-                },
-                {
-                    "height": 300,
-                    "url": "https://mosaic.scdn.co/300/ab67616d00001e0214c95b3975386061f46f3983ab67616d00001e0295d5d85909d5deb5cee9f311ab67616d00001e029cf263e69af0ec393f132838ab67616d00001e02a5e2a8b44b82906062629181",
-                    "width": 300
-                },
-                {
-                    "height": 60,
-                    "url": "https://mosaic.scdn.co/60/ab67616d00001e0214c95b3975386061f46f3983ab67616d00001e0295d5d85909d5deb5cee9f311ab67616d00001e029cf263e69af0ec393f132838ab67616d00001e02a5e2a8b44b82906062629181",
-                    "width": 60
-                }
-            ],
-            "name": "nf",
-            "owner": {
-                "display_name": "cydawg99",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/cydawg99"
-                },
-                "href": "https://api.spotify.com/v1/users/cydawg99",
-                "id": "cydawg99",
-                "type": "user",
-                "uri": "spotify:user:cydawg99"
-            },
-            "primary_color": null,
-            "public": true,
-            "snapshot_id": "MTYsNTcxYzJlYjcwMjg4OTczM2U0NWIwNWYxMzk2YTY5MTRjMTk5ODg5Yw==",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/70NCKmyZavwGrtGpu3B3pk/tracks",
-                "total": 66
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:70NCKmyZavwGrtGpu3B3pk"
-        },
-        {
-            "collaborative": false,
-            "description": "Various sounds, various decades, but with one thing in common: pure rock & roll.",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWWRktbhJiuqL"
-            },
-            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWRktbhJiuqL",
-            "id": "37i9dQZF1DWWRktbhJiuqL",
-            "images": [
-                {
-                    "height": null,
-                    "url": "https://i.scdn.co/image/ab67706f00000002412cfd41ea0a8808a68d2b07",
-                    "width": null
-                }
-            ],
-            "name": "Pure Rock & Roll",
-            "owner": {
-                "display_name": "Spotify",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/spotify"
-                },
-                "href": "https://api.spotify.com/v1/users/spotify",
-                "id": "spotify",
-                "type": "user",
-                "uri": "spotify:user:spotify"
-            },
-            "primary_color": "#ffffff",
-            "public": true,
-            "snapshot_id": "MTcxMDQ3NTIwNSwwMDAwMDAwMDNlYTQyNGFkODZhMTM0N2E5OWVjOTNjMWFkZjFkYjM3",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWRktbhJiuqL/tracks",
-                "total": 100
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:37i9dQZF1DWWRktbhJiuqL"
-        },
-        {
-            "collaborative": false,
-            "description": "This is NF. The essential tracks, all in one playlist.",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3GSvAY"
-            },
-            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DZ06evO3GSvAY",
-            "id": "37i9dQZF1DZ06evO3GSvAY",
-            "images": [
-                {
-                    "height": null,
-                    "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3GSvAY-default.jpg",
-                    "width": null
-                }
-            ],
-            "name": "This Is NF",
-            "owner": {
-                "display_name": "Spotify",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/spotify"
-                },
-                "href": "https://api.spotify.com/v1/users/spotify",
-                "id": "spotify",
-                "type": "user",
-                "uri": "spotify:user:spotify"
-            },
-            "primary_color": null,
-            "public": true,
-            "snapshot_id": "MTcxMjYyMDgwMCwwMDAwMDAwMGMzMTkzNGZhOWZmNTVhZDMwMWU2N2YwM2IzMTNiMWYy",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DZ06evO3GSvAY/tracks",
-                "total": 42
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:37i9dQZF1DZ06evO3GSvAY"
-        },
-        {
-            "collaborative": false,
-            "description": "Get your beast mode on!",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX76Wlfdnj7AP"
-            },
-            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX76Wlfdnj7AP",
-            "id": "37i9dQZF1DX76Wlfdnj7AP",
-            "images": [
-                {
-                    "height": null,
-                    "url": "https://i.scdn.co/image/ab67706f00000002c771198277ecd33007dd2de4",
-                    "width": null
-                }
-            ],
-            "name": "Beast Mode",
-            "owner": {
-                "display_name": "Spotify",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/spotify"
-                },
-                "href": "https://api.spotify.com/v1/users/spotify",
-                "id": "spotify",
-                "type": "user",
-                "uri": "spotify:user:spotify"
-            },
-            "primary_color": "#FFFFFF",
-            "public": true,
-            "snapshot_id": "MTcxMDc1NTI0MywwMDAwMDAwMGI2YThkZmM2ZjI0ZGNjZjBlNDU0ODUyYjQzYzk5MTQ0",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX76Wlfdnj7AP/tracks",
-                "total": 150
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:37i9dQZF1DX76Wlfdnj7AP"
-        }
-    ]
+	"tracks": {
+		"href": "https://api.spotify.com/v1/search?query=melodic+metalcore&type=track&offset=0&limit=1",
+		"items": [
+			{
+				"album": {
+					"album_type": "single",
+					"artists": [
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/4olk2DDoPvzAJlJBonZFHk"
+							},
+							"href": "https://api.spotify.com/v1/artists/4olk2DDoPvzAJlJBonZFHk",
+							"id": "4olk2DDoPvzAJlJBonZFHk",
+							"name": "Devour the Day",
+							"type": "artist",
+							"uri": "spotify:artist:4olk2DDoPvzAJlJBonZFHk"
+						},
+						{
+							"external_urls": {
+								"spotify": "https://open.spotify.com/artist/1d5wNTZ8WZYE5WuXXjug9w"
+							},
+							"href": "https://api.spotify.com/v1/artists/1d5wNTZ8WZYE5WuXXjug9w",
+							"id": "1d5wNTZ8WZYE5WuXXjug9w",
+							"name": "Egypt Central",
+							"type": "artist",
+							"uri": "spotify:artist:1d5wNTZ8WZYE5WuXXjug9w"
+						}
+					],
+					"available_markets": [
+						"AR",
+						"AU",
+						"AT",
+						"BE",
+						"BO",
+						"BR",
+						"BG",
+						"CA",
+						"CL",
+						"CO",
+						"CR",
+						"CY",
+						"CZ",
+						"DK",
+						"DO",
+						"DE",
+						"EC",
+						"EE",
+						"SV",
+						"FI",
+						"FR",
+						"GR",
+						"GT",
+						"HN",
+						"HK",
+						"HU",
+						"IS",
+						"IE",
+						"IT",
+						"LV",
+						"LT",
+						"LU",
+						"MY",
+						"MT",
+						"MX",
+						"NL",
+						"NZ",
+						"NI",
+						"NO",
+						"PA",
+						"PY",
+						"PE",
+						"PH",
+						"PL",
+						"PT",
+						"SG",
+						"SK",
+						"ES",
+						"SE",
+						"CH",
+						"TW",
+						"TR",
+						"UY",
+						"US",
+						"GB",
+						"AD",
+						"LI",
+						"MC",
+						"ID",
+						"JP",
+						"TH",
+						"VN",
+						"RO",
+						"IL",
+						"ZA",
+						"SA",
+						"AE",
+						"BH",
+						"QA",
+						"OM",
+						"KW",
+						"EG",
+						"MA",
+						"DZ",
+						"TN",
+						"LB",
+						"JO",
+						"PS",
+						"IN",
+						"BY",
+						"KZ",
+						"MD",
+						"UA",
+						"AL",
+						"BA",
+						"HR",
+						"ME",
+						"MK",
+						"RS",
+						"SI",
+						"KR",
+						"BD",
+						"PK",
+						"LK",
+						"GH",
+						"KE",
+						"NG",
+						"TZ",
+						"UG",
+						"AG",
+						"AM",
+						"BS",
+						"BB",
+						"BZ",
+						"BT",
+						"BW",
+						"BF",
+						"CV",
+						"CW",
+						"DM",
+						"FJ",
+						"GM",
+						"GE",
+						"GD",
+						"GW",
+						"GY",
+						"HT",
+						"JM",
+						"KI",
+						"LS",
+						"LR",
+						"MW",
+						"MV",
+						"ML",
+						"MH",
+						"FM",
+						"NA",
+						"NR",
+						"NE",
+						"PW",
+						"PG",
+						"PR",
+						"WS",
+						"SM",
+						"ST",
+						"SN",
+						"SC",
+						"SL",
+						"SB",
+						"KN",
+						"LC",
+						"VC",
+						"SR",
+						"TL",
+						"TO",
+						"TT",
+						"TV",
+						"VU",
+						"AZ",
+						"BN",
+						"BI",
+						"KH",
+						"CM",
+						"TD",
+						"KM",
+						"GQ",
+						"SZ",
+						"GA",
+						"GN",
+						"KG",
+						"LA",
+						"MO",
+						"MR",
+						"MN",
+						"NP",
+						"RW",
+						"TG",
+						"UZ",
+						"ZW",
+						"BJ",
+						"MG",
+						"MU",
+						"MZ",
+						"AO",
+						"CI",
+						"DJ",
+						"ZM",
+						"CD",
+						"CG",
+						"IQ",
+						"LY",
+						"TJ",
+						"VE",
+						"ET",
+						"XK"
+					],
+					"external_urls": {
+						"spotify": "https://open.spotify.com/album/0yORpcEGJTEJssJRNdE04h"
+					},
+					"href": "https://api.spotify.com/v1/albums/0yORpcEGJTEJssJRNdE04h",
+					"id": "0yORpcEGJTEJssJRNdE04h",
+					"images": [
+						{
+							"height": 640,
+							"url": "https://i.scdn.co/image/ab67616d0000b273d95c034a197297edecbe2c2e",
+							"width": 640
+						},
+						{
+							"height": 300,
+							"url": "https://i.scdn.co/image/ab67616d00001e02d95c034a197297edecbe2c2e",
+							"width": 300
+						},
+						{
+							"height": 64,
+							"url": "https://i.scdn.co/image/ab67616d00004851d95c034a197297edecbe2c2e",
+							"width": 64
+						}
+					],
+					"name": "Nobody Owns Me",
+					"release_date": "2024-02-09",
+					"release_date_precision": "day",
+					"total_tracks": 1,
+					"type": "album",
+					"uri": "spotify:album:0yORpcEGJTEJssJRNdE04h"
+				},
+				"artists": [
+					{
+						"external_urls": {
+							"spotify": "https://open.spotify.com/artist/4olk2DDoPvzAJlJBonZFHk"
+						},
+						"href": "https://api.spotify.com/v1/artists/4olk2DDoPvzAJlJBonZFHk",
+						"id": "4olk2DDoPvzAJlJBonZFHk",
+						"name": "Devour the Day",
+						"type": "artist",
+						"uri": "spotify:artist:4olk2DDoPvzAJlJBonZFHk"
+					},
+					{
+						"external_urls": {
+							"spotify": "https://open.spotify.com/artist/1d5wNTZ8WZYE5WuXXjug9w"
+						},
+						"href": "https://api.spotify.com/v1/artists/1d5wNTZ8WZYE5WuXXjug9w",
+						"id": "1d5wNTZ8WZYE5WuXXjug9w",
+						"name": "Egypt Central",
+						"type": "artist",
+						"uri": "spotify:artist:1d5wNTZ8WZYE5WuXXjug9w"
+					}
+				],
+				"available_markets": [
+					"AR",
+					"AU",
+					"AT",
+					"BE",
+					"BO",
+					"BR",
+					"BG",
+					"CA",
+					"CL",
+					"CO",
+					"CR",
+					"CY",
+					"CZ",
+					"DK",
+					"DO",
+					"DE",
+					"EC",
+					"EE",
+					"SV",
+					"FI",
+					"FR",
+					"GR",
+					"GT",
+					"HN",
+					"HK",
+					"HU",
+					"IS",
+					"IE",
+					"IT",
+					"LV",
+					"LT",
+					"LU",
+					"MY",
+					"MT",
+					"MX",
+					"NL",
+					"NZ",
+					"NI",
+					"NO",
+					"PA",
+					"PY",
+					"PE",
+					"PH",
+					"PL",
+					"PT",
+					"SG",
+					"SK",
+					"ES",
+					"SE",
+					"CH",
+					"TW",
+					"TR",
+					"UY",
+					"US",
+					"GB",
+					"AD",
+					"LI",
+					"MC",
+					"ID",
+					"JP",
+					"TH",
+					"VN",
+					"RO",
+					"IL",
+					"ZA",
+					"SA",
+					"AE",
+					"BH",
+					"QA",
+					"OM",
+					"KW",
+					"EG",
+					"MA",
+					"DZ",
+					"TN",
+					"LB",
+					"JO",
+					"PS",
+					"IN",
+					"BY",
+					"KZ",
+					"MD",
+					"UA",
+					"AL",
+					"BA",
+					"HR",
+					"ME",
+					"MK",
+					"RS",
+					"SI",
+					"KR",
+					"BD",
+					"PK",
+					"LK",
+					"GH",
+					"KE",
+					"NG",
+					"TZ",
+					"UG",
+					"AG",
+					"AM",
+					"BS",
+					"BB",
+					"BZ",
+					"BT",
+					"BW",
+					"BF",
+					"CV",
+					"CW",
+					"DM",
+					"FJ",
+					"GM",
+					"GE",
+					"GD",
+					"GW",
+					"GY",
+					"HT",
+					"JM",
+					"KI",
+					"LS",
+					"LR",
+					"MW",
+					"MV",
+					"ML",
+					"MH",
+					"FM",
+					"NA",
+					"NR",
+					"NE",
+					"PW",
+					"PG",
+					"PR",
+					"WS",
+					"SM",
+					"ST",
+					"SN",
+					"SC",
+					"SL",
+					"SB",
+					"KN",
+					"LC",
+					"VC",
+					"SR",
+					"TL",
+					"TO",
+					"TT",
+					"TV",
+					"VU",
+					"AZ",
+					"BN",
+					"BI",
+					"KH",
+					"CM",
+					"TD",
+					"KM",
+					"GQ",
+					"SZ",
+					"GA",
+					"GN",
+					"KG",
+					"LA",
+					"MO",
+					"MR",
+					"MN",
+					"NP",
+					"RW",
+					"TG",
+					"UZ",
+					"ZW",
+					"BJ",
+					"MG",
+					"MU",
+					"MZ",
+					"AO",
+					"CI",
+					"DJ",
+					"ZM",
+					"CD",
+					"CG",
+					"IQ",
+					"LY",
+					"TJ",
+					"VE",
+					"ET",
+					"XK"
+				],
+				"disc_number": 1,
+				"duration_ms": 195389,
+				"explicit": true,
+				"external_ids": {
+					"isrc": "QZSYP2327897"
+				},
+				"external_urls": {
+					"spotify": "https://open.spotify.com/track/4Ci2Kjrsngzr2yicukgBzY"
+				},
+				"href": "https://api.spotify.com/v1/tracks/4Ci2Kjrsngzr2yicukgBzY",
+				"id": "4Ci2Kjrsngzr2yicukgBzY",
+				"is_local": false,
+				"name": "Nobody Owns Me",
+				"popularity": 40,
+				"preview_url": "https://p.scdn.co/mp3-preview/fc5a93e49ee9410699030c87d050d822d440fabc?cid=bf9fd0131e0a4c56ab5ec69dc87befc3",
+				"track_number": 1,
+				"type": "track",
+				"uri": "spotify:track:4Ci2Kjrsngzr2yicukgBzY"
+			}
+		],
+		"limit": 1,
+		"next": "https://api.spotify.com/v1/search?query=melodic+metalcore&type=track&offset=1&limit=1",
+		"offset": 0,
+		"previous": null,
+		"total": 807
+	}
 }
