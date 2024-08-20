@@ -276,6 +276,7 @@ class apiInteraction():
 						data.append(hold)
 				url = next
 			return data
+	
 	def addTracks(self, playlistId, trackIds, authData):			
 		if playlistId == 'me':
 			url = 'https://api.spotify.com/v1/me/tracks?ids='
@@ -414,7 +415,51 @@ class apiInteraction():
 		}
 		
 		r = requests.post(url=url, headers=header)
-		print(r.text)
+		if "error" in r.text:
+			x = json.loads(r.text)
+			message = x['error']['message']
+		else:
+			message = 'Great Success'
+		return message
+	def addToDeviceQueue(self, trackUri, authData, deviceId):
+		url = f'https://api.spotify.com/v1/me/player/queue?uri={trackUri}&device_id={deviceId}'
+		header = {
+			'Authorization': authData['token_type'] + ' ' + authData['access_token']
+		}
+		
+		r = requests.post(url=url, headers=header)
+		if "error" in r.text:
+			x = json.loads(r.text)
+			message = x['error']['message']
+		else:
+			message = 'Great Success'
+		return message
+	def getDeviceList(self, authData):
+		url = f'https://api.spotify.com/v1/me/player/devices'
+		header = {
+			'Authorization': authData['token_type'] + ' ' + authData['access_token']
+		}
+		
+		r = requests.get(url=url, headers=header)
+		x = json.loads(r.text)
+		deviceList = x['devices']
+		
+		if len(deviceList) == 0:
+			return None
+		else:
+			deviceNames = []
+			deviceIds = []
+			
+			for i in deviceList:
+				hold = i['name']
+				deviceNames.append(hold)
+				hold = i['id']
+				deviceIds.append(hold)
+			return {
+				'deviceNames': deviceNames,
+				'deviceIds': deviceIds
+			}
+		
 #userData = {'access_token': 'BQAAdTPg48eFYsV1KqiZgX0QJrsOnMfp713cJooQBkUJvud4d0YKJ5oezc8Gns7YBh1GDOrIpHk-DY-aykzDuM9w1FEg9Gh6kHTxdD43bsUVRG1955EJUs55k8PqbKoCx9usLDKYUNFfVPC950hHc0u_VGxacqnJRvNyMunfFG7Oxmf-aa79m-KNhgEGeSu9B72-bLIfSXqGSeku-DhLakfssvqld4xacyv3Wll_utgf1Uh7mfRnNabDMYdTGkdhN7qcXnAtqnL29XgbPEu4fTbQTPwYisJAfRSSXN_d6g1bEw', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': 'playlist-read-private playlist-read-collaborative user-modify-playback-state ugc-image-upload user-library-read user-library-modify playlist-modify-private playlist-modify-public user-read-playback-state user-read-email user-read-recently-played user-read-private'}
 #api = apiInteraction()
 #f = fire()

@@ -144,5 +144,40 @@ class fire():
 			ref = db.collection('Playlists').document(playlistId).collection('Versions').document(f'{playlistId}{i}').get()
 		return versionData
 	
+	def addTrackDislikes(self, trackData):
+		trackId = trackData['trackId']
+		ref = db.collection('Users').document(str(id)).update({'dislikedTracks': firestore.ArrayUnion([trackId])})
 	
-
+	def addArtistToDislikes(self, trackData):
+		artistId = trackData[0]['artistId']
+		ref = db.collection('Users').document(str(id)).update({'dislikedArtists': firestore.ArrayUnion([artistId])})
+	
+	def getDislikedData(self):
+		ref = db.collection('Users').document(str(id)).get()
+		doc = ref.to_dict()
+		
+		if 'dislikedArtists' in doc and 'dislikedTracks' in doc:
+			dislikedArtists = doc['dislikedArtists']
+			dislikedTracks = doc['dislikedTracks']
+			return {
+				'dislikedArtists': dislikedArtists,
+				'dislikedTracks': dislikedTracks
+			}
+		elif 'dislikedTracks' in doc:
+			dislikedTracks = doc['dislikedTracks']
+			return {
+				'dislikedTracks': dislikedTracks,
+				'dislikedArtists': None
+			}
+		elif 'dislikedArtists' in doc:
+			dislikedArtists = doc['dislikedArtists']
+			return {
+				'dislikedArtists': dislikedArtists,
+				'dislikedTracks': None
+			}
+		else:
+			return{
+				'dislikedArtists': None,
+				'dislikedTracks': None	
+			}
+		

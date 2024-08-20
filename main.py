@@ -5,7 +5,6 @@ from apiInteraction import *
 from uuid import getnode as get_mac
 class signIn():
 	def __init__(self):
-		global mac
 		mac = get_mac()
 		x = f.checkForDevice(mac)
 		if x == None:
@@ -137,7 +136,9 @@ class mainMenu():
 		Button(frame, text='Add Tracks to a Playlist', command=lambda:playlistPick('addTracks')).grid(row=5, column=1, columnspan=3)
 		Button(frame, text='Profile Manager', command=lambda:profileManager()).grid(row=6, column=1, columnspan=3)
 		Button(frame, text='Get recommendations', command=lambda:recommendations()).grid(row=7, column=1, columnspan=3)
-		Button(frame, text='Sign Out', command=self.signOut).grid(row=8, column=1, columnspan=3)
+		Button(frame, text='Transfer from another music streaming service').grid(row=8, column=1, columnspan=3)
+		Button(frame, text='Tranfer from a device').grid(row=9, column=1, columnspan=3)
+		Button(frame, text='Sign Out', command=self.signOut).grid(row=10, column=1, columnspan=3)
 		
 	def signOut(self):
 		def yes():
@@ -160,16 +161,25 @@ class recommendations():
 	def start(self, data):
 		recommendation = self.getRecommendation(data)
 		recommendationData = StringVar()
-		hold = recommendation['trackName'] + ' ' + recommendation['genre']
+		hold = 'Song Name: ' + recommendation['trackName'] + '\nGenre: ' + recommendation['genre'] + '\nArtist(s): '
+		
+		for i in recommendation['artistData']:
+			hold = hold + ' ' + i['artistName'] + ' &'
+		hold = hold[:-1]
 		
 		recommendationData.set(hold)
 		Label(frame, textvariable=recommendationData).grid(row=0, column=1, columnspan=3)
-		Button(frame, text='Add to Queue', command=lambda:self.addToQueue(recommendation)).grid(row=1, column=1, columnspan=3)
+		Button(frame, text='Add to Queue', command=lambda:self.addToQueue(recommendation, data)).grid(row=1, column=1, columnspan=3)
 		Button(frame, text='Add to Playlist', command=None).grid(row=2, column=1, columnspan=3)
-		Button(frame, text='Add to Dislikes').grid(row=3, column=1, columnspan=3)
-		Button(frame, text='Get New Recommendation', command=lambda:self.getNewRecommendation(data)).grid(row=4, column=1, columnspan=3)
-		Button(frame, text='Return to Main Menu', command=lambda:mainMenu()).grid(row=5, column=1, columnspan=3)
-		
+		Button(frame, text='Add to Track To Dislikes').grid(row=3, column=1, columnspan=3)
+		Button(frame, text='Add Artist To Dislikes', command=self.addTrackToDislikes(recommendation)).grid(row=4, column=1, columnspan=3)
+		Button(frame, text='Get New Recommendation', command=lambda:self.getNewRecommendation(data)).grid(row=5, column=1, columnspan=3)
+		Button(frame, text='Return to Main Menu', command=mainMenu).grid(row=6, column=1, columnspan=3)
+	
+	def addTrackToDislikes(self, recommendation):
+		f.addTrackDislikes(recommendation)
+	def addArtistToDislikes(self, recommendation):
+		f.addArtistToDislikes(recommendation)	
 	def getNewRecommendation(self, data):
 		clearFrame(frame)
 		self.start(data)
@@ -179,14 +189,54 @@ class recommendations():
 		artists = data['topArtists']
 		index = random.randint(0, len(genres))
 		genre = genres[index]['genre']
-		hold = api.genreSearch(genre, userData, 0)
+		dat = f.getDislikedData()
+		dislikedArtists = dat['dislikedArtists']
+		dislikedTracks = dat['dislikedTracks']
+		offset = random.randint(0, 100)
+		hold = api.genreSearch(genre, userData, offset)
+		if dislikedArtists == None and dislikedTracks == None:
+			return hold
+		elif dislikedArtists == None:
+			while hold['trackId'] in dislikedTracks:
+				offset = random.randint(0, 100)
+				hold = api.genreSearch(genre, userData, offset)
+		elif dislikedTracks == None:
+			while hold['artistData'][0]['artistId'] in dislikedArtists:
+				offset = random.randint(0, 100)
+				hold = api.genreSearch(genre, userData, offset)
+		else:
+			while hold['artistData'][0]['artistId'] in dislikedArtists and hold['trackId'] in dislikedTracks:
+				offset = random.randint(0, 100)
+				hold = api.genreSearch(genre, userData, offset)
 		return hold
 	
-	def addToQueue(self, trackInfo):
-		api.addToQueue(trackInfo['trackUri'], userData)
-		
-		
-		
+	def addToQueue(self, trackInfo, data):
+		message = api.addToQueue(trackInfo['trackUri'], userData)
+		trackName = trackInfo['trackName']
+		l = Label(frame)
+		if message == 'Great Success':
+			l.configure(text=f'{trackName} successfully added to queue')
+			l.grid(row=10, column=1, columnspan=3)
+		else:
+			devices = api.getDeviceList(userData)
+			if devices == None:
+				print('Do Something')
+			else:
+				l.configure(text='Please select a device')
+				lb = Listbox(frame, selectmode=SINGLE)
+				for i in devices['deviceNames']:
+					lb.insert(END, i)
+				l.grid(row=7, column=1, columnspan=3)
+				lb.grid(row=8, column=1, columnspan=3)
+				Button(frame, text='Add Track to this Device\'s Queue', command=lambda:selectDevice(lb.curselection(), devices)).grid(row=9, column=1, columnspan=3)
+		def selectDevice(selection, deviceList):
+			deviceId = deviceList['deviceIds'][selection[0]]
+			x = api.addToDeviceQueue(trackInfo['trackUri'], userData, deviceId)
+			if x == 'Great Success':
+				clearFrame(frame)
+				self.getNewRecommendation(data)
+			else:
+				print('Do Something')
 		
 class profileManager():
 	def __init__(self):
@@ -348,8 +398,6 @@ class opScreen():
 			api.deleteTracks(deleteIds, playlistId, userData)
 		if len(addIds) > 0:
 			api.addTracks(playlistId, addIds, userData)
-			
-		clearFrame(frame)
 		mainMenu()
 		
 	
@@ -374,7 +422,7 @@ class opScreen():
 		for i in selections:
 			trackIds.append(data[i]['trackId'])
 		api.addTracks(playlistSelection['id'], trackIds, userData)
-		
+		self.ops('addTracks', playlistSelection)
 	def deleteTracks(self, nextScreen, selected, data):
 		
 		trackIds = []
@@ -398,6 +446,7 @@ class opScreen():
 		api.deleteTracks(trackIds, playlistData['playlistId'], userData)
 		clearFrame(frame)
 		mainMenu()
+
 def clearFrame(frame):
 	for i in frame.winfo_children():
 		i.destroy()
