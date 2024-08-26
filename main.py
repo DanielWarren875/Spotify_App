@@ -311,12 +311,12 @@ class opScreen():
 		playlistName = selection['name']
 		dat = {
 			'playlistName': selection['name'],
-			'playlistId': selection['id']
+			'playlistId': selection['id'],
+			'snapshot_id': selection['snapshotId']
 		}
 		if(nextScreen == 'cleanByArtists'):
 			l.configure(text=f'Please select one or more artists to delete from {playlistName}')
 			dat['data'] = api.artistsAndTracks(selection['id'], userData)
-			
 			for i in dat['data']:
 				artName = i['artistName']
 				if artName == "":
@@ -372,30 +372,30 @@ class opScreen():
 		trackRefs = data[selected[0]]['trackRefs']
 		
 		playlist = api.playlistTracks(playlistId, userData)
-		playlistData = playlist['ids']
-		#If in playlistData but not in trackRefs, delete from spotify playlist
+		playlistIds = playlist['ids']
+		#If in playlistIds but not in trackRefs, delete from spotify playlist
 		#If in trackRefs but not in trackRefs, add to spotify playlist
 		#If in both, do nothing
 		deleteIds = []
 		addIds = []
 		keepIds = []
-		
+		addUris = []
 		i = 0
 		j = 0
 		
-		while i < len(trackRefs) and j < len(playlistData):
-			if trackRefs[i] not in playlistData and trackRefs[i] not in addIds:
+		while i < len(trackRefs) and j < len(playlistIds):
+			if trackRefs[i] not in playlistIds and trackRefs[i] not in addIds:
 				addIds.append(trackRefs[i])
 			else:
 				keepIds.append(trackRefs[i])
 			i = i + 1
-			if playlistData[j] not in trackRefs and playlistData[j] not in deleteIds:
-				deleteIds.append(playlistData[j])
+			if playlistIds[j] not in trackRefs and playlistIds[j] not in deleteIds:
+				deleteIds.append(playlistIds[j])
 			else:
-				keepIds.append(playlistData[j])
+				keepIds.append(playlistIds[j])
 			j = j + 1
 		if len(deleteIds) > 0:
-			api.deleteTracks(deleteIds, playlistId, userData)
+			api.deleteTracks(deleteIds, playlistIds, userData)
 		if len(addIds) > 0:
 			api.addTracks(playlistId, addIds, userData)
 		mainMenu()
@@ -426,24 +426,28 @@ class opScreen():
 	def deleteTracks(self, nextScreen, selected, data):
 		
 		trackIds = []
+		trackUris = []
 		playlistData = data['data']
 		if nextScreen == 'cleanByArtists':
 			for i in selected:
 				trackIds.extend(playlistData[i]['artistTrackIds'])
+				trackUris.extend(playlistData[i]['artistTrackUris'])
 		elif nextScreen == 'cleanByUser':
 			for i in selected:
 				trackIds.append(playlistData[i]['trackId'])
+				trackUris.append(playlistData[i]['trackUri'])
+		
 		clearFrame(frame)
 		Label(frame, text='Would you like to save the previous version of your playlist?').grid(row=0, column=1, columnspan=3)
-		Button(frame, text='Yes', command=lambda:self.chooseToSave(True, trackIds, userData, data, nextScreen)).grid(row=1, column=1, columnspan=3)
-		Button(frame, text='No', command=lambda:self.chooseToSave(False, trackIds, userData, data, nextScreen)).grid(row=2, column=1, columnspan=3)
+		Button(frame, text='Yes', command=lambda:self.chooseToSave(True, {'trackUris': trackUris, 'trackIds': trackIds}, userData, data, nextScreen)).grid(row=1, column=1, columnspan=3)
+		Button(frame, text='No', command=lambda:self.chooseToSave(False, {'trackUris': trackUris, 'trackIds': trackIds}, userData, data, nextScreen)).grid(row=2, column=1, columnspan=3)
 		Button(frame, text='Back to main', command=lambda:mainMenu()).grid(row=3, column=1, columnspan=3)
 	
-	def chooseToSave(self, save, trackIds, userData, playlistData, nextScreen):
+	def chooseToSave(self, save, trackData, userData, playlistData, nextScreen):
 		if save:
 			f.saveVersion(playlistData, nextScreen)
 		#Delete Tracks
-		api.deleteTracks(trackIds, playlistData['playlistId'], userData)
+		api.deleteTracks(trackData, playlistData, userData)
 		clearFrame(frame)
 		mainMenu()
 

@@ -78,7 +78,8 @@ class apiInteraction():
 		user = y['display_name']
 		playlistInfo = [{
 			'id': 'me',
-			'name': 'Liked Playlist'
+			'name': 'Liked Playlist',
+			'snapshotId': 'None'
 		}]
 		
 		for i in items:
@@ -88,9 +89,11 @@ class apiInteraction():
 			else:
 				id = i['id']
 				name = i['name']
+				snapshot = i['snapshot_id']
 				hold = {
 					'id': id,
 					'name': name,
+					'snapshotId': snapshot
 				}
 				playlistInfo.append(hold)
 		return playlistInfo
@@ -134,7 +137,8 @@ class apiInteraction():
 							'artistName': j['name'],
 							'artistId': j['id'],
 							'artistTrackNames': [track['name']],
-							'artistTrackIds': [track['id']]
+							'artistTrackIds': [track['id']],
+							'artistTrackUris': [track['uri']]
 						})
 						artists.append(j['name'])
 					else:
@@ -156,13 +160,7 @@ class apiInteraction():
 		
 		data = []
 		ids = []
-		"""
-		data = {
-			'trackName': ''
-			'trackId': ''
-			'artistNames': []
-		}
-		"""
+		uris = []
 		while url != None:
 			r = requests.get(url=url, headers=header)
 			x = json.loads(r.text)
@@ -174,9 +172,11 @@ class apiInteraction():
 				hold = {
 					'trackName': track['name'],
 					'trackId': track['id'],
+					'trackUri': track['uri'],
 					'artistNames': []
 				}
 				ids.append(track['id'])
+				uris.append(track['uri'])
 				artists = track['artists']
 				for j in artists:
 					hold['artistNames'].append(j['name'])
@@ -184,17 +184,20 @@ class apiInteraction():
 			url = next
 		return {
 			'data': data,
-			'ids': ids
+			'ids': ids,
+			'uris': uris
 		}
 	
-	def deleteTracks(self, trackIds, playlistId, authData):
+	def deleteTracks(self, trackData, playlistData, authData):
 		tracksToBeDeleted = []
 		header = {
 				'Authorization': authData['token_type'] + ' ' + authData['access_token'],
 				'Content-Type': 'application/json'
 		}
+		playlistId = playlistData['playlistId']
 		if playlistId == 'me':
 			url = 'https://api.spotify.com/v1/me/tracks?ids='
+			trackIds = trackData['trackIds']
 			for i in trackIds:
 				url = url + i + ','
 				tracksToBeDeleted.append(i)
@@ -211,6 +214,9 @@ class apiInteraction():
 				'ids': tracksToBeDeleted
 			}})
 			r = requests.delete(url=url, headers=header, data=x)
+		else:
+			print(trackData)
+			
 	def genreSearch(self, searchFor, authData, offset):
 		searchFor.replace(' ', '+')
 		header = {
