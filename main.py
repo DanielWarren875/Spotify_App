@@ -113,6 +113,7 @@ class signUp():
 				Button(frame, text='Confirm', command=lambda:processData(authData)).grid(row=2, column=1, columnspan=3)
 			else:
 				print('Error')
+				signUp()
 		else:
 			print('No')
 	def checkInfo(self, email, confirmEmail, password, confirmPassword):
@@ -171,15 +172,17 @@ class recommendations():
 		Label(frame, textvariable=recommendationData).grid(row=0, column=1, columnspan=3)
 		Button(frame, text='Add to Queue', command=lambda:self.addToQueue(recommendation, data)).grid(row=1, column=1, columnspan=3)
 		Button(frame, text='Add to Playlist', command=None).grid(row=2, column=1, columnspan=3)
-		Button(frame, text='Add to Track To Dislikes').grid(row=3, column=1, columnspan=3)
-		Button(frame, text='Add Artist To Dislikes', command=self.addTrackToDislikes(recommendation)).grid(row=4, column=1, columnspan=3)
+		Button(frame, text='Add Track To Dislikes', command=lambda:self.addTrackToDislikes(recommendation, data)).grid(row=3, column=1, columnspan=3)
+		Button(frame, text='Add Artist To Dislikes', command=lambda:self.addArtistToDislikes(recommendation, data)).grid(row=4, column=1, columnspan=3)
 		Button(frame, text='Get New Recommendation', command=lambda:self.getNewRecommendation(data)).grid(row=5, column=1, columnspan=3)
 		Button(frame, text='Return to Main Menu', command=mainMenu).grid(row=6, column=1, columnspan=3)
 	
-	def addTrackToDislikes(self, recommendation):
+	def addTrackToDislikes(self, recommendation, data):
 		f.addTrackDislikes(recommendation)
-	def addArtistToDislikes(self, recommendation):
-		f.addArtistToDislikes(recommendation)	
+		self.getNewRecommendation(data)
+	def addArtistToDislikes(self, recommendation, data):
+		f.addArtistToDislikes(recommendation)
+		self.getNewRecommendation(data)
 	def getNewRecommendation(self, data):
 		clearFrame(frame)
 		self.start(data)
@@ -187,7 +190,7 @@ class recommendations():
 	def getRecommendation(self, data):
 		genres = data['topGenres']
 		artists = data['topArtists']
-		index = random.randint(0, len(genres))
+		index = random.randint(0, len(genres) - 1)
 		genre = genres[index]['genre']
 		dat = f.getDislikedData()
 		dislikedArtists = dat['dislikedArtists']
@@ -220,7 +223,7 @@ class recommendations():
 		else:
 			devices = api.getDeviceList(userData)
 			if devices == None:
-				print('Do Something')
+				l.configure(text='Please open Spotify on a device')
 			else:
 				l.configure(text='Please select a device')
 				lb = Listbox(frame, selectmode=SINGLE)
@@ -230,10 +233,10 @@ class recommendations():
 				lb.grid(row=8, column=1, columnspan=3)
 				Button(frame, text='Add Track to this Device\'s Queue', command=lambda:selectDevice(lb.curselection(), devices)).grid(row=9, column=1, columnspan=3)
 		def selectDevice(selection, deviceList):
+			
 			deviceId = deviceList['deviceIds'][selection[0]]
 			x = api.addToDeviceQueue(trackInfo['trackUri'], userData, deviceId)
 			if x == 'Great Success':
-				clearFrame(frame)
 				self.getNewRecommendation(data)
 			else:
 				print('Do Something')
@@ -380,6 +383,7 @@ class opScreen():
 		addIds = []
 		keepIds = []
 		addUris = []
+		deleteUris = []
 		i = 0
 		j = 0
 		
@@ -423,6 +427,8 @@ class opScreen():
 			trackIds.append(data[i]['trackId'])
 		api.addTracks(playlistSelection['id'], trackIds, userData)
 		self.ops('addTracks', playlistSelection)
+		
+		
 	def deleteTracks(self, nextScreen, selected, data):
 		
 		trackIds = []

@@ -215,7 +215,27 @@ class apiInteraction():
 			}})
 			r = requests.delete(url=url, headers=header, data=x)
 		else:
-			print(trackData)
+			print(playlistData)
+			url = f'https://api.spotify.com/v1/playlists/{playlistId}/tracks'
+			print(url)
+			uris = []
+			for i in trackData['trackUris']:
+				hold = {
+					"uri": i
+				}
+				uris.append(hold)
+				if len(uris) > 20:
+					x = json.dumps({
+						"tracks": uris,
+						"snapshot_id": playlistData['snapshot_id']
+					})
+					r = requests.delete(url=url, headers=header, data=x)
+					uris = []
+			x = json.dumps({
+				"tracks": uris,
+				"snapshot_id": playlistData['snapshot_id']
+			})
+			r = requests.delete(url=url, headers=header, data=x)
 			
 	def genreSearch(self, searchFor, authData, offset):
 		searchFor.replace(' ', '+')

@@ -149,7 +149,7 @@ class fire():
 		ref = db.collection('Users').document(str(id)).update({'dislikedTracks': firestore.ArrayUnion([trackId])})
 	
 	def addArtistToDislikes(self, trackData):
-		artistId = trackData[0]['artistId']
+		artistId = trackData['artistData'][0]['artistId']
 		ref = db.collection('Users').document(str(id)).update({'dislikedArtists': firestore.ArrayUnion([artistId])})
 	
 	def getDislikedData(self):
