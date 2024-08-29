@@ -297,6 +297,7 @@ class playlistPick():
 		#Make sure an item has been selected
 			#If selection is blank, stay on screen and display an error message
 			#Otherwise continue to opScreen
+		print(selection)
 		selection = playlists[selection[0]]
 		clearFrame(frame)
 		opScreen(nextScreen, selection)

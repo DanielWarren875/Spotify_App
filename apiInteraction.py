@@ -215,9 +215,7 @@ class apiInteraction():
 			}})
 			r = requests.delete(url=url, headers=header, data=x)
 		else:
-			print(playlistData)
 			url = f'https://api.spotify.com/v1/playlists/{playlistId}/tracks'
-			print(url)
 			uris = []
 			for i in trackData['trackUris']:
 				hold = {

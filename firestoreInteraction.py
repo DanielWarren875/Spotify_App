@@ -79,6 +79,7 @@ class fire():
 						data.append({
 							'trackName': i['artistTrackNames'][j],
 							'trackId': i['artistTrackIds'][j],
+							'trackUri': i['artistTrackUris'][j],
 							'artistNames': [i['artistName']]
 						})
 		else:
@@ -95,7 +96,8 @@ class fire():
 			if not check.exists:
 				trackRef.set({
 					'artistNames': i['artistNames'],
-					'trackName': i['trackName']
+					'trackName': i['trackName'],
+					'trackUri': i['trackUri']
 				})
 			trackRefs.append(i['trackId'])
 		versionRef.set({
