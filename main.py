@@ -14,6 +14,7 @@ class signIn():
 			data = x['authData']
 			userData = api.refreshToken(data)
 			clearFrame(frame)
+			
 			mainMenu()
 		
 	def signInScreen(self):
@@ -129,14 +130,15 @@ class signUp():
 class mainMenu():
 	def __init__(self):
 		clearFrame(frame)
+		global rec
+		rec = api.getUserTopItems(userData)
 		Label(frame, text='Main Menu').grid(row=0, column=1, columnspan=3)
 		Button(frame, text='Clean A Playlist By Artist', command=lambda:playlistPick('cleanByArtists')).grid(row=1, column=1, columnspan=3)
 		Button(frame, text='Clean A Playlist By Track', command=lambda:playlistPick('cleanByUser')).grid(row=2, column=1, columnspan=3)
-		Button(frame, text='Reorder a Playlist', command=lambda:playlistPick('reorderPlaylist')).grid(row=3, column=1, columnspan=3)
 		Button(frame, text='Revert a Playlist To Previous Version', command=lambda:playlistPick('revertPlaylist')).grid(row=4, column=1, columnspan=3)
 		Button(frame, text='Add Tracks to a Playlist', command=lambda:playlistPick('addTracks')).grid(row=5, column=1, columnspan=3)
 		Button(frame, text='Profile Manager', command=lambda:profileManager()).grid(row=6, column=1, columnspan=3)
-		Button(frame, text='Get recommendations', command=lambda:recommendations()).grid(row=7, column=1, columnspan=3)
+		Button(frame, text='Get recommendations', command=lambda:rec.start(rec)).grid(row=7, column=1, columnspan=3)
 		Button(frame, text='Transfer from another music streaming service').grid(row=8, column=1, columnspan=3)
 		Button(frame, text='Tranfer from a device').grid(row=9, column=1, columnspan=3)
 		Button(frame, text='Sign Out', command=self.signOut).grid(row=10, column=1, columnspan=3)
@@ -153,11 +155,12 @@ class mainMenu():
 		Label(frame, text='Would you also like to sign out of your browser?').grid(row=0, column=1, columnspan=3)
 		Button(frame, text='Yes', command=yes).grid(row=1, column=1, columnspan=3)
 		Button(frame, text='No', command=no).grid(row=2, column=1, columnspan=3)
+		
 class recommendations():
 	def __init__(self):
 		clearFrame(frame)
-		data = api.getUserTopItems(userData)
-		self.start(data)
+		#data = api.getUserTopItems(userData)
+		self.start(rec)
 		
 	def start(self, data):
 		recommendation = self.getRecommendation(data)
@@ -297,7 +300,6 @@ class playlistPick():
 		#Make sure an item has been selected
 			#If selection is blank, stay on screen and display an error message
 			#Otherwise continue to opScreen
-		print(selection)
 		selection = playlists[selection[0]]
 		clearFrame(frame)
 		opScreen(nextScreen, selection)
@@ -350,8 +352,6 @@ class opScreen():
 			Button(frame, text='Confirm Selection(s)', command=lambda:self.deleteTracks(nextScreen, lb.curselection(), dat)).grid(row=4, column=1, columnspan=3)
 			Button(frame, text='Back to playlist selection', command=lambda:playlistPick(nextScreen)).grid(row=5, column=1, columnspan=3)
 			Button(frame, text='Back to Main Menu', command=lambda:mainMenu()).grid(row=6, column=1, columnspan=3)	
-		elif(nextScreen == 'reorderPlaylist'):
-			l.configure(text=f'Reorder tracks within {playlistName}')
 		elif(nextScreen == 'revertPlaylist'):
 			l.configure(text=f'Select a previous version of {playlistName}')
 			l.grid(row=0, column=1, columnspan=3)
@@ -374,35 +374,43 @@ class opScreen():
 					
 	def revertPlaylist(self, data, selected, playlistId):
 		trackRefs = data[selected[0]]['trackRefs']
-		
 		playlist = api.playlistTracks(playlistId, userData)
 		playlistIds = playlist['ids']
+		playlistUris = playlist['uris']
 		#If in playlistIds but not in trackRefs, delete from spotify playlist
 		#If in trackRefs but not in trackRefs, add to spotify playlist
 		#If in both, do nothing
 		deleteIds = []
 		addIds = []
-		keepIds = []
-		addUris = []
 		deleteUris = []
+		addUris = []
+		
 		i = 0
 		j = 0
 		
 		while i < len(trackRefs) and j < len(playlistIds):
+			hold = f.getTrackData(trackRefs[i])
 			if trackRefs[i] not in playlistIds and trackRefs[i] not in addIds:
 				addIds.append(trackRefs[i])
-			else:
-				keepIds.append(trackRefs[i])
+				addUris.append(hold['trackUri'])
 			i = i + 1
 			if playlistIds[j] not in trackRefs and playlistIds[j] not in deleteIds:
 				deleteIds.append(playlistIds[j])
-			else:
-				keepIds.append(playlistIds[j])
+				deleteUris.append(hold['trackUri'])
 			j = j + 1
+		addData = {
+			'trackIds': addIds,
+			'trackUris': addUris
+		}
+		
+		deleteData = {
+			'trackIds': deleteIds,
+			'trackUris': deleteUris
+		}
 		if len(deleteIds) > 0:
-			api.deleteTracks(deleteIds, playlistIds, userData)
+			api.deleteTracks(deleteData, playlistIds, userData)
 		if len(addIds) > 0:
-			api.addTracks(playlistId, addIds, userData)
+			api.addTracks(playlistId, addData, userData)
 		mainMenu()
 		
 	
@@ -424,14 +432,15 @@ class opScreen():
 		Button(frame, text='Confirm Selection(s)', command=lambda:self.confirmSelections(lb.curselection(), selection, data)).grid(row=4, column=1, columnspan=3)
 	def confirmSelections(self, selections, playlistSelection, data):
 		trackIds = []
+		trackUris = []
 		for i in selections:
 			trackIds.append(data[i]['trackId'])
-		api.addTracks(playlistSelection['id'], trackIds, userData)
+			trackUris.append(data[i]['trackUri'])
+		api.addTracks(playlistSelection['id'], {'trackIds': trackIds, 'trackUris': trackUris}, userData)
 		self.ops('addTracks', playlistSelection)
 		
 		
 	def deleteTracks(self, nextScreen, selected, data):
-		
 		trackIds = []
 		trackUris = []
 		playlistData = data['data']

@@ -99,6 +99,10 @@ class fire():
 					'trackName': i['trackName'],
 					'trackUri': i['trackUri']
 				})
+			elif 'trackUri' not in check.to_dict():
+				trackRef.update({
+					'trackUri': i['trackUri']
+				})
 			trackRefs.append(i['trackId'])
 		versionRef.set({
 			'trackCount': len(trackRefs),
@@ -145,6 +149,9 @@ class fire():
 			i = i + 1
 			ref = db.collection('Playlists').document(playlistId).collection('Versions').document(f'{playlistId}{i}').get()
 		return versionData
+	def getTrackData(self, trackId):
+		ref = db.collection('Tracks').document(trackId).get()
+		return ref.to_dict()
 	
 	def addTrackDislikes(self, trackData):
 		trackId = trackData['trackId']

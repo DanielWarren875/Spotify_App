@@ -144,6 +144,7 @@ class apiInteraction():
 					else:
 						loc = artists.index(j['name'])
 						data[loc]['artistTrackNames'].append(track['name'])
+						data[loc]['artistTrackUris'].append(track['uri'])
 						data[loc]['artistTrackIds'].append(track['id'])
 			url = next
 		data = sorted(data, key=lambda x:x['artistName'])
@@ -189,6 +190,7 @@ class apiInteraction():
 		}
 	
 	def deleteTracks(self, trackData, playlistData, authData):
+		
 		tracksToBeDeleted = []
 		header = {
 				'Authorization': authData['token_type'] + ' ' + authData['access_token'],
@@ -289,7 +291,8 @@ class apiInteraction():
 							'trackName': i['name'],
 							'trackId': i['id'],
 							'albumName': i['album']['name'],
-							'explicit': i['explicit']
+							'explicit': i['explicit'],
+							'trackUri': i['uri']
 						}
 						trackIds.append(i['id'])
 						arts = i['artists']
@@ -301,7 +304,9 @@ class apiInteraction():
 				url = next
 			return data
 	
-	def addTracks(self, playlistId, trackIds, authData):			
+	def addTracks(self, playlistId, trackData, authData):			
+		trackIds = trackData['trackIds']
+		trackUris = trackData['trackUris']
 		if playlistId == 'me':
 			url = 'https://api.spotify.com/v1/me/tracks?ids='
 			header = {
@@ -325,7 +330,21 @@ class apiInteraction():
 			url = url[:-1]
 			r = requests.put(url=url, headers=header, data=data)
 		else:
-			print('Wait')
+			url = f'https://api.spotify.com/v1/playlists/{playlistId}/tracks'
+			header = {
+				'Authorization': authData['token_type'] + ' ' + authData['access_token'],
+				'Content-Type': 'application/json'
+			}
+			
+			while len(trackUris) > 0:
+				hold = trackUris[0:50]
+				trackUris = trackUris[50:]
+				data = json.dumps({
+					'uris': hold,
+					'position': 0
+				})
+				r = requests.post(url=url, headers=header, data=data)
+				
 			
 	def getFollowedArtists(self, authData):
 		url = f'https://api.spotify.com/v1/me/following?type=artist'
