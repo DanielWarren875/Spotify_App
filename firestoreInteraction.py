@@ -9,8 +9,8 @@ class fire():
 		global app
 		if not firebase_admin._apps:
 			cred = credentials.Certificate('/Users/danielwarren/Desktop/Spotify App Version 3/cred/spotifyproject2-b207f-firebase-adminsdk-uhi0q-54ac540e60.json')
-			app = firebase_admin.initialize_app(cred)
-		db = firestore.client()
+			app = firebase_admin.initialize_app()
+		db = firestore.client(cred)
 	
 	def signUp(self, email, password):
 		data_bytes = email.encode("utf-8")
